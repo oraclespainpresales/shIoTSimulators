@@ -3,7 +3,7 @@ IoT Device Simulator Set Up.
 Make sure node.js is installed on your system, at least version **v4.1.2**
 Instructions for installing if you need them: https://docs.npmjs.com/getting-started/installing-node
 
-1)  Unzip the simulator
+1) KAKAKAKA Unzip the simulator
    unzip iotcs-simulator-bin-xxx.zip
    cd iotcs/simulator
 
