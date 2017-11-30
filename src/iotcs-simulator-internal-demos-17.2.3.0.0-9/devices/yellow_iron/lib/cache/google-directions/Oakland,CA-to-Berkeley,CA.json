@@ -1,0 +1,298 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJA-2qKIt9hYARZ5N1NdUVtHE",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ00mFOjZ5hYARk-l1ppUV6pQ",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.8715417,
+               "lng" : -122.2654513
+            },
+            "southwest" : {
+               "lat" : 37.8043242,
+               "lng" : -122.2771103
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "5.1 mi",
+                  "value" : 8230
+               },
+               "duration" : {
+                  "text" : "14 mins",
+                  "value" : 840
+               },
+               "end_address" : "Berkeley, CA, USA",
+               "end_location" : {
+                  "lat" : 37.8715417,
+                  "lng" : -122.2727381
+               },
+               "start_address" : "Oakland, CA, USA",
+               "start_location" : {
+                  "lat" : 37.8043242,
+                  "lng" : -122.2711683
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 574
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 98
+                     },
+                     "end_location" : {
+                        "lat" : 37.8066241,
+                        "lng" : -122.2770169
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e on \u003cb\u003e14th St\u003c/b\u003e toward \u003cb\u003eCity Hall Plaza/Frank H Ogawa Plaza\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "_tveFxahiVy@vCq@pBk@xBe@~A}AlF{AhFsAtE"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8043242,
+                        "lng" : -122.2711683
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 368
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 66
+                     },
+                     "end_location" : {
+                        "lat" : 37.809571,
+                        "lng" : -122.2753231
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCastro St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "kbweFjfiiVQP_CuAeCmAyBkAKI]Go@_@q@c@o@_@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8066241,
+                        "lng" : -122.2770169
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 218
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : {
+                        "lat" : 37.8113799,
+                        "lng" : -122.2745043
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto the \u003cb\u003eCA-24\u003c/b\u003e ramp to \u003cb\u003eWalnut Creek/San Francisco/Hayward\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ytweFv{hiVSBC@CAIAaBc@]KQGKEOIOGKG[Uw@m@EECACAE?Q?"
+                     },
+                     "start_location" : {
+                        "lat" : 37.809571,
+                        "lng" : -122.2753231
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 753
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : {
+                        "lat" : 37.8170212,
+                        "lng" : -122.270106
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eI-980 E\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "c`xeFrvhiV{AcBa@e@SUCC{@cA]a@SWAAeAoAOQY]UWw@cAa@e@a@c@[Yc@_@k@a@IGKG]SOIIGEC_@Qc@Q]MAAe@Mm@MAAc@IkB[CAg@Ii@I"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8113799,
+                        "lng" : -122.2745043
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 mi",
+                        "value" : 1134
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 42
+                     },
+                     "end_location" : {
+                        "lat" : 37.8269526,
+                        "lng" : -122.2672034
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to continue on \u003cb\u003eCA-24 E\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : {
+                        "points" : "kcyeFd{giV{B_@yBa@mB]GAsB]A?_@GoDq@gAS}AWyCm@gAUe@OmAUi@OiAUw@OWGEAYI_@IYIA?iAYw@S_AUOEWGu@Qq@OUAeAOeAQ"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8170212,
+                        "lng" : -122.270106
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 mi",
+                        "value" : 1079
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 61
+                     },
+                     "end_location" : {
+                        "lat" : 37.8358334,
+                        "lng" : -122.2671863
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e2\u003c/b\u003e for \u003cb\u003eMartin Luther King Junior Way\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "ma{eF~hgiVOMMKAAs@Sg@Ma@MICy@UCACAUMWKA?UGs@MSCkAOa@GAASCA?UEYCoAQiAOe@IMAWEs@GOAQCg@CsAKw@EcAIy@I_AKa@Cc@A_AIaAI_@EU?UBSDODC@QJUNSROTc@lAk@~AKVKNc@l@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8269526,
+                        "lng" : -122.2672034
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.8 mi",
+                        "value" : 1343
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 144
+                     },
+                     "end_location" : {
+                        "lat" : 37.8471566,
+                        "lng" : -122.2716068
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eM.L.K. Jr Way\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "}x|eF|hgiVQLk@d@u@p@[X]Ze@`@eAz@_@V_@Pc@Rs@^OFUH_@N_@Lg@Pm@N]J_@Fa@HoAN}C`@yAP_ANeALcALcALcALeALcAL]F]DWBsAPwAP[D_@D]DqDd@qANC@KDSLUVUXOVIJGFEDGDID"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8358334,
+                        "lng" : -122.2671863
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 448
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 79
+                     },
+                     "end_location" : {
+                        "lat" : 37.8510652,
+                        "lng" : -122.2705516
+                     },
+                     "html_instructions" : "\u003cb\u003eM.L.K. Jr Way\u003c/b\u003e turns slightly \u003cb\u003eright\u003c/b\u003e and becomes \u003cb\u003eAdeline St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "w__fFpdhiVE@GBI@K?OAuBWg@GYCo@MUGKCoA[kBk@uDcAOC[C_@?GAIE"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8471566,
+                        "lng" : -122.2716068
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.4 mi",
+                        "value" : 2288
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 300
+                     },
+                     "end_location" : {
+                        "lat" : 37.8715113,
+                        "lng" : -122.2730161
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eM.L.K. Jr Way\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "ex_fF|}giV[PIDMDg@DqDPsBDqADu@Fm@BmAH[TeAFkG\\W@aDPsDRuDRqDRoDRsDRwDTuBJ}@DgAFoBLcDRO@O@yIb@iH^}@DgADkBLcDRA?M?O@q@De@DoAJ"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8510652,
+                        "lng" : -122.2705516
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "82 ft",
+                        "value" : 25
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 7
+                     },
+                     "end_location" : {
+                        "lat" : 37.8715417,
+                        "lng" : -122.2727381
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eUniversity Ave\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "}wcfFjmhiVEw@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8715113,
+                        "lng" : -122.2730161
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "_tveFxahiVkBhGqAxEyDvMsAtEQP_CuAeCmAeCuA]Go@_@aBcAWDMC}C}@gAo@eAw@W?}BiCqB_CuF{G}@}@oAaAcAm@sAo@_@OsA[uCi@gIuAcOkCwFeAmBe@yFkA}DaA_Dw@gBa@UAkCa@]Y_Cq@kA]m@YWGuDi@UEwG}@}BQkCQ}BSeE[aBOk@Bc@JULi@b@OTc@lAw@vBo@|@oC~BcA|@eBrAgClA}Bx@kAZaAPgKrAqGv@eLvAaI`AOFi@d@w@dA]RQD[A}C_@iAQ}EsAeEgA{@CQGe@Vu@JeHVgCL{BL[TeAFcH^}TlAqShAyKn@cTfAgNt@uBPEw@"
+         },
+         "summary" : "M.L.K. Jr Way",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

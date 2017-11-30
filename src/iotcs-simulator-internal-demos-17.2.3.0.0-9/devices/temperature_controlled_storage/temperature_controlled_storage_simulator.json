@@ -1,0 +1,108 @@
+{
+  "deviceName": "Temperature Controlled Storage",
+  "asset": true,
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/tcs.png",
+      "frameWidth": "600",
+      "frameHeight": "600"
+    },
+    {
+      "name": "isOffImage",
+      "file": "$shared/assets/images/sensorOff.png",
+      "frameWidth": 700,
+      "frameHeight": 500
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:oracle:iot:device:tcs",
+      "attributes": [
+        {
+          "name": "ora_latitude",
+          "displayName": "Latitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.######",
+          "initialValue": 37.391838,
+          "units": "DEG"
+        },
+        {
+          "name": "ora_longitude",
+          "displayName": "Longitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.######",
+          "initialValue": -121.953298,
+          "units": "DEG"
+        },
+        {
+          "name": "ora_altitude",
+          "displayName": "Altitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 100,
+          "units": "M"
+        },
+        {
+          "name": "internal_temperature",
+          "displayName": "Internal Temperature",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 2,
+          "units": "C",
+          "range" : "0, 30",
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 2,
+            "upperValue": 5
+          }
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:iot:device:tcs:high_temperature_alert",
+          "visible": false,
+          "displayName": "high_temperature_alert",
+          "value": {
+            "fields": [
+              {
+                "name": "internal_temperature",
+                "value": 10
+              }
+            ]
+          },
+          "condition": "$sharedFunctions.greaterOrEqual",
+          "conditionArguments": {
+            "leftOperand": "$internal_temperature",
+            "rightOperand": 10
+          }
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "events": [
+    {
+      "name": "highTemperature",
+      "description": "High Temperature",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:tcs.internal_temperature": {
+          "onEventFunction": "$sharedFunctions.logToTarget",
+          "onEventArguments": {
+            "currentValue": "$urn:com:oracle:iot:device:tcs.internal_temperature",
+            "targetValue": 20
+          }
+        }
+      },
+      "image": "isOnImage"
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

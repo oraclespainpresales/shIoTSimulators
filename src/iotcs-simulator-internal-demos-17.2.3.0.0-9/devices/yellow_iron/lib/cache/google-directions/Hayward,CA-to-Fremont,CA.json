@@ -1,0 +1,252 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJfVkBtjGUj4ARwDlpwt50BAc",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ98rot0a_j4AR1IjYiTsx2oo",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.66878639999999,
+               "lng" : -121.9885313
+            },
+            "southwest" : {
+               "lat" : 37.5287215,
+               "lng" : -122.0947249
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "13.3 mi",
+                  "value" : 21413
+               },
+               "duration" : {
+                  "text" : "20 mins",
+                  "value" : 1194
+               },
+               "end_address" : "Fremont, CA, USA",
+               "end_location" : {
+                  "lat" : 37.5482486,
+                  "lng" : -121.9885313
+               },
+               "start_address" : "Hayward, CA, USA",
+               "start_location" : {
+                  "lat" : 37.66878639999999,
+                  "lng" : -122.0808788
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 288
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : {
+                        "lat" : 37.66659190000001,
+                        "lng" : -122.079139
+                     },
+                     "html_instructions" : "Head \u003cb\u003esoutheast\u003c/b\u003e on \u003cb\u003eMission Blvd\u003c/b\u003e toward \u003cb\u003eFletcher Ln\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "}d|dFn|bhVXQXOXOVQ\\W^Yv@m@|AmA|BiB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.66878639999999,
+                        "lng" : -122.0808788
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "269 ft",
+                        "value" : 82
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 20
+                     },
+                     "end_location" : {
+                        "lat" : 37.6661888,
+                        "lng" : -122.0799249
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eFletcher Ln\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ew{dFrqbhV^~@n@zA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.66659190000001,
+                        "lng" : -122.079139
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 211
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 40
+                     },
+                     "end_location" : {
+                        "lat" : 37.6676913,
+                        "lng" : -122.0813133
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eWatkins St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ut{dFnvbhVsCjB_@V]VSNWVIHGFCDEHEJKb@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.6661888,
+                        "lng" : -122.0799249
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.6 mi",
+                        "value" : 2503
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 245
+                     },
+                     "end_location" : {
+                        "lat" : 37.647201,
+                        "lng" : -122.0926436
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 1st cross street onto \u003cb\u003eCA-92 W/Jackson St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "a~{dFd_chVIb@r@Zt@^dAf@h@R|BbAhElBvB`AvFdCbAd@t@\\t@\\vAn@zAr@|Ap@`Ab@nAh@r@\\|E|B`CbApErBrFfCdJ`E|@`@vAn@rAp@zBbAtAl@VL~@b@`GlC`CdALFj@TtAj@rA`@d@NbEfB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.6676913,
+                        "lng" : -122.0813133
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 597
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : {
+                        "lat" : 37.6431697,
+                        "lng" : -122.0928117
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e26A\u003c/b\u003e for \u003cb\u003eInterstate 880 S\u003c/b\u003e toward \u003cb\u003eSan Jose\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "_~wdF~eehVLPDDJHHJBBDDBDBFDJDJFLHXLj@Px@Nn@HVFNDJFHFJFHBBDBJHJFHDJDLBHBD?J@L?J?L?JCFADCHCJGJGHGtBsA\\Ux@m@BAPM^YDCTQTSn@g@ZUDCDEBG@CFW"
+                     },
+                     "start_location" : {
+                        "lat" : 37.647201,
+                        "lng" : -122.0926436
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "9.1 mi",
+                        "value" : 14711
+                     },
+                     "duration" : {
+                        "text" : "9 mins",
+                        "value" : 535
+                     },
+                     "end_location" : {
+                        "lat" : 37.5318002,
+                        "lng" : -122.0061261
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eI-880 S\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "ydwdF`gehVdAq@FEpFmDzAaAhCcBb@WnIuF`MaIpG_E~BwAzDeC~FwDpAw@RONKpAy@dAq@tFoD~EaDzA}@~NoJj@_@dBgAxBwA`BeAnBoAbAo@^UlBoAjBkArCiBjN}ItDaCdAo@d@[lBmA~CqBtMoI~@m@xNgJtBqApBoAj@_@zAaAbJ_G`J_Gb@WdAq@hDyBtIsF~FuDvKaHjAu@bC}AnFkDbBgARMPM|BwAxIwFdFcDjLqHfBgAlUaO|CmBl@_@x@e@jAo@tAq@rB}@r@Y\\OrAg@j@SZKl@SrAa@jBg@dBa@lD{@dAWNCb@M|A]p@QxG_Bf@M|A_@tCq@hJ{B~@Uz@Sf@Of@OhA]\\Kd@Qj@Ut@[jAi@fAk@~@g@hBgAd@]|@o@fBuAhAcApAoAl@o@n@u@tEeFlCsC^a@|CiDrB{BtC}CzAgBbAiAtCcDd@g@f@c@`BkBz@{@xCiD`BgBnE{EfCqCdDsDp@q@xBaCzCgDpAsAp@k@dA}@`@]xAgA`As@bAs@zAcAdBkA~J_HZSfBmAvAcAzHkFp@e@ROj@a@lBoA~AgAvCsBhAu@ZUt@g@vByA|CuBjSiN@AVQBCTM?AVOrAgAhAcA|@}@v@y@h@o@jA}AvAuBzAmCnAmCfEiJtDoIHStJqT"
+                     },
+                     "start_location" : {
+                        "lat" : 37.6431697,
+                        "lng" : -122.0928117
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 415
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : {
+                        "lat" : 37.5287786,
+                        "lng" : -122.0039476
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e17\u003c/b\u003e for \u003cb\u003eMowry Avenue\u003c/b\u003e toward \u003cb\u003eCentral Fremont\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "wladFhitgVJAB?BA@A@A@AlAwBlBkDHMJOLOHKFGFCLKLILEXITGLCTCP?vDI"
+                     },
+                     "start_location" : {
+                        "lat" : 37.5318002,
+                        "lng" : -122.0061261
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.6 mi",
+                        "value" : 2606
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 257
+                     },
+                     "end_location" : {
+                        "lat" : 37.5482486,
+                        "lng" : -121.9885313
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMowry Ave\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "{y`dFt{sgVJ{@[aAc@{@a@u@_@g@QSY[g@c@aAq@k@WQGWKs@Ss@Ie@Ca@Cq@A{@AWAQCk@KSEOEECQIKGYSc@]}@s@mA}@QOeAw@s@g@c@]e@]iA{@k@c@YSuAcAOOi@a@QOIGm@e@sAaAqCuBgBwAcLwIeIiGyBcBsJoHk@c@EC_CkBg@_@c@]cAw@YUmDiCQOcBqAOMs@m@c@]"
+                     },
+                     "start_location" : {
+                        "lat" : 37.5287786,
+                        "lng" : -122.0039476
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "}d|dFn|bhVdBcArEmD|BiB^~@n@zAsCjB}@n@k@f@[`@Qn@Ib@r@ZzBfAfDvA|RzI~G~CbH|CdX|LbLbFjD`BhHbD|LpFtAj@rA`@d@NbEfBRVTTPV\\~@^dBXfA\\p@\\Zn@Vh@Dl@Ef@WvE_DrDqCJIDKFWdAq@xFsDxQsLrUaOzH}EtJkGlR}L|b@sXzc@gYbX}PlWiPjs@od@~a@}Wra@uWjZoRfBeA`DaBfDwApBw@fA_@`Cu@pEiAfHeBnb@aKbBc@pBm@dDoArCuAhDoBbBmApDyC~B_CdG{G~L{MpFeGxEmFlAkA|CgDzFqGvImJlNoOpAsAp@k@fB{AzC{B~CwBhRmMxMeJdT{N|YeSVQ|CkCtBwBtBmCvAuBzAmCvGwN~DcJtJqTJAFABCfEsHj@s@TOZOn@Qb@GhEIJ{@[aAeAqBq@{@aA_AaAq@k@Wi@Ss@Ss@IgAGmBCi@E_AQs@[yJqHuDqCaDeC}GeFk]}W_LsIeCoBiDkCsHyFwAkA"
+         },
+         "summary" : "I-880 S",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

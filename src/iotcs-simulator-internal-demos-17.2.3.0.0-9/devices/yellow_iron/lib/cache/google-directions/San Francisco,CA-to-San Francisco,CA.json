@@ -1,0 +1,84 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJIQBpAG2ahYAR_6128GcTUEo",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJIQBpAG2ahYAR_6128GcTUEo",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.7749526,
+               "lng" : -122.4192942
+            },
+            "southwest" : {
+               "lat" : 37.7749526,
+               "lng" : -122.4192942
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 ft",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "San Francisco, CA, USA",
+               "end_location" : {
+                  "lat" : 37.7749526,
+                  "lng" : -122.4192942
+               },
+               "start_address" : "San Francisco, CA, USA",
+               "start_location" : {
+                  "lat" : 37.7749526,
+                  "lng" : -122.4192942
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 ft",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 37.7749526,
+                        "lng" : -122.4192942
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eS Van Ness Ave\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "m|peFp_ejV"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7749526,
+                        "lng" : -122.4192942
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "m|peFp_ejV"
+         },
+         "summary" : "S Van Ness Ave",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,219 @@
+{
+  "deviceName": "Tablet Testing Machine",
+  "messagingInterval": 1000,
+  "messagesLimit": 0,
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/TabletTestingMachine.jpg",
+      "frameWidth": "1280",
+      "frameHeight": "960",
+      "type": "image"
+    },
+    {
+      "name": "isOffImage",
+      "file": "$shared/assets/images/sensorOff.png",
+      "frameWidth": 700,
+      "frameHeight": 500
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:oracle:tablet:testing:machine:data",
+      "attributes": [
+        {
+          "name": "surfaceTemperature",
+          "displayName": "Surface Temperature",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 100,
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 80,
+            "upperValue": 110
+          },
+          "units": "F"
+        },
+        {
+          "name": "differentialPressure",
+          "displayName": "Differential Pressure",
+          "visible": true,
+          "chartable": true,
+          "format": "#.##",
+          "initialValue": 0,
+          "onFunction": "$sharedFunctions.sinInRange",
+          "onArguments": {
+            "lowerValue": -1,
+            "upperValue": 1
+          },
+          "units": "mbar"
+        },
+        {
+          "name": "accelerationForce",
+          "displayName": "Acceleration Force",
+          "visible": true,
+          "chartable": true,
+          "format": "##.##",
+          "initialValue": 0,
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": -10,
+            "upperValue": 10
+          },
+          "units": "g"
+        },
+        {
+          "name": "humidity",
+          "displayName": "humidity",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 60,
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 50,
+            "upperValue": 70
+          },
+          "units": "%"
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:oracle:tablet:testing:alert:surfaceTemperature",
+          "visible": false,
+          "displayName": "surfaceTemperature",
+          "value": {
+            "fields": [
+              {
+                "name": "surfaceTemperature",
+                "value": "$surfaceTemperature"
+              }
+            ]
+          },
+          "condition": "$sharedFunctions.greater",
+          "conditionArguments": {
+            "leftOperand": "$surfaceTemperature",
+            "rightOperand": 115
+          }
+        },
+        {
+          "urn": "urn:oracle:tablet:testing:alert:differentialPressure",
+          "visible": false,
+          "displayName": "differentialPressure",
+          "value": {
+            "fields": [
+              {
+                "name": "differentialPressure",
+                "value": "$differentialPressure"
+              }
+            ]
+          },
+          "condition": "$sharedFunctions.greater",
+          "conditionArguments": {
+            "leftOperand": "$differentialPressure",
+            "rightOperand": 1.1
+          }
+        },
+        {
+          "urn": "urn:oracle:tablet:testing:alert:accelerationForce",
+          "visible": false,
+          "displayName": "accelerationForce",
+          "value": {
+            "fields": [
+              {
+                "name": "accelerationForce",
+                "value": "$accelerationForce"
+              }
+            ]
+          },
+          "condition": "$sharedFunctions.greater",
+          "conditionArguments": {
+            "leftOperand": "$accelerationForce",
+            "rightOperand": 13
+          }
+        },
+        {
+          "urn": "urn:oracle:tablet:testing:alert:humidity",
+          "visible": false,
+          "displayName": "humidity",
+          "value": {
+            "fields": [
+              {
+                "name": "humidity",
+                "value": "$humidity"
+              }
+            ]
+          },
+          "condition": "$sharedFunctions.greater",
+          "conditionArguments": {
+            "leftOperand": "$humidity",
+            "rightOperand": 75
+          }
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "events": [
+    {
+      "name": "surfaceTemperatureOutOfRange",
+      "description": "Temperature Out of Range",
+      "exclusive": false,
+      "attributes": {
+        "urn:oracle:tablet:testing:machine:data.surfaceTemperature": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 120,
+            "upperValue": 140
+          }
+        }
+      }
+    },
+    {
+      "name": "differentialPressureOutOfRange",
+      "description": "Pressure Out of Range",
+      "exclusive": false,
+      "attributes": {
+        "urn:oracle:tablet:testing:machine:data.differentialPressure": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 1.2,
+            "upperValue": 2
+          }
+        }
+      }
+    },
+    {
+      "name": "accelerationForce",
+      "description": "Acceleration Out of Range",
+      "exclusive": false,
+      "attributes": {
+        "urn:oracle:tablet:testing:machine:data.accelerationForce": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 15,
+            "upperValue": 20
+          }
+        }
+      }
+    },
+    {
+      "name": "humidityOutOfRange",
+      "description": "Humidity Out of Range",
+      "exclusive": false,
+      "attributes": {
+        "urn:oracle:tablet:testing:machine:data.humidity": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 80,
+            "upperValue": 90
+          }
+        }
+      }
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

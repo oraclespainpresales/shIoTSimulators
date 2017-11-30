@@ -1,0 +1,200 @@
+{
+  "urn": "urn:com:oracle:iot:device:shower_unit",
+  "name": "WEDO-Shower Unit",
+  "description": "Shower unit device model",
+  "system": false,
+  "draft": false,
+  "created": 1501602389194,
+  "createdAsString": "2017-08-01T15:46:29.194Z",
+  "lastModified": 1501602389194,
+  "lastModifiedAsString": "2017-08-01T15:46:29.194Z",
+  "userLastModified": "adminuser",
+  "attributes": [
+    {
+      "description": "Demo Zone",
+      "name": "demo_zone",
+      "type": "STRING",
+      "writable": true
+    },
+    {
+      "description": "Hotel Name",
+      "name": "hotel_name",
+      "type": "STRING",
+      "writable": true
+    },
+    {
+      "description": "Room Number",
+      "name": "hotel_room",
+      "type": "STRING",
+      "writable": true
+    },
+    {
+      "alias": "temperature",
+      "description": "Output temperature ([0 .. +50] Celsius degrees)",
+      "name": "water_temp",
+      "range": "0.0,50.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Target temperature ([0 .. +50] Celcius degrees)",
+      "name": "target_temp",
+      "range": "0.0,50.0",
+      "type": "NUMBER",
+      "writable": true
+    },
+    {
+      "description": "Water flow",
+      "name": "water_flow",
+      "range": "0,0.4",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Target Flow ([0.30 .. 0.40] liters per second)",
+      "name": "target_flow",
+      "range": "0.3,0.4",
+      "type": "NUMBER",
+      "writable": true
+    },
+    {
+      "description": "Flow measurement unit, such as l/s (liters per second).",
+      "name": "flow_unit",
+      "type": "STRING",
+      "writable": false
+    },
+    {
+      "description": "Temperature measurement unit, such as Cel for Celsius.",
+      "name": "temp_unit",
+      "type": "STRING",
+      "writable": false
+    }
+  ],
+  "actions": [
+    {
+      "argType": "BOOLEAN",
+      "description": "Turns system ON or OFF",
+      "name": "power"
+    }
+  ],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:iot:device:shower_unit:high_temperature_alert",
+      "name": "Shower_High_Internal_Temperature_Alert",
+      "description": "Alert indicating need for investigation due to high temperature in Shower unit",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:shower_unit",
+      "value": {
+        "fields": [
+          {
+            "name": "water_temp",
+            "optional": true,
+            "type": "NUMBER"
+          },
+          {
+            "name": "temp_unit",
+            "optional": false,
+            "type": "STRING"
+          },
+          {
+            "name": "target_temp",
+            "optional": true,
+            "type": "NUMBER"
+          }
+        ]
+      },
+      "sourceId": "urn:com:oracle:iot:device:shower_unit",
+      "sourceType": "DEVICE_MODEL"
+    },
+    {
+      "urn": "urn:com:oracle:iot:device:shower_unit:low_temperature_alert",
+      "name": "Shower_Low_Internal_Temperature_Alert",
+      "description": "Alert indicating need for investigation due to low temperature in Shower unit",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:shower_unit",
+      "value": {
+        "fields": [
+          {
+            "name": "water_temp",
+            "optional": true,
+            "type": "NUMBER"
+          },
+          {
+            "name": "temp_unit",
+            "optional": false,
+            "type": "STRING"
+          },
+          {
+            "name": "target_temp",
+            "optional": true,
+            "type": "NUMBER"
+          }
+        ]
+      },
+      "sourceId": "urn:com:oracle:iot:device:shower_unit",
+      "sourceType": "DEVICE_MODEL"
+    },
+    {
+      "urn": "urn:com:oracle:iot:device:shower_unit:weak_flow_alert",
+      "name": "Shower_Weak_Flow_Alert",
+      "description": "Alert indicating need for investigation due to weak water flow in Shower unit",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:shower_unit",
+      "value": {
+        "fields": [
+          {
+            "name": "water_flow",
+            "optional": true,
+            "type": "NUMBER"
+          },
+          {
+            "name": "flow_unit",
+            "optional": false,
+            "type": "STRING"
+          },
+          {
+            "name": "target_flow",
+            "optional": true,
+            "type": "NUMBER"
+          }
+        ]
+      },
+      "sourceId": "urn:com:oracle:iot:device:shower_unit",
+      "sourceType": "DEVICE_MODEL"
+    },
+    {
+      "urn": "urn:com:oracle:iot:device:shower_unit:strong_flow_alert",
+      "name": "Shower_Strong_Flow_Alert",
+      "description": "Alert indicating need for investigation due to strong water flow in Shower unit",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:shower_unit",
+      "value": {
+        "fields": [
+          {
+            "name": "water_flow",
+            "optional": true,
+            "type": "NUMBER"
+          },
+          {
+            "name": "flow_unit",
+            "optional": false,
+            "type": "STRING"
+          },
+          {
+            "name": "target_flow",
+            "optional": true,
+            "type": "NUMBER"
+          }
+        ]
+      },
+      "sourceId": "urn:com:oracle:iot:device:shower_unit",
+      "sourceType": "DEVICE_MODEL"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://129.150.71.46:443/iot/api/v2/deviceModels/urn%3Acom%3Aoracle%3Aiot%3Adevice%3Ashower_unit",
+      "rel": "self"
+    }
+  ]
+}

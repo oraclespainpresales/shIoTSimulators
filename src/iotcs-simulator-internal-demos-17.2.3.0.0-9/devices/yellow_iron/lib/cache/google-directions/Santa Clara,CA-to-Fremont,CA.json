@@ -1,0 +1,250 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJk8EIXIG3j4ARwL_Ao3ykdeQ",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ98rot0a_j4AR1IjYiTsx2oo",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.5482486,
+               "lng" : -121.9009958
+            },
+            "southwest" : {
+               "lat" : 37.3417377,
+               "lng" : -122.0015595
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "19.4 mi",
+                  "value" : 31258
+               },
+               "duration" : {
+                  "text" : "27 mins",
+                  "value" : 1626
+               },
+               "end_address" : "Fremont, CA, USA",
+               "end_location" : {
+                  "lat" : 37.5482486,
+                  "lng" : -121.9885313
+               },
+               "start_address" : "Santa Clara, CA, USA",
+               "start_location" : {
+                  "lat" : 37.3540533,
+                  "lng" : -121.9553899
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 210
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 30
+                     },
+                     "end_location" : {
+                        "lat" : 37.355856,
+                        "lng" : -121.9552517
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e on \u003cb\u003eLincoln St\u003c/b\u003e toward \u003cb\u003eWarburton Ave\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "yu~bFdljgVQH[JWFYFYDQ@Y@a@AOA[EUGMESI}@i@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3540533,
+                        "lng" : -121.9553899
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 282
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 43
+                     },
+                     "end_location" : {
+                        "lat" : 37.3558897,
+                        "lng" : -121.9522615
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eWarburton Ave\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ca_cFhkjgVNe@Rk@Ng@DQDSBQDa@?U@W?_@?]AYEYIg@UeAi@sB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.355856,
+                        "lng" : -121.9552517
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 325
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 51
+                     },
+                     "end_location" : {
+                        "lat" : 37.3532204,
+                        "lng" : -121.9507751
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMonroe St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ia_cFrxigVp@[xAs@b@Sl@W~As@`@QbAe@pB_A"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3558897,
+                        "lng" : -121.9522615
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.5 mi",
+                        "value" : 2373
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 248
+                     },
+                     "end_location" : {
+                        "lat" : 37.34527569999999,
+                        "lng" : -121.9336251
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 3rd cross street onto \u003cb\u003eEl Camino Real\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "sp~bFjoigVVOqAmFm@yBg@oBcAeEOi@q@mCa@{AK]Om@EMUi@}@eCWu@ESG[A_@Am@?WDWHi@Pg@HS?AFMXs@Pa@DKtAaD\\w@bAaCpCoGNc@x@oBn@gA|@iARSJI~@{@XYr@u@Xa@V]^o@f@kA`@cAFMPc@Zw@Zu@d@iAr@oBbAaCNWPW\\a@d@_@TONIZKTGXE^Cn@@f@FVFLDr@\\^P`An@tAz@t@d@LH@?PFPFPBN@J@P?V?J?JCTEVM"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3532204,
+                        "lng" : -121.9507751
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 786
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 86
+                     },
+                     "end_location" : {
+                        "lat" : 37.342467,
+                        "lng" : -121.9256244
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eThe Alameda\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "__}bFddfgVXOTST[JOHORe@HSJa@Hc@@A?A?AAICKH]F[FYjBwJ~@qEVwARw@ZsAXoADGBCBEDSVgAd@{BLk@?A@?DUDOBMJg@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.34527569999999,
+                        "lng" : -121.9336251
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "15.3 mi",
+                        "value" : 24585
+                     },
+                     "duration" : {
+                        "text" : "15 mins",
+                        "value" : 907
+                     },
+                     "end_location" : {
+                        "lat" : 37.5280145,
+                        "lng" : -121.9986548
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eI-880 N\u003c/b\u003e via the ramp to \u003cb\u003eOakland\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "mm|bFbrdgVNSJOBCDEHGFCDADAD?H?B?B?@?B@D@B@BBB@B@@@@@BBBB@DBD@B@F@D@F?B?H@FAD?HADAFCFEJIHKFKDI?I?KAKGKGOKe@[?AMICCIEWKmC}B}AuAu@w@k@q@m@w@yA{BeBgCe@w@i@w@c@s@yIgN{A}BaA{AAAQW?Ae@u@eLaQqAuBi@{@gBgC_AmAqA{Aw@w@Y[QQWYYYOO[[GGAC[YA?WYeGaGeBgBsHsHi@k@i@i@SUEICCGGEGGICA{@w@gGgG}C{CkAoAe@e@IKIIwA{AMMi@m@yAqAq@i@e@[k@_@m@]o@]e@Um@Wo@WsBm@g@M}@QoAQ_@Ee@CoAGQAg@Ac@?UAE?u@BM?S@w@B}@FcALeJpAu@H[DcC^QBq@LgBVYDaC\\wDj@aDb@sGbAkFr@I@wB\\aANKBaMfB_AN[DuC^UBcANaANuHfAiEp@s@LeC^[Do^hFqSzCmLbBmAPcBV{VrD_@Fc@FaNpBeKzAkFr@kBZu@LkDr@aJxBmBd@eUpFaATUFA?{@RA@cE`AeGtAaEbA{HlBmHhBwGzA{@TyG`BkDv@}Cr@wA`@]JMFMDgDrAqAb@c@LuBn@E@KBc@Lq@Na@Hc@Hk@Jk@H}AP}ALeAHgAFoADiEXyCV{BRyANcEd@gJdA{Eh@oEd@cAL{ARuC^oEl@gPvBeCXuDd@eCZwC\\_Gp@sIbAwD`@sDb@kALA@SBC?E@iMxA}@JkAPq@LaAPeATy@To@PkA`@m@RiAb@wDzA_Bl@eK|DoKbEoMdFcJfDiGdCkEhBkG`C}T|I_DlAmCjAmHtCmEdBYJ]Ny@\\aBt@}A|@sAz@aAt@m@`@mBbBIHGDKJ[`@}@bAy@bAiAzAeBdCeClDqC|DkEjG_@f@iA`BiA~AeB`Cu@dAkAbBwArBsAhBeFjHkBlCiA`BGHSVILQVkAzAeAvAqJ`NiG|Ii@t@_HvJgEbG}FjIEDaAtAW\\{AvB}LfQ_ErFuH~JiCjD]b@c@d@gBbC]d@uC|Dq@|@wAdBoAbBgDpEkCjDeHjJeCfDmFdH}BzCsD~E_MhPe@n@kA|AcApA{BhDo@jAoBxDg@dAg@lAo@|A]|@mC~Gg@lAw@dBwA|D_@|@y@vB_A|BaBfE[x@mAzCcBlEo@~AmGbPgCvG"
+                     },
+                     "start_location" : {
+                        "lat" : 37.342467,
+                        "lng" : -121.9256244
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 424
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 32
+                     },
+                     "end_location" : {
+                        "lat" : 37.5308147,
+                        "lng" : -122.0015595
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eMowry Avenue\u003c/b\u003e exit toward \u003cb\u003eCentral Fremont\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "au`dFpzrgV[NIHQ\\{BdEQVWVOLUNIDOHYHUHk@JYBI@QDKBMFMFWROPGLEFCHGRGNETGh@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.5280145,
+                        "lng" : -121.9986548
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.4 mi",
+                        "value" : 2273
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 229
+                     },
+                     "end_location" : {
+                        "lat" : 37.5482486,
+                        "lng" : -121.9885313
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMowry Ave\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "qfadFvlsgVs@Ie@Ca@Cq@A{@AWAQCk@KSEOEECQIKGYSc@]}@s@mA}@QOeAw@s@g@c@]e@]iA{@k@c@YSuAcAOOi@a@QOIGm@e@sAaAqCuBgBwAcLwIeIiGyBcBsJoHk@c@EC_CkBg@_@c@]cAw@YUmDiCQOcBqAOMs@m@c@]"
+                     },
+                     "start_location" : {
+                        "lat" : 37.5308147,
+                        "lng" : -122.0015595
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "yu~bFdljgVm@Tq@Nk@F{@?k@Gc@MqAs@b@qATy@He@Dw@@w@Aw@OaA_AyDjCoArEqBtDeBVOqAmFuAiFsAoFoBuHqBsFMo@CmADo@ZqAPc@jKqVx@oBn@gApA}AxCuCp@_AfA{BvAmD`A_CvBqF`@o@\\a@d@_@d@Yp@Sx@In@@f@Fd@LrAn@zEzCv@RdABVCl@SXOTS`@k@\\u@Tu@Jg@AKCKH]Nu@jDiQj@oCt@cDHKHYjAqFLe@Nu@Zc@ZUZCL@PHJHJRDX?`@M`@UPUDUAWOcAs@e@UkFsEaBiBgCsDkC_EmAkBuLeRuAwBkMwR{BqDgBgC_AmAiCsC}AaBu@w@{HuHmNqNe@k@mAkAeLcLqBuByB_Ci@m@yAqAwAeAyA}@uAs@}Ao@{C{@mCc@eAIaBIkAA_B@kADaCT{P`CeEn@oVpDuFt@yDl@iP`CqHbAyTfDkaAnNm]dFeOxBqRnCaDh@kDr@aJxBsXvGwA\\_ATkSzEiRvEsIpBeMxCuFtAaFlBqFbBcCj@oATiCZcDVwCLcJp@uEb@w]zDeOnBi^rEc\\tDaGr@gN~AiC\\sB^_Cj@{Br@oK`EuW`KsXlKuMnFi]~M_DlAmCjA{NzFsEnBqDxBoBvAkC~ByAdBcC~CiQ|VgQrVcLdP{BxCwLxPiG|IoW|^{DpF}LfQ_ErF_MjPaAhAeChDgEzFgDhE_Vp[_^je@qBlC_EzF_DdGoArCcGhOw@dBwA|DyAtDkGzOiPhb@e@XmCbFi@n@e@\\iAb@aBVYJe@ZW^IPOb@M~@yAMsAEsAC}@Oc@KWMgCmByEmDiJeH}C_Cc^oX_P{LoGaF}HaGgByA"
+         },
+         "summary" : "I-880 N",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

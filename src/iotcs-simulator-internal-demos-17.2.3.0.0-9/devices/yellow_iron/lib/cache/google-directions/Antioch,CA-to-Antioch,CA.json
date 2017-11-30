@@ -1,0 +1,85 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ1aCvlWNXhYARWXWULDxGagU",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ1aCvlWNXhYARWXWULDxGagU",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 38.0049043,
+               "lng" : -121.8057893
+            },
+            "southwest" : {
+               "lat" : 38.0049043,
+               "lng" : -121.8057893
+            }
+         },
+         "copyrights" : "Map data ©2016 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 ft",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Antioch, CA, USA",
+               "end_location" : {
+                  "lat" : 38.0049043,
+                  "lng" : -121.8057893
+               },
+               "start_address" : "Antioch, CA, USA",
+               "start_location" : {
+                  "lat" : 38.0049043,
+                  "lng" : -121.8057893
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 ft",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 38.0049043,
+                        "lng" : -121.8057893
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eE 18th St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "sy}fFdemfV"
+                     },
+                     "start_location" : {
+                        "lat" : 38.0049043,
+                        "lng" : -121.8057893
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "sy}fFdemfV"
+         },
+         "summary" : "E 18th St",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

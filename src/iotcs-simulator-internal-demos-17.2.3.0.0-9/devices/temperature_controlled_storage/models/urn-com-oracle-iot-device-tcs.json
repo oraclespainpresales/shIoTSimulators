@@ -1,0 +1,50 @@
+{
+  "urn": "urn:com:oracle:iot:device:tcs",
+  "name": "Temperature Controlled Storage Unit (TCS) Device Model",
+  "attributes": [
+    {
+      "alias": "ora_lat",
+      "name": "ora_latitude",
+      "range": "-90.0,90.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "ora_lon",
+      "name": "ora_longitude",
+      "range": "-180.0,180.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "ora_alt",
+      "name": "ora_altitude",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "name": "internal_temperature",
+      "type": "NUMBER",
+      "writable": false
+    }
+  ],
+  "actions": [],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:iot:device:tcs:high_temperature_alert",
+      "name": "TCS_High_Internal_Temperature_Alert",
+      "description": "Alert indicating need for investigation due to high internal temperature in TCS unit",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:tcs",
+      "value": {
+        "fields": [
+          {
+            "name": "internal_temperature",
+            "optional": true,
+            "type": "NUMBER"
+          }
+        ]
+      }
+    }
+  ]
+}

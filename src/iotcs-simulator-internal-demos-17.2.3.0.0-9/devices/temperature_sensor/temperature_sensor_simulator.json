@@ -1,0 +1,197 @@
+{
+  "deviceName": "Temperature Sensor",
+  "disabled": false,
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/ts_normal.gif",
+      "frameWidth": 436,
+      "frameHeight": 436
+    },
+    {
+      "name": "isOffImage",
+      "file": "images/ts_off.png",
+      "frameWidth": 436,
+      "frameHeight": 436
+    },
+    {
+      "name": "maxTempImage",
+      "file": "images/ts_max.gif",
+      "frameWidth": 436,
+      "frameHeight": 436
+    },
+    {
+      "name": "minTempImage",
+      "file": "images/ts_min.gif",
+      "frameWidth": 436,
+      "frameHeight": 436
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:oracle:iot:device:temperature_sensor",
+      "attributes": [
+        {
+          "name": "maxTemp",
+          "range": "-20,80",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Max. Temperature",
+          "units": "C",
+          "format": "##.#",
+          "initialValue": 30.0,
+          "onFunction": "$sharedFunctions.max",
+          "onArguments": {
+            "arg1": "$maxTemp",
+            "arg2": "$temp"
+          }
+        },
+        {
+          "name": "maxThreshold",
+          "displayName": "Max. Threshold",
+          "visible": false,
+          "chartable": true,
+          "units": "C",
+          "initialValue": 70
+        },
+        {
+          "name": "minTemp",
+          "range": "-20,80",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Min. Temperature",
+          "units": "C",
+          "format": "##.#",
+          "initialValue": 30.0,
+          "onFunction": "$sharedFunctions.min",
+          "onArguments": {
+            "arg1": "$minTemp",
+            "arg2": "$temp"
+          }
+        },
+        {
+          "name": "minThreshold",
+          "displayName": "Min. Threshold",
+          "visible": false,
+          "chartable": true,
+          "units": "C",
+          "initialValue": -10
+        },
+        {
+          "name": "unit",
+          "visible": false,
+          "chartable": false,
+          "initialValue": "C"
+        },
+        {
+          "name": "startTime",
+          "visible": false,
+          "chartable": false,
+          "displayName": "Time",
+          "units": "",
+          "format": "HH:MM"
+        },
+        {
+          "name": "temp",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Temperature",
+          "units": "C",
+          "format": "##.##",
+          "initialValue": 30.0,
+          "onFunction": "$sharedFunctions.sinInRange",
+          "onArguments": {
+            "lowerValue": 25.0,
+            "upperValue": 35.0
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "power",
+          "value": true,
+          "actionHandler": "$sharedFunctions.setAttributeValues",
+          "actionArguments": {
+            "object": "$this",
+            "urn": "urn:com:oracle:iot:device:temperature_sensor",
+            "startTime": "$now",
+            "isOn": "$value"
+          },
+          "image": "sensorOffImage"
+        },
+        {
+          "name": "reset",
+          "actionHandler": "$sharedFunctions.setAttributeAndEventValues",
+          "actionArguments": {
+            "object": "$this",
+            "urn": "urn:com:oracle:iot:device:temperature_sensor",
+            "attributes": {
+              "maxTemp": "$temp",
+              "minTemp": "$temp",
+              "startTime": "$now"
+            },
+            "events": {
+              "eventMinThreshold": false,
+              "eventMaxThreshold": false
+            }
+          }
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:iot:device:temperature_sensor:too_hot",
+          "visible": false,
+          "condition": "$sharedFunctions.greaterOrEqual",
+          "conditionArguments": {
+            "leftOperand": "$temp",
+            "rightOperand": "$maxThreshold"
+          }
+        },
+        {
+          "urn": "urn:com:oracle:iot:device:temperature_sensor:too_cold",
+          "visible": false,
+          "condition": "$sharedFunctions.greaterOrEqual",
+          "conditionArguments": {
+            "leftOperand": "$minThreshold",
+            "rightOperand": "$temp"
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "eventMaxThreshold",
+      "description": "Temp in Max Range",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:temperature_sensor.temp": {
+          "onEventFunction": "$sharedFunctions.sinInRange",
+          "onEventArguments": {
+            "lowerValue": 60.0,
+            "upperValue": 80.0
+          }
+        }
+      },
+      "image": "maxTempImage"
+    },
+    {
+      "name": "eventMinThreshold",
+      "description": "Temp in Min Range",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:temperature_sensor.temp": {
+          "onEventFunction": "$sharedFunctions.sinInRange",
+          "onEventArguments": {
+            "lowerValue": -20.0,
+            "upperValue": 0
+          }
+        }
+      },
+      "image": "minTempImage"
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

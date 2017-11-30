@@ -1,0 +1,250 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ00mFOjZ5hYARk-l1ppUV6pQ",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJKYxc8eBlhYAR9L8V2jMWELM",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.9357247,
+               "lng" : -122.272756
+            },
+            "southwest" : {
+               "lat" : 37.8669619,
+               "lng" : -122.3478897
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "7.6 mi",
+                  "value" : 12203
+               },
+               "duration" : {
+                  "text" : "15 mins",
+                  "value" : 905
+               },
+               "end_address" : "Richmond, CA, USA",
+               "end_location" : {
+                  "lat" : 37.9357244,
+                  "lng" : -122.3477485
+               },
+               "start_address" : "Berkeley, CA, USA",
+               "start_location" : {
+                  "lat" : 37.8716404,
+                  "lng" : -122.272756
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1.4 mi",
+                        "value" : 2276
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 348
+                     },
+                     "end_location" : {
+                        "lat" : 37.8679281,
+                        "lng" : -122.2982335
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eUniversity Ave\u003c/b\u003e toward \u003cb\u003eM.L.K. Jr Way\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "wxcfFvkhiVDt@h@dINxBv@bMZlENfCNhBb@hHNzBB\\h@dINxBx@fMJ|AJbBLhBTfDN|Bj@lITpDDXh@zEl@xEZpCNnAl@~ENjAZfCRfB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8716404,
+                        "lng" : -122.272756
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 433
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : {
+                        "lat" : 37.8669619,
+                        "lng" : -122.3030089
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eUniversity Ave\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : {
+                        "points" : "qacfF|jmiVLz@Jp@^pDTlBTnBF`@Db@VrBXtBLfALdA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8679281,
+                        "lng" : -122.2982335
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.3 mi",
+                        "value" : 2096
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 96
+                     },
+                     "end_location" : {
+                        "lat" : 37.8850551,
+                        "lng" : -122.3086477
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eI-580 W/I-80 E\u003c/b\u003e via the ramp to \u003cb\u003eRichmond/Sacramento\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "o{bfFxhniVCJALAFAHAJAHCFEHEFEDGDGDGBIDGBI@G@yDx@uG~AA@o@h@_APeO`DiJnBqQrDaB\\cB\\_KvA{@DuKvAkALgBVsC\\_BR"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8669619,
+                        "lng" : -122.3030089
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 729
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : {
+                        "lat" : 37.891549,
+                        "lng" : -122.3085717
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e13B\u003c/b\u003e for \u003cb\u003eI-580\u003c/b\u003e toward \u003cb\u003eSan Rafael/Point Richmond\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "slffF`loiVWCKAK?G?K@K?eCLoAFk@BeAA}@EIASCe@GA?c@GAAIA{AYy@O[EWC]Ek@EaACSAYBk@HC?sARq@H[FeALUBSC"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8850551,
+                        "lng" : -122.3086477
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.0 mi",
+                        "value" : 4834
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 163
+                     },
+                     "end_location" : {
+                        "lat" : 37.92181,
+                        "lng" : -122.3434543
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eI-580 W\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "eugfFpkoiVg@HkF|@mBf@}Ad@oCjA}BlA_JtG}AlAuDpCwDrCcChBUN?@}@p@}C|ByDxCsCzByKpIiTnPcBpAiA|@eDhC}BdBiBrAyAbAkBxAUN?@_@XqFfE_At@_Av@}ArAqAnAeAdAm@l@o@n@m@p@q@r@e@j@i@n@u@~@y@bAq@~@c@l@g@p@w@fAo@`AsBdDm@bAc@t@OXYh@Ud@_@v@Wj@Qb@MZCFITO`@Of@Sl@Y`Ac@dB]fBUtAMbAKv@Ed@KhAOpCIlDG`EEjEGfEGbEGdE"
+                     },
+                     "start_location" : {
+                        "lat" : 37.891549,
+                        "lng" : -122.3085717
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 395
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 27
+                     },
+                     "end_location" : {
+                        "lat" : 37.9230098,
+                        "lng" : -122.3475124
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e10A\u003c/b\u003e for \u003cb\u003eS 23rd St\u003c/b\u003e toward \u003cb\u003eMarina Bay Pkwy\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "irmfFpeviVI^CFAPKxAG`ACv@Ch@C\\C\\CTGXIZK\\S^OR_@d@]^EDILGLCHEJIXCLCNAJANAT?N?J@T"
+                     },
+                     "start_location" : {
+                        "lat" : 37.92181,
+                        "lng" : -122.3434543
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.9 mi",
+                        "value" : 1422
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 199
+                     },
+                     "end_location" : {
+                        "lat" : 37.9357247,
+                        "lng" : -122.3475397
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eS 23rd St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "yymfF|~viV{AF]B]@[Bc@@gB@kB?SAo@?k@?I@SFuCAwG?yBA{@?eB?g@?iD?[@IECACACAKAW?Q@M@K@UDKDo@PYHODI@K@M@]?e@Ae@@Y?I@O@K?]AK?KAKAMAGAMEOCICSGWGEAOEMCMCMAKAWAYCoCCqC?"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9230098,
+                        "lng" : -122.3475124
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "59 ft",
+                        "value" : 18
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 9
+                     },
+                     "end_location" : {
+                        "lat" : 37.9357244,
+                        "lng" : -122.3477485
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMacdonald Ave\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "gipfFb_wiV?h@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9357247,
+                        "lng" : -122.3475397
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "wxcfFvkhiVdKp~AfBdXxB`RhBbO`@bDj@bFx@bHlAvJG`@If@Y\\a@RQByDx@uG~AA@o@h@_APoZpGsTpEcB\\_KvA{@DuKvAsDd@sFp@c@Ek@@uETqB@{AKg@GkCe@uAUu@ImBIm@@uDf@aBTUBSCsGfAkElAoCjA}BlA}LbJqNnKqF`Eqk@vc@qM~JoHpFgHrF_ClBoDbDqEtEwDnEwDbFgBhCaDhFcB~CwAbDm@fBm@nBaAlEc@xCQ|A[zEQnJ]|WMf@MjBS`EGr@Qt@_@|@o@x@c@d@QZSn@Kx@?fAsDPkCB_CA{A?]HcRCsI@UKc@A_@B}A^i@NUBwB@s@BaACo@KwBg@kAIaHC?h@"
+         },
+         "summary" : "I-580 W",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

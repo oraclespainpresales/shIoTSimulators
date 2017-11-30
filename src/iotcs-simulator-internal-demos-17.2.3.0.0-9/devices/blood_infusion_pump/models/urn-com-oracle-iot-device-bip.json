@@ -1,0 +1,50 @@
+{
+  "urn": "urn:com:oracle:iot:device:bip",
+  "name": "Blood Infusion Pump (BIP) Device Model",
+  "attributes": [
+    {
+      "name": "ora_latitude",
+      "type": "NUMBER",
+      "range": "-90.0,90.0",
+      "alias": "ora_lat",
+      "writable": false
+    },
+    {
+      "name": "ora_longitude",
+      "type": "NUMBER",
+      "range": "-180.0,180.0",
+      "alias": "ora_lon",
+      "writable": false
+    },
+    {
+      "name": "ora_altitude",
+      "type": "NUMBER",
+      "alias": "ora_alt",
+      "writable": false
+    },
+    {
+      "name": "health_status",
+      "type": "STRING",
+      "writable": false
+    }
+  ],
+  "actions": [],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:iot:device:bip:cleaning_required",
+      "name": "BIP_Cleaning_Required_Alert",
+      "description": "Alert indicating need for pump cleaning prior to next use - use 'clean' or 'cleaning_required'",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:bip",
+      "value": {
+        "fields": [
+          {
+            "name": "message",
+            "type": "STRING",
+            "optional": true
+          }
+        ]
+      }
+    }
+  ]
+}

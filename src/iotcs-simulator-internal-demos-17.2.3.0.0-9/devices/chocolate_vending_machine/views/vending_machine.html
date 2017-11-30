@@ -1,0 +1,14 @@
+<link rel="stylesheet" ng-href="/chocolate_vending_machine/styles/vending_machine.css">
+<!-- background to reduce flicker-->
+<div class="animated-image"  ng-style="{'max-width': imageBackgroundWidth + 'px', 'max-height': imageBackgroundHeight + 'px'}">
+</div>
+<!-- four areas of different color chocolate -->
+<div ng-class="'animated-image' + (device['urn:com:oracle:iot:msce:vending_machine.inventoryBlack']/5).toFixed(0)"  ng-style="{'max-width': imageBackgroundWidth + 'px', 'max-height': imageBackgroundHeight + 'px', clip:'rect(0,'+imageBackgroundWidth*0.4+'px,800px,0)'}" ng-click="updateAttribute('urn:com:oracle:iot:msce:vending_machine.inventoryBlack', device['urn:com:oracle:iot:msce:vending_machine.inventoryBlack'] > 0 ? device['urn:com:oracle:iot:msce:vending_machine.inventoryBlack']-1 : 100)"></div>
+<span ng-class="'animated-image' + (device['urn:com:oracle:iot:msce:vending_machine.inventoryGold']/5).toFixed(0)"  ng-style="{'max-width': imageBackgroundWidth + 'px', 'max-height': imageBackgroundHeight + 'px', clip:'rect(0,'+imageBackgroundWidth*0.5+'px,800px,'+imageBackgroundWidth*0.4+'px)'}" ng-click="updateAttribute('urn:com:oracle:iot:msce:vending_machine.inventoryGold', device['urn:com:oracle:iot:msce:vending_machine.inventoryGold'] > 0 ? device['urn:com:oracle:iot:msce:vending_machine.inventoryGold']-1 : 100)""></span>
+<span ng-class="'animated-image' + (device['urn:com:oracle:iot:msce:vending_machine.inventorySilver']/5).toFixed(0)"  ng-style="{'max-width': imageBackgroundWidth + 'px', 'max-height': imageBackgroundHeight + 'px', clip:'rect(0,'+imageBackgroundWidth*0.55+'px,800px,'+imageBackgroundWidth*0.5+'px)'}" ng-click="updateAttribute('urn:com:oracle:iot:msce:vending_machine.inventorySilver', device['urn:com:oracle:iot:msce:vending_machine.inventorySilver'] > 0 ? device['urn:com:oracle:iot:msce:vending_machine.inventorySilver']-1 : 100)"></span>
+<span ng-class="'animated-image' + (device['urn:com:oracle:iot:msce:vending_machine.inventoryRed']/5).toFixed(0)"  ng-style="{'max-width': imageBackgroundWidth + 'px', 'max-height': imageBackgroundHeight + 'px', clip:'rect(0,'+imageBackgroundWidth+'px,800px,'+imageBackgroundWidth*0.55+'px)'}" ng-click="updateAttribute('urn:com:oracle:iot:msce:vending_machine.inventoryRed', device['urn:com:oracle:iot:msce:vending_machine.inventoryRed'] > 0 ? device['urn:com:oracle:iot:msce:vending_machine.inventoryRed']-1 : 100)"></span>
+
+<!-- preload images to reduce flicker -->
+<div ng-class="'animated-image'+preload" style='left:-10px; top:-10px; width:1px; height:1px' 
+ng-repeat="preload in [20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0]"></div>
+

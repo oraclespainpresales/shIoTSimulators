@@ -1,0 +1,203 @@
+{
+  "deviceName": "HVAC",
+  "disabled": false,
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "styles/hvac.css",
+      "type": "css_animation",
+      "frameWidth": 644,
+      "frameHeight": 545,
+      "drawBorder": true
+    },
+    {
+      "name": "isOffImage",
+      "type": "auto",
+      "file": "images/hvacOffImage.png",
+      "frameWidth": 644,
+      "frameHeight": 545,
+      "drawBorder": true
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:oracle:iot:device:hvac",
+      "attributes": [
+        {
+          "name": "outputTemp",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Output Temperature",
+          "units": "C",
+          "format": "##.#",
+          "initialValue": 30.0,
+          "onFunction": "$sharedFunctions.logToTarget",
+          "onArguments": {
+            "currentValue": "$outputTemp",
+            "targetValue": "$targetTemp"
+          },
+          "offFunction": "$sharedFunctions.linearToTarget",
+          "offArguments": {
+            "currentValue": "$outputTemp",
+            "targetValue": "35.0"
+          }
+        },
+        {
+          "name": "vibration",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Fan Vibration",
+          "units": "kHz",
+          "format": "#.##",
+          "initialValue": 1.0,
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 0.55,
+            "upperValue": 0.6
+          },
+          "offFunction": "$sharedFunctions.setTo",
+          "offArguments": {
+            "value": 0.5
+          }
+        },
+        {
+          "name": "oilViscosity",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Oil Viscosity",
+          "units": "%",
+          "format": "#.###",
+          "initialValue": 0.02,
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 0.01,
+            "upperValue": 0.03
+          },
+          "offFunction": "$sharedFunctions.setTo",
+          "offArguments": {
+            "value": 0.02
+          }
+        },
+        {
+          "name": "motorAmperage",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Motor Amperage",
+          "units": "A",
+          "format": "##.##",
+          "initialValue": 50.0,
+          "onFunction": "$sharedFunctions.sinInRange",
+          "onArguments": {
+            "lowerValue": 49.0,
+            "upperValue": 51.0
+          },
+          "offFunction": "$sharedFunctions.setTo",
+          "offArguments": {
+            "value": 0
+          }
+        },
+        {
+          "name": "targetTemp",
+          "displayName": "Target Temperature",
+          "visible": true,
+          "chartable": true,
+          "units": "C",
+          "format": "##.#",
+          "initialValue": 23.0
+        },
+        {
+          "name": "time",
+          "visible": false,
+          "chartable": false,
+          "displayName": "Time",
+          "units": "",
+          "format": "HH:MM",
+          "onFunction": "$sharedFunctions.currentTime"
+        }
+      ],
+      "actions": [
+        {
+          "name": "power",
+          "value": true,
+          "actionHandler": "$sharedFunctions.setAttributeValues",
+          "actionArguments": {
+            "object": "$this",
+            "isOn": "$value"
+          },
+          "image": "hvacOffImage"
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:iot:device:hvac:alert:unabletoconnect",
+          "visible": true,
+          "displayName": "SEND: Unable to connect to sensors",
+          "value": {
+            "fields": [
+              {
+                "name": "unable_to_connect",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "urn": "urn:com:oracle:iot:device:hvac:alert:dooropened",
+          "visible": true,
+          "displayName": "SEND: Security breach door opened",
+          "value": {
+            "fields": [
+              {
+                "name": "breach_door_opened",
+                "value": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "eventMotorFailure",
+      "description": "Motor Failure",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:hvac.vibration": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0.65,
+            "upperValue": 1.45
+          }
+        },
+        "urn:com:oracle:iot:device:hvac.oilViscosity": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0.03,
+            "upperValue": 0.05
+          }
+        }
+      },
+      "image": "isOffImage"
+    },
+    {
+      "name": "eventShortCurcuit",
+      "description": "Short Curcuit",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:hvac.motorAmperage": {
+          "onEventFunction": "$sharedFunctions.spikesInRange",
+          "onEventArguments": {
+            "lowerValue": 0,
+            "upperValue": 75,
+            "currentValue": "$urn:com:oracle:iot:device:hvac.motorAmperage"
+          }
+        }
+      },
+      "image": "isOffImage"
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

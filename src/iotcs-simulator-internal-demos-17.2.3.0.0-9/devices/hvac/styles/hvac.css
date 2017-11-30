@@ -1,0 +1,36 @@
+@keyframes hvac-animation {
+  100%  {background-position: -12236px}
+  5%  {background-position: 0}
+  10%  {background-position: -644px}
+  15%  {background-position: -1288px}
+  20%  {background-position: -1932px}
+  25%  {background-position: -2576px}
+  30%  {background-position: -3220px}
+  35%  {background-position: -3864px}
+  40%  {background-position: -4508px}
+  45%  {background-position: -5152px}
+  50%  {background-position: -5796px}
+  55%  {background-position: -6440px}
+  60%  {background-position: -7084px}
+  65%  {background-position: -7728px}
+  70%  {background-position: -8372px}
+  75%  {background-position: -9016px}
+  80%  {background-position: -9660px}
+  85%  {background-position: -10304px}
+  90%  {background-position: -10948px}
+  95%  {background-position: -11592px}
+  100%  {background-position: -12236px}
+}
+
+.animated-image {
+  background: url('/hvac/images/hvacOnImage_sprite.png');
+  background-repeat: no-repeat;
+  display: block;
+  animation-name: hvac-animation;
+  animation-duration: 0.5s;
+  animation-timing-function: step-start;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  width: 644px;
+  height: 545px;
+}

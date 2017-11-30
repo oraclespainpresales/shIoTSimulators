@@ -1,0 +1,346 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ9T_5iuTKj4ARe3GfygqMnbk",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJk8EIXIG3j4ARwL_Ao3ykdeQ",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.3585242,
+               "lng" : -121.8863279
+            },
+            "southwest" : {
+               "lat" : 37.3371729,
+               "lng" : -121.9553899
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "5.0 mi",
+                  "value" : 8019
+               },
+               "duration" : {
+                  "text" : "14 mins",
+                  "value" : 816
+               },
+               "end_address" : "Santa Clara, CA, USA",
+               "end_location" : {
+                  "lat" : 37.3540533,
+                  "lng" : -121.9553899
+               },
+               "start_address" : "San Jose, CA, USA",
+               "start_location" : {
+                  "lat" : 37.3382088,
+                  "lng" : -121.8863279
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 224
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 42
+                     },
+                     "end_location" : {
+                        "lat" : 37.3371729,
+                        "lng" : -121.8885004
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e on \u003cb\u003eE Santa Clara St\u003c/b\u003e toward \u003cb\u003eS 4th St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "yr{bFp||fVXr@BFBHfAtCt@nBn@dB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3382088,
+                        "lng" : -121.8863279
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 565
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 81
+                     },
+                     "end_location" : {
+                        "lat" : 37.3415557,
+                        "lng" : -121.8917403
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 2nd cross street onto \u003cb\u003eN 3rd St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "il{bFbj}fVoAx@c@VuDhCwAbAiEnCqAx@uAz@yB`B"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3371729,
+                        "lng" : -121.8885004
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 352
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 92
+                     },
+                     "end_location" : {
+                        "lat" : 37.3399298,
+                        "lng" : -121.895162
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 3rd cross street onto \u003cb\u003eE Julian St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "wg|bFj~}fVx@vBFN^dA|@|Bb@hABJDJdBvEPd@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3415557,
+                        "lng" : -121.8917403
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 564
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 44
+                     },
+                     "end_location" : {
+                        "lat" : 37.3421053,
+                        "lng" : -121.9003158
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eColeman Ave\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "q}{bFvs~fVLZaA`AiAjAOPKLMPMR{@`Be@z@iC`FKXGLELENEPCNENALCNAR?FAJ?T?Z@V@NBRDVDXBJBLBHBHBJ"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3399298,
+                        "lng" : -121.895162
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.8 mi",
+                        "value" : 1241
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 100
+                     },
+                     "end_location" : {
+                        "lat" : 37.3505911,
+                        "lng" : -121.9089328
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street onto \u003cb\u003eGuadalupe Pkwy\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ek|bF~s_gVgClAcJjEi@X]Pm@\\_An@cAx@e@d@o@p@oAtA_ApAq@dA]l@w@zAk@lA]x@Qd@_@|@Q`@Yv@KXEJGRMXMRIRQV_@f@OTOPSVSTWVQPQPWPc@^YVQJC@_@Va@V"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3421053,
+                        "lng" : -121.9003158
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 692
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 67
+                     },
+                     "end_location" : {
+                        "lat" : 37.3465959,
+                        "lng" : -121.9147607
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eW Hedding St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "e`~bFxiagVMLTb@?@P\\@@NXVRl@~@p@bA@Br@fAJNJLLTp@bALT`@n@n@dAFJz@tAr@fAh@|@hBvCT\\hBxC"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3505911,
+                        "lng" : -121.9089328
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.5 mi",
+                        "value" : 2437
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 198
+                     },
+                     "end_location" : {
+                        "lat" : 37.3579154,
+                        "lng" : -121.9375606
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eColeman Ave\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "gg}bFfnbgVDR@H@H@H?F?FAF?DAFADAFIRg@b@aBdBUVgA~AcB`C}@lAY^U\\W\\OTSVA@Y`@eCjDaArAmAbB_@p@IPs@hBaA`CCDe@jAg@jAKXUh@MZSf@k@dBm@dBCDAFIh@m@xAw@pBu@hB}@dCUl@]ZAB[x@_BzDgBnE_AfCiApCIl@Uj@c@fASf@[v@IVGREPGPETEVCTIl@AVC\\AvAAh@A|BGnBC^CRE`@EZCHI^CNGNENYp@e@hASNGFIPo@pA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3465959,
+                        "lng" : -121.9147607
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 468
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : {
+                        "lat" : 37.3567446,
+                        "lng" : -121.9415299
+                     },
+                     "html_instructions" : "Take the ramp on the \u003cb\u003eleft\u003c/b\u003e to \u003cb\u003eCalifornia 82/Santa Clara\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "_n_cFv|fgV@L?@?@A@?@ABSf@]bAO^Uv@GPEPENALETAJ?HAR?J?L@R?JBTBNBLBJDNFPHPFLNRJNLLHFLJt@^j@V\\Rf@^ZVPRZ^"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3579154,
+                        "lng" : -121.9375606
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "341 ft",
+                        "value" : 104
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 6
+                     },
+                     "end_location" : {
+                        "lat" : 37.3560004,
+                        "lng" : -121.9422478
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eDe La Cruz Blvd\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "sf_cFpuggVp@n@n@n@p@n@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3567446,
+                        "lng" : -121.9415299
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 272
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 37.3553551,
+                        "lng" : -121.9450196
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eEl Camino Real\u003c/b\u003e ramp",
+                     "polyline" : {
+                        "points" : "_b_cF`zggVHTFPDLBJ@H@F@L?J@NATCRCXCNAR?N?P?J?R@P@V@PBVBLBJLd@Tf@Vl@DH@@@@?@@@B@B?HB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3560004,
+                        "lng" : -121.9422478
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 mi",
+                        "value" : 904
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 108
+                     },
+                     "end_location" : {
+                        "lat" : 37.3524531,
+                        "lng" : -121.9544701
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eEl Camino Real\u003c/b\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : {
+                        "points" : "_~~bFjkhgVP`@FN@DZ|@@D\\pA^tAt@tCt@zC\\pA`@~Al@jC`@vAv@rCrAjFTbAJn@Jr@HbAJpA@rA?bB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3553551,
+                        "lng" : -121.9450196
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 196
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : {
+                        "lat" : 37.3540533,
+                        "lng" : -121.9553899
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLincoln St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "yk~bFlfjgVeClA{@b@m@Z[Ja@RQH"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3524531,
+                        "lng" : -121.9544701
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "yr{bFp||fVhBzEdBtEsBpAmGlE{GhEuAz@yB`B`AfCdCxGjCdHkClC[^[d@aB|CuCzFMZU`AGx@?tAPtANl@BJgClAmKdFkAn@cChBuAvAoAtA_ApAoArBcBhDaB~Ds@pBw@xAsAfBoApAgBtAsA~@f@bAPZVRl@~@r@fAxAzBpCnE`DfF~BtDhBxCDRBR@PC\\CLIRg@b@wB|BkD`FwAlBqAhBcFbHmAbB_@p@}@zBsC~GcAfC_BxEIh@m@xAmBzEsArD_@^{BtFgDvIiApCIl@y@rBaAjCYpAMbAEt@C`CIlFSpBYhA_@`Ae@hASNQXo@pA@L?BABcAnCi@jBIx@?`AJ~@Z~@V`@X\\VR`Bv@dAr@l@j@Z^p@n@`B~AZ`ADj@?d@Gl@EdABhALbALd@Tf@\\v@DFF@HBP`@HT\\bAhDxMnCtKjC~J`@rBTvBJpA@rA?bBeClAiB~@oAh@"
+         },
+         "summary" : "Coleman Ave",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

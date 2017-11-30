@@ -1,0 +1,84 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ98rot0a_j4AR1IjYiTsx2oo",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ98rot0a_j4AR1IjYiTsx2oo",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.5482486,
+               "lng" : -121.9885313
+            },
+            "southwest" : {
+               "lat" : 37.5482486,
+               "lng" : -121.9885313
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 ft",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Fremont, CA, USA",
+               "end_location" : {
+                  "lat" : 37.5482486,
+                  "lng" : -121.9885313
+               },
+               "start_address" : "Fremont, CA, USA",
+               "start_location" : {
+                  "lat" : 37.5482486,
+                  "lng" : -121.9885313
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 ft",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 37.5482486,
+                        "lng" : -121.9885313
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eMowry Ave\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "qsddFh{pgV"
+                     },
+                     "start_location" : {
+                        "lat" : 37.5482486,
+                        "lng" : -121.9885313
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "qsddFh{pgV"
+         },
+         "summary" : "Mowry Ave",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

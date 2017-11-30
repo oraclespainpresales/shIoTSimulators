@@ -1,0 +1,102 @@
+{
+  "urn": "urn:oracle:tablet:testing:machine:data",
+  "name": "Tablet Testing Machine",
+  "description": "Tablet Testing Machine",
+  "attributes": [
+    {
+      "description": "Surface Temperature",
+      "name": "surfaceTemperature",
+      "range": "0.0,200.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Differential Pressure",
+      "name": "differentialPressure",
+      "range": "-2.5,2.5",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Acceleration Force",
+      "name": "accelerationForce",
+      "range": "-50.0,50.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Humidity",
+      "name": "humidity",
+      "range": "0.0,100.0",
+      "type": "NUMBER",
+      "writable": false
+    }
+  ],
+  "actions": [],
+  "formats": [
+    {
+      "urn": "urn:oracle:tablet:testing:alert:surfaceTemperature",
+      "name": "surfaceTemperatureOutOfRange",
+      "description": "Surface temperature is out of range",
+      "type": "ALERT",
+      "deviceModel": "urn:oracle:tablet:testing:machine:data",
+      "value": {
+        "fields": [
+          {
+            "name": "surfaceTemperature",
+            "optional": false,
+            "type": "NUMBER"
+          }
+        ]
+      }
+    },
+    {
+      "urn": "urn:oracle:tablet:testing:alert:differentialPressure",
+      "name": "differentialPressureOutOfRange",
+      "description": "Differential pressure is out of range",
+      "type": "ALERT",
+      "deviceModel": "urn:oracle:tablet:testing:machine:data",
+      "value": {
+        "fields": [
+          {
+            "name": "differentialPressure",
+            "optional": false,
+            "type": "NUMBER"
+          }
+        ]
+      }
+    },
+    {
+      "urn": "urn:oracle:tablet:testing:alert:accelerationForce",
+      "name": "accelerationForceOutOfRange",
+      "description": "Acceleration force is out of range",
+      "type": "ALERT",
+      "deviceModel": "urn:oracle:tablet:testing:machine:data",
+      "value": {
+        "fields": [
+          {
+            "name": "accelerationForce",
+            "optional": false,
+            "type": "NUMBER"
+          }
+        ]
+      }
+    },
+    {
+      "urn": "urn:oracle:tablet:testing:alert:humidity",
+      "name": "humidityOutOfRange",
+      "description": "Humidity is out of range",
+      "type": "ALERT",
+      "deviceModel": "urn:oracle:tablet:testing:machine:data",
+      "value": {
+        "fields": [
+          {
+            "name": "humidity",
+            "optional": false,
+            "type": "NUMBER"
+          }
+        ]
+      }
+    }
+  ]
+}

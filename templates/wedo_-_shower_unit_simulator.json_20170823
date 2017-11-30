@@ -1,0 +1,347 @@
+{
+  "deviceName": "WEDO - Shower Unit",
+  "messagingInterval": 1000,
+  "messagesLimit": "3600",
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/showerOn.gif",
+      "frameWidth": "500",
+      "frameHeight": 500,
+      "type": "image"
+    },
+    {
+      "name": "isOffImage",
+      "file": "images/showerOff.gif",
+      "frameWidth": "500",
+      "frameHeight": 500,
+      "type": "image"
+    },
+    {
+      "name": "changeTemperature",
+      "file": "images/changeTemp.gif",
+      "frameWidth": "280",
+      "frameHeight": "210",
+      "type": "image"
+    },
+    {
+      "name": "changeShowFlow",
+      "file": "images/Triton-shower-positions.gif",
+      "frameWidth": "1518",
+      "frameHeight": "949",
+      "type": "image"
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:oracle:iot:device:shower_unit",
+      "attributes": [
+        {
+          "name": "demo_zone",
+          "displayName": "demo_zone",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "###DEMO_ZONE###"
+        },
+        {
+          "name": "hotel_name",
+          "displayName": "hotel_name",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "###HOTEL_NAME###"
+        },
+        {
+          "name": "hotel_room",
+          "displayName": "hotel_room",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "###ROOM_NUMBER###"
+        },
+        {
+          "name": "water_temp",
+          "displayName": "water_temp",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 25,
+          "onFunction": "$sharedFunctions.logToTarget",
+          "onArguments": {
+            "currentValue": "$water_temp",
+            "targetValue": "$target_temp"
+          },
+          "offFunction": "$sharedFunctions.linearToTarget",
+          "offArguments": {
+            "currentValue": "$water_temp",
+            "targetValue": 10
+          }
+        },
+        {
+          "name": "target_temp",
+          "displayName": "target_temp",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 25
+        },
+        {
+          "name": "water_flow",
+          "displayName": "water_flow",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 0.35,
+          "onFunction": "$sharedFunctions.logToTarget",
+          "onArguments": {
+            "currentValue": "$water_flow",
+            "targetValue": "$target_flow"
+          },
+          "offFunction": "$sharedFunctions.linearToTarget",
+          "offArguments": {
+            "currentValue": "$water_flow",
+            "targetValue": 0
+          }
+        },
+        {
+          "name": "target_flow",
+          "displayName": "target_flow",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 0.35
+        },
+        {
+          "name": "flow_unit",
+          "displayName": "flow_unit",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "l/s"
+        },
+        {
+          "name": "temp_unit",
+          "displayName": "temp_unit",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "C"
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:iot:device:shower_unit:high_temperature_alert",
+          "visible": false,
+          "displayName": "high_temperature_alert",
+          "value": {
+            "fields": [
+              {
+                "name": "water_temp",
+                "value": "$water_temp"
+              },
+              {
+                "name": "temp_unit",
+                "value": "$temp_unit"
+              },
+              {
+                "name": "target_temp",
+                "value": "$target_temp"
+              }
+            ]
+          },
+          "condition": "$sharedFunctions.greaterOrEqual",
+          "conditionArguments": {
+            "leftOperand": "$water_temp",
+            "rightOperand": "$target_temp"
+          },
+          "image": "changeTemperature",
+          "imageTime": 2000
+        },
+        {
+          "urn": "urn:com:oracle:iot:device:shower_unit:low_temperature_alert",
+          "visible": false,
+          "displayName": "low_temperature_alert",
+          "value": {
+            "fields": [
+              {
+                "name": "water_temp",
+                "value": "$water_temp"
+              },
+              {
+                "name": "temp_unit",
+                "value": "$temp_unit"
+              },
+              {
+                "name": "target_temp",
+                "value": "$target_temp"
+              }
+            ]
+          },
+          "condition": "$sharedFunctions.lessOrEqual",
+          "conditionArguments": {
+            "leftOperand": "$water_temp",
+            "rightOperand": "$target_temp"
+          },
+          "image": "changeTemperature",
+          "imageTime": 2000
+        },
+        {
+          "urn": "urn:com:oracle:iot:device:shower_unit:weak_flow_alert",
+          "visible": false,
+          "displayName": "weak_flow_alert",
+          "value": {
+            "fields": [
+              {
+                "name": "water_flow",
+                "value": "$water_flow"
+              },
+              {
+                "name": "flow_unit",
+                "value": "$flow_unit"
+              },
+              {
+                "name": "target_flow",
+                "value": "$target_flow"
+              }
+            ]
+          },
+          "condition": "$sharedFunctions.lessOrEqual",
+          "conditionArguments": {
+            "leftOperand": "$water_flow",
+            "rightOperand": "$target_flow"
+          },
+          "image": "changeShowFlow",
+          "imageTime": 2000
+        },
+        {
+          "urn": "urn:com:oracle:iot:device:shower_unit:strong_flow_alert",
+          "visible": false,
+          "displayName": "strong_flow_alert",
+          "value": {
+            "fields": [
+              {
+                "name": "water_flow",
+                "value": "$water_flow"
+              },
+              {
+                "name": "flow_unit",
+                "value": "$flow_unit"
+              },
+              {
+                "name": "target_flow",
+                "value": "$target_flow"
+              }
+            ]
+          },
+          "condition": "$sharedFunctions.greaterOrEqual",
+          "conditionArguments": {
+            "leftOperand": "$water_flow",
+            "rightOperand": "$target_flow"
+          },
+          "image": "changeShowFlow",
+          "imageTime": 2000
+        }
+      ],
+      "actions": [
+        {
+          "name": "power",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "SetNewTargetTemp",
+      "description": "Change Target Temperature",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:shower_unit.target_temp": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 32,
+            "upperValue": 38
+          }
+        }
+      },
+      "image": "changeTemperature"
+    },
+    {
+      "name": "setNewShowerFlow",
+      "description": "Change Target  Flow",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:shower_unit.target_flow": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0.3,
+            "upperValue": 0.4
+          }
+        }
+      },
+      "image": "changeShowFlow"
+    },
+    {
+      "name": "SimulateHotWater",
+      "description": "Simulate too hot water",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:shower_unit.water_temp": {
+          "onEventFunction": "$sharedFunctions.spikesInRange",
+          "onEventArguments": {
+            "lowerValue": 35,
+            "upperValue": 60,
+            "currentValue": "$urn:com:oracle:iot:device:shower_unit.water_temp"
+          }
+        }
+      },
+      "image": "changeTemperature"
+    },
+    {
+      "name": "SimulateColdWater",
+      "description": "Simulate too cold water",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:shower_unit.water_temp": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 20
+          }
+        }
+      },
+      "image": "changeTemperature"
+    },
+    {
+      "name": "SimulateWeakFlow",
+      "description": "Simulate weak water flow",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:shower_unit.water_flow": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 0.2
+          }
+        }
+      },
+      "image": "changeShowFlow"
+    },
+    {
+      "name": "SimulateStrongFlow",
+      "description": "Simulate strong water flow",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:shower_unit.water_flow": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 0.5
+          }
+        }
+      },
+      "image": "changeShowFlow"
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

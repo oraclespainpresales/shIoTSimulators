@@ -1,0 +1,23 @@
+IoT API REST
+https://docs.oracle.com/en/cloud/paas/iot-cloud/iotrq/op-iot-api-v2-devices-%7Bdevice-id%7D-delete.html#examples
+
+
+curl -d '{"simulatorId":"wedo_-_shower_unit","autoRegister":true,"name":"shower123","metadata":{"description":"Shower123","manufacturer":"Shower123","serialNumber":"Shower123","modelNumber":"Shower123"},"location":{"latitude":"37.3982187","longitude":"-121.979117","altitude":"100"}}' -X POST -H 'Content-Type: application/json' http://129.157.236.187:9011/sim/devices
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"server": "'"$SERVER"'","component": "'"$component"'","localip": "'"$IP"'","urlhttp": "'"$http"'"}' http://new.proxy.digitalpracticespain.com:9997/ords/pdb1/smarthospitality/ngrok/update/$DEMOZONE
+
+
+https://docs.oracle.com/en/cloud/paas/iot-cloud/iotrq/op-iot-api-v2-devices-%7Bdevice-id%7D-deviceApps-%7Bapp-id%7D-metadata-get.html
+
+curl -X GET -u 'adminuser:IoTRocks1#' -H 'Accept: application/json' https://129.150.71.46:443/iot/api/v2/devices --insecure
+curl -X GET -u 'adminuser:IoTRocks1#' -H 'Accept: application/json' https://129.150.71.46:443/iot/api/v2/devices/count --insecure
+
+https://docs.oracle.com/en/cloud/paas/iot-cloud/iotrq/op-iot-api-v2-devices-%7Bdevice-id%7D-delete.html
+
+curl -X DELETE -u 'adminuser:IoTRocks1#' -H 'Accept: application/json' https://129.150.71.46:443/iot/api/v2/devices/{device_id} --insecure
+    
+
+curl -X DELETE -u 'adminuser:IoTRocks1#' -H 'Accept: application/json' https://129.150.71.46:443/iot/api/v2/devices/277CED6E-8B81-4856-8803-329AB659F539 --insecure
+
+curl -X POST -u 'adminuser:IoTRocks1#' -H 'Accept: application/json' https://129.150.71.46:443/iot/api/v2/deviceModels -d @urn-com-oracle-iot-device-shower_unit.json --insecure

@@ -1,0 +1,76 @@
+IoT Device Simulator Set Up.
+
+Make sure node.js is installed on your system, at least version **v4.1.2**
+Instructions for installing if you need them: https://docs.npmjs.com/getting-started/installing-node
+
+1) Unzip the simulator
+   unzip iotcs-simulator-bin-xxx.zip
+   cd iotcs/simulator
+
+2) Edit the IoT server details in setup.json file:
+   E.g. For test server:
+        "host": "iotserver",
+        "port": 7002,
+   for VB image running on the same machine:
+        "host": "localhost",
+        "port": 7102,
+   for POD or devops docker image:
+        "host": "<your host name>",
+        "port": 443,
+        "name": "<user name>",
+        "pwd": "<password>"
+   Note: the port number is for HTTPS port. If connecting to the POD/docker image, use the full host name, not an alias.
+
+3) Set up CA certificate.
+   For test server/VB image CA certificate is preconfigured so normally you can skip this step, 
+   but if you are getting a certificate error when creating a new device, try the following:
+   Retrieve the iotca.pem file that has the CA certificate used for provisioning of new devices 
+   by using openssl and put it in the server/config directory:
+       openssl s_client -showcerts -connect <server name>:7002 -no_ign_eof | (openssl x509 -out iotserver.pem; openssl x509 -out iotca.pem)
+   For cloud POD *remove* the following line from setup.json:
+       "caCert": "./server/config/iotca.pem",
+
+4) Set up proxy.
+   If IoT server is behind firewall:
+     export http_proxy=http://www-proxy.us.oracle.com:80
+     export https_proxy=http://www-proxy.us.oracle.com:80
+   If IoT server is not behind firewall:
+     export no_proxy=<server name>
+  
+5) Upload the device models for the simulated devices to the server (from iotcs/simulator directory).
+   For test server:
+     curl --noproxy iotserver iot:welcome1@iotserver:7001/iot/api/v2/deviceModels -X POST -d @devices/hvac/models/urn-com-oracle-iot-device-hvac.json -H "Content-Type:application/json"
+     curl --noproxy iotserver iot:welcome1@iotserver:7001/iot/api/v2/deviceModels -X POST -d @devices/yellow_iron/models/urn-com-oracle-yellow-iron.json -H "Content-Type:application/json"
+     curl --noproxy iotserver iot:welcome1@iotserver:7001/iot/api/v2/deviceModels -X POST -d @devices/humidity_sensor/models/urn-com-oracle-iot-device-humidity_sensor.json -H "Content-Type:application/json"
+     curl --noproxy iotserver iot:welcome1@iotserver:7001/iot/api/v2/deviceModels -X POST -d @devices/temperature_sensor/models/urn-com-oracle-iot-device-temperature_sensor.json -H "Content-Type:application/json"
+   For VB image:
+     curl --noproxy iotserver iot:welcome1@iotserver:7101/iot/api/v2/deviceModels -X POST -d @devices/hvac/models/urn-com-oracle-iot-device-hvac.json -H "Content-Type:application/json"
+     curl --noproxy iotserver iot:welcome1@iotserver:7101/iot/api/v2/deviceModels -X POST -d @devices/yellow_iron/models/urn-com-oracle-yellow-iron.json -H "Content-Type:application/json"
+     curl --noproxy iotserver iot:welcome1@iotserver:7101/iot/api/v2/deviceModels -X POST -d @devices/humidity_sensor/models/urn-com-oracle-iot-device-humidity_sensor.json -H "Content-Type:application/json"
+     curl --noproxy iotserver iot:welcome1@iotserver:7101/iot/api/v2/deviceModels -X POST -d @devices/temperature_sensor/models/urn-com-oracle-iot-device-temperature_sensor.json -H "Content-Type:application/json"
+   For POD:
+     curl https://<username>:<password>@<server>:443/iot/api/v2/deviceModels -X POST -d @devices/hvac/models/urn-com-oracle-iot-device-hvac.json -H "Content-Type:application/json"
+     curl https://<username>:<password>@<server>:443/iot/api/v2/deviceModels -X POST -d @devices/yellow_iron/models/urn-com-oracle-yellow-iron.json -H "Content-Type:application/json"
+     curl https://<username>:<password>@<server>:443/iot/api/v2/deviceModels -X POST -d @devices/humidity_sensor/models/urn-com-oracle-iot-device-humidity_sensor.json -H "Content-Type:application/json"
+     curl https://<username>:<password>@<server>:443/iot/api/v2/deviceModels -X POST -d @devices/temperature_sensor/models/urn-com-oracle-iot-device-temperature_sensor.json -H "Content-Type:application/json"
+     (replace @ with %40 in user name)
+   
+6) Create an application called "Simulator" on the IoT server.
+   In management console click Applications -> Create Application, enter "Simulator" and click Done.
+
+7) Add device model to the application:
+   In management console click Applications -> Simulator -> Device Model -> Choose
+   Select the simulated devices ("HVAC", "Yellow Iron") and click Done.
+
+8) Start simulator (from iotcs/simulator directory):
+   node server/server.js
+   (you should see 'Express server listening on port 9000')
+
+9) Open simulator in browser
+   http://localhost:9000
+
+10) Click on Create New Device. Check 'Register New Device',
+   choose device type from the drop down and click 'Create Device'.
+   It should open in a few seconds.
+
+

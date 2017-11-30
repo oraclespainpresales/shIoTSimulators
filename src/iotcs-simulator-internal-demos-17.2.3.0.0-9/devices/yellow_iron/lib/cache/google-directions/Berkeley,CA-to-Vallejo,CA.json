@@ -1,0 +1,226 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ00mFOjZ5hYARk-l1ppUV6pQ",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJCQfOMpcRhYARORbGqAI_k5U",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 38.1040982,
+               "lng" : -122.2248739
+            },
+            "southwest" : {
+               "lat" : 37.8669619,
+               "lng" : -122.3306151
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "21.7 mi",
+                  "value" : 34935
+               },
+               "duration" : {
+                  "text" : "30 mins",
+                  "value" : 1800
+               },
+               "end_address" : "Vallejo, CA, USA",
+               "end_location" : {
+                  "lat" : 38.1040982,
+                  "lng" : -122.2566365
+               },
+               "start_address" : "Berkeley, CA, USA",
+               "start_location" : {
+                  "lat" : 37.8716404,
+                  "lng" : -122.272756
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1.4 mi",
+                        "value" : 2276
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 348
+                     },
+                     "end_location" : {
+                        "lat" : 37.8679281,
+                        "lng" : -122.2982335
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eUniversity Ave\u003c/b\u003e toward \u003cb\u003eM.L.K. Jr Way\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "wxcfFvkhiVDt@h@dINxBv@bMZlENfCNhBb@hHNzBB\\h@dINxBx@fMJ|AJbBLhBTfDN|Bj@lITpDDXh@zEl@xEZpCNnAl@~ENjAZfCRfB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8716404,
+                        "lng" : -122.272756
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 433
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : {
+                        "lat" : 37.8669619,
+                        "lng" : -122.3030089
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eUniversity Ave\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : {
+                        "points" : "qacfF|jmiVLz@Jp@^pDTlBTnBF`@Db@VrBXtBLfALdA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8679281,
+                        "lng" : -122.2982335
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.3 mi",
+                        "value" : 2096
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 96
+                     },
+                     "end_location" : {
+                        "lat" : 37.8850551,
+                        "lng" : -122.3086477
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eI-580 W/I-80 E\u003c/b\u003e via the ramp to \u003cb\u003eRichmond/Sacramento\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "o{bfFxhniVCJALAFAHAJAHCFEHEFEDGDGDGBIDGBI@G@yDx@uG~AA@o@h@_APeO`DiJnBqQrDaB\\cB\\_KvA{@DuKvAkALgBVsC\\_BR"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8669619,
+                        "lng" : -122.3030089
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "16.0 mi",
+                        "value" : 25675
+                     },
+                     "duration" : {
+                        "text" : "16 mins",
+                        "value" : 950
+                     },
+                     "end_location" : {
+                        "lat" : 38.0730896,
+                        "lng" : -122.2294877
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to continue on \u003cb\u003eI-80 E\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePartial toll road\u003c/div\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : {
+                        "points" : "slffF`loiVc@PKBSB[B}AJsAN_ADeA?_AAWC_@CE?_@C?A[CsCk@qAa@iBm@i@WA?SKc@UMGCAKEQGWK[Mw@Uu@Se@Kg@Iu@KiAEU?e@B[?u@Dm@Dc@Dk@H[FyA^gBj@iA\\{Ab@sA`@wAb@mA\\_Bf@{Af@u@Rk@Na@L{@Xi@Po@Ts@Xm@Vs@Zo@Zk@Zm@XYPi@XcAn@yA~@aAj@qBlAoAv@yBrAyBrAoAv@yFhDoBjAgDtBiEdCqBhAk@^k@\\m@Zo@Xm@Vo@To@Rc@LQB[HA?e@H}@Hm@Di@@g@@sC?eDAiB@yD?}B@uH@q@AqHA}@Bw@Fq@Fo@Je@Hg@Jc@JA@A?SFA?KDC@MBgAd@s@\\wIbFQHgCzAmFrCSLOJA?_CxAqD~BsD~Bw@h@[TcAp@aBhAkFlDaC~A[RYR[PgAr@SLYTo@`@sA|@IFGDEBs@d@c@To@ZYLWH]LUDq@Li@He@De@@}@@Y?OAQAUCA?[EcAQe@M]Me@OeAa@}Ao@A?AAiAe@}Ao@mEkB_LoEi@Ow@Oo@Km@I[AWAYAs@A]@u@BO@WBa@Dq@JaATsDlAiI|CsI~CYLsNlFaA^cDnA_C|@k@VsFlC}BhAkCpAgB|@c@Ro@Vo@Rk@N[Hq@Ly@Jk@Fm@B[B}@?q@Aw@E}@IMAc@IkAWSE[Ko@Um@Wm@YeAm@k@c@{@q@i@g@iAqAe@o@q@eAo@mA[s@cB}DeAcCgAgCi@mA]w@q@_B[u@i@iAYg@_@q@s@cAq@w@]]_Aw@g@]u@c@aAe@q@Y]Ke@M[IeBa@gBc@MCeEcAiHaBeCm@}G_BsD}@uCq@aBa@oAYiAWYIcFkAcDw@kAYKAqBe@EAkCo@kEcAmD{@uD{@iD{@sA_@wAg@m@WWKo@[eAk@{@g@aAi@y@g@uA{@w@k@i@c@k@e@i@g@g@g@g@i@g@i@e@k@e@k@a@k@e@o@a@m@c@q@AC_@m@aAeB_@s@_@u@Q]KWYs@g@gAYw@Yw@Wy@Y}@Uw@U}@Oi@i@gCY{AO}@M{@S_BUqBOmAKwAUwD]gEEm@IoAWgDC_@C_@McBQeCCOa@wFk@uIa@iFy@qLOcBW_COaAOcAc@wB_@{A]mAq@oBs@eB}@iBgAiBc@q@c@i@e@k@SWg@m@i@k@_@a@aB{AeIoHiBaBeD{C}NuMqCgCmAgAsEcEeEuD_KcJaDyCi@e@iAeAcCuBa@a@{EgEkLoKkHuGeF{EaA}@_B{AkFyEsEcEyEgEsEeE][_@]aPyNw@s@WUeD{C{K{JcD{CeB{AmF}EqFeFYUmBeBaEuDe@c@e@c@wPmO}@y@k@k@i@e@e@g@WYc@g@y@eAYc@c@o@a@q@wUe_@aGmJgAeBs@iAe@u@k@}@}@wAkCgEgJ_OyM_TyA}Bo@cA[e@g@w@mByC_BaCaAyA_A{AaAyAa@m@[_@KKo@m@i@a@k@]k@We@Qa@Kk@KYEOAk@C_@AE@yU|@yBHkLf@uBJsOLW@i@BsAH[@SBE?E@a@De@HG@C@q@L_@JE@g@Li@P]LKDSHQHo@TuAj@w@ZaA`@c@PoAj@c@PWNQJYPQLc@Va@VEBk@d@iBtAcClBgBtA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8850551,
+                        "lng" : -122.3086477
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 642
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : {
+                        "lat" : 38.077479,
+                        "lng" : -122.2337445
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e29A\u003c/b\u003e for \u003cb\u003eCA-29/Sonoma Blvd\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "yckgFh}_iVa@FC@C@GB_@RaB~@[R_Ah@MFeAf@k@XC?KF[LOD]L]NIDIDIDKHIFIHIHIHIHIJGJGJEJCFCFYpAOv@AFCNCLCLELEPGNCFEHGLKNGJGJIJMNWVWV_@\\"
+                     },
+                     "start_location" : {
+                        "lat" : 38.0730896,
+                        "lng" : -122.2294877
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.3 mi",
+                        "value" : 3660
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 297
+                     },
+                     "end_location" : {
+                        "lat" : 38.1040762,
+                        "lng" : -122.2548931
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eCA-29 N/Sonoma Blvd\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "g_lgFzw`iVIHs@r@w@t@[ZMLi@h@g@b@_Az@eAbAiAdA_BzAoBjBsApA]\\{@x@i@d@IH_@ZSPaA|@uBjBeEtDmC`Cw@v@SPENa@Zm@j@mB`Bk@h@SPaEpDkAbAgB~AaDrCeCzBeCxBSPa@\\e@b@EBEDMJOLm@h@_@\\YTKJGFEDABCBCBCDU\\KRiAlBo@hAOVMTy@tAsBlDqAxB[j@[l@?AA@UNEFEFiBxCa@t@_A`BuA`CGJIJiAnBa@r@MTu@pACBWTOJKPmAAaBAaBCi@?y@?aBAw@AG?G?IAQ?cBCk@?u@AeA?]AcB?YA]?i@?aBAs@AO?]?gBC"
+                     },
+                     "start_location" : {
+                        "lat" : 38.077479,
+                        "lng" : -122.2337445
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 153
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : {
+                        "lat" : 38.1040982,
+                        "lng" : -122.2566365
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCarolina St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "oeqgF`|diVAhGAdA?L"
+                     },
+                     "start_location" : {
+                        "lat" : 38.1040762,
+                        "lng" : -122.2548931
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "wxcfFvkhiVdKp~AfBdXxB`RhBbO`@bDj@bFx@bHlAvJG`@If@Y\\a@RQByDx@uG~AA@o@h@_APoZpGsTpEcB\\_KvA{@DuKvAsDd@sFp@o@TaFb@_ADeA?wAEeAI[CsCk@qAa@sCeAA?iAk@qAg@mBi@mAUu@KiAE{@BqADqAJgAPaEjAqIfC_I`CmA\\eBj@cBn@aBr@cDbBeQnKsP`KgDtBiEdC}ChByAx@}Ap@_Bh@u@P]HcBRwAF{D@gQ@gJ?qHA}@BiBNuAToAXe@NuAh@s@\\wIbFyCdBaG`DcIdFkFhD_BfAkNjJ}BxAqDbCkAv@sAp@q@Vs@R{AVkAFwA@y@G_BWcA[kEaBwJcE_LoEi@OgB[iAKq@CqA?eADy@HsB`@sDlAiI|CmJlDyU|IkDtAqJvEsFnCsAj@{Ab@mAVeBRiAFoBAuBOq@K_B]kAa@{Aq@qBqAeByAoBaCaBsCmG}NuC{GcAqBsAuBoAuAgBuAwBiAoAe@oG}AcSwEab@yJyZkH_JwBkDgAeAc@uBgAmGuDaBoAuAmA}CgDoCuDgCiE}A_DaA{Bs@oB}AmFy@qDi@yCa@{Ce@_EeAeOi@wHeAqNmA_QiAuOg@aEs@{D}@iDq@oBs@eB}@iBgAiBgA{AkC}CaC}BoLqKc[aY{\\wZyGcGgSwQqOqNaDyC_M}KkNgMwW_Vom@ij@aUoSsCsC}AmB}@sAca@ko@kf@{v@eOmU}@mA{@y@uA_AqAi@mAWi@GkAE_V~@ePp@uBJsOLaADoBJaAJcBZwBl@oAf@_G~BoD~AaBbA}DvCkFbEe@HmCxA{A|@sAn@wAn@uAh@i@\\g@f@_@n@GNi@hCMr@Wv@a@r@w@~@uBrBkChCwFhFaIvHoCdCqKpJeExDSPENoAfAyCjCiKfJuOfN_DpCMP{ChFuIbOWPwC~EwIfOw@v@{HG{ECgCEkKEcECgBCAhGArA"
+         },
+         "summary" : "I-80 E",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

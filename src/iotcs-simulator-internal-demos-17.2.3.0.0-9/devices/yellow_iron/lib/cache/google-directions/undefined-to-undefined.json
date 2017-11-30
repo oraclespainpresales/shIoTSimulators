@@ -1,0 +1,84 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ0X0Wi4hubIcRQTQt_4vqs1U",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ0X0Wi4hubIcRQTQt_4vqs1U",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 39.9129377,
+               "lng" : -104.7956055
+            },
+            "southwest" : {
+               "lat" : 39.9129377,
+               "lng" : -104.7956055
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 ft",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Undefined, Commerce City, CO 80022, USA",
+               "end_location" : {
+                  "lat" : 39.9129377,
+                  "lng" : -104.7956055
+               },
+               "start_address" : "Undefined, Commerce City, CO 80022, USA",
+               "start_location" : {
+                  "lat" : 39.9129377,
+                  "lng" : -104.7956055
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 ft",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 39.9129377,
+                        "lng" : -104.7956055
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eUndefined\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "{nrrFp{r~R"
+                     },
+                     "start_location" : {
+                        "lat" : 39.9129377,
+                        "lng" : -104.7956055
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "{nrrFp{r~R"
+         },
+         "summary" : "Undefined",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

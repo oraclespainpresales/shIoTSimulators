@@ -1,0 +1,392 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJKYxc8eBlhYAR9L8V2jMWELM",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJA-2qKIt9hYARZ5N1NdUVtHE",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.9357244,
+               "lng" : -122.2692316
+            },
+            "southwest" : {
+               "lat" : 37.8043242,
+               "lng" : -122.3485821
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "12.1 mi",
+                  "value" : 19400
+               },
+               "duration" : {
+                  "text" : "19 mins",
+                  "value" : 1136
+               },
+               "end_address" : "Oakland, CA, USA",
+               "end_location" : {
+                  "lat" : 37.8043242,
+                  "lng" : -122.2711683
+               },
+               "start_address" : "Richmond, CA, USA",
+               "start_location" : {
+                  "lat" : 37.9357244,
+                  "lng" : -122.3477485
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "240 ft",
+                        "value" : 73
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 14
+                     },
+                     "end_location" : {
+                        "lat" : 37.9357234,
+                        "lng" : -122.3485821
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eMacdonald Ave\u003c/b\u003e toward \u003cb\u003e22nd St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "gipfFl`wiV?dD"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9357244,
+                        "lng" : -122.3477485
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 205
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : {
+                        "lat" : 37.9338831,
+                        "lng" : -122.3485765
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 1st cross street onto \u003cb\u003e22nd St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "gipfFrewiVpAAvE@R?p@?"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9357234,
+                        "lng" : -122.3485821
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 357
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 46
+                     },
+                     "end_location" : {
+                        "lat" : 37.9307767,
+                        "lng" : -122.3476986
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003e22nd St\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "w}ofFrewiVPKJCRGb@OXM\\O^MVGXEZEZ?XAx@?V?L?LANCNE`@M|@YRGLCJCJAP?"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9338831,
+                        "lng" : -122.3485765
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 mi",
+                        "value" : 1029
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 114
+                     },
+                     "end_location" : {
+                        "lat" : 37.9215418,
+                        "lng" : -122.3475508
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eS 23rd St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "kjofFb`wiVNADA@?@ADCZAhD?f@?dB?z@?xB@vG?tC@PFB@F?j@@n@@R?jB?fB@\\?|AG|AEJAL?`CIh@C@?L?HAXA@?f@C"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9307767,
+                        "lng" : -122.3476986
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.4 mi",
+                        "value" : 5455
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 213
+                     },
+                     "end_location" : {
+                        "lat" : 37.8913517,
+                        "lng" : -122.3088234
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eI-580 E\u003c/b\u003e via the ramp to \u003cb\u003eOakland\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "spmfFd_wiVLFF@D@D@J?J@F@F@DBD@DDDBDF@BBDBFBFBH@F?F?H?H?HAHAFCFCDCHCDGFGDEBIBE@E?K?G?EAKEECECGIEECICGCGAKAIAOA_@?QAK?EAEACCIEIAA@Y@cA@qBBgCFeDFuGHsFFyDFkEDcEFeEDgCH}AJkBBe@D]Fi@Fg@Hs@N}@NaAViAXgALg@ZcA\\cATo@FON]Vm@Tg@t@wAfAiBzAcC|@wAp@aAfA_Bz@iAf@o@`AoAV[RUZa@bAkA~@gA\\_@^_@f@g@x@{@z@y@n@o@XYj@i@p@k@f@a@t@q@`BoAlA_Ar@i@|@q@RQTOhA{@zCcC`Au@|D}CzBcBtn@kf@jDiCz@o@TQxDwCpJkHTQhAy@rAgAfCiBd@]l@_@`@UbAi@p@]z@]v@[pAa@n@WREp@O^ITEt@Kh@GXClAEp@A"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9215418,
+                        "lng" : -122.3475508
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.1 mi",
+                        "value" : 6657
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 346
+                     },
+                     "end_location" : {
+                        "lat" : 37.8328488,
+                        "lng" : -122.2944862
+                     },
+                     "html_instructions" : "Take the exit onto \u003cb\u003eI-580 E/I-80 W\u003c/b\u003e toward \u003cb\u003eOakland/San Francisco\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "}sgfFbmoiVhAD`AFtAP`BPVB~@HF@ZF^@J@n@BL?@@rAFR@B?@?R@d@B\\@d@BB?BA^Qn@A~@?x@E`N}AnHiApC_@rHcAxCa@jASjAQz@Q^I@?nDq@~U{EnAWhU}Eh@KREvMyC^GHABA@?@AFADAHA@?|GkAvA[r@ObXaF`HoA`F_A`AQfMcCxMeCzCg@jDk@`Eo@rFw@@?~B]tFy@@?dBY|@K`AO^Ej@Ij@I|@GjKqAxCa@hAOrFq@zFo@v@Kn@El@Gn@IVC\\C^Cn@IBA`@It@U~@Yn@Uj@S^MLE\\M^O^Ml@Sp@Wv@W`A_@|@]dBm@|EcB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8913517,
+                        "lng" : -122.3088234
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 mi",
+                        "value" : 967
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 46
+                     },
+                     "end_location" : {
+                        "lat" : 37.8263664,
+                        "lng" : -122.2891638
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e8B\u003c/b\u003e on the \u003cb\u003eleft\u003c/b\u003e for \u003cb\u003eI-580 E\u003c/b\u003e toward \u003cb\u003eDowntown Oakland/Hayward/Stockton\u003c/b\u003e",
+                     "maneuver" : "ramp-left",
+                     "polyline" : {
+                        "points" : "if|eFpsliVP[@CBAfCq@h@Kx@Mf@GZEf@EhAIx@?jAF`AHP@P?T?P?XCVCVEPCNOZOXQFGNKJKRSRULQFIFILWf@cA`@{@d@gA`A_Cf@uAT{@Jg@Lu@Hq@Fo@JkA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8328488,
+                        "lng" : -122.2944862
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.9 mi",
+                        "value" : 1467
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 59
+                     },
+                     "end_location" : {
+                        "lat" : 37.8253159,
+                        "lng" : -122.2729565
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eI-580 E\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "y}zeFfrkiVBm@?]?Y?S?SAa@Ak@E{@MuAMcAK_AW}B_@kDYkC_@gDGk@Ea@Gs@C_@Ae@A_@?W?Y?[?[@c@Ba@@[B[@I@WDY@Q@IDYFa@`@oC?A|@iGFYbAaHPqAPkATuA@OXcBDWt@}Eh@}D"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8263664,
+                        "lng" : -122.2891638
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 mi",
+                        "value" : 1048
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 43
+                     },
+                     "end_location" : {
+                        "lat" : 37.8177269,
+                        "lng" : -122.2703756
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e19C\u003c/b\u003e toward \u003cb\u003eDowntown Oakland\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "gwzeF~lhiVV]DKBORiA?AZaBj@oDBK@G@GBIZeA?ADMJW?A@CDIPWFM@?BEDI@?PULMTSTOXMHEJCPGXE`@GJAH?DAH?T@NBpCb@b@FJ?H?^@fGnAt@L|@Nx@J`@F`@F`@FtARf@HZFd@FF?HATI"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8253159,
+                        "lng" : -122.2729565
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 750
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 27
+                     },
+                     "end_location" : {
+                        "lat" : 37.8118853,
+                        "lng" : -122.2743259
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eI-980 W\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ygyeFz|giVJBLDHBd@Lf@Nh@Lb@J?@@?@?NDx@P@?TFhBf@b@H?@@?h@Nx@Xp@Z|@f@t@f@pA|@PNj@j@@@lBxBf@j@?@@?NR@@@Br@x@PR@BhArA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8177269,
+                        "lng" : -122.2703756
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 278
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 17
+                     },
+                     "end_location" : {
+                        "lat" : 37.8101034,
+                        "lng" : -122.2765044
+                     },
+                     "html_instructions" : "Take the \u003cb\u003e18th Street\u003c/b\u003e exit toward \u003cb\u003e14th Street\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "icxeFpuhiVBJBHFLHPPXZd@d@p@HHDDDFDDDDDFpClCl@n@N^"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8118853,
+                        "lng" : -122.2743259
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "463 ft",
+                        "value" : 141
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 20
+                     },
+                     "end_location" : {
+                        "lat" : 37.8089866,
+                        "lng" : -122.2772634
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eBrush St\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "cxweFbciiVx@f@XHbBdAd@^"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8101034,
+                        "lng" : -122.2765044
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 228
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : {
+                        "lat" : 37.8072702,
+                        "lng" : -122.2786497
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eBrush St\u003c/b\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : {
+                        "points" : "eqweFzgiiVJTfAz@zBhBfCxA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8089866,
+                        "lng" : -122.2772634
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 745
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 130
+                     },
+                     "end_location" : {
+                        "lat" : 37.8043242,
+                        "lng" : -122.2711683
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e14th St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "mfweFppiiVNHHWZsAZmANg@Ru@J[?[rAuEzAiF|AmFd@_Bj@yBp@qBx@wC"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8072702,
+                        "lng" : -122.2786497
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "gipfFl`wiV?dDpAAjF@p@?PK^KzB{@p@Mv@ExBA\\Ep@SpAa@XGr@EBA`@ErJ?pK@tC@PFJ@zABdG@tEO`FQf@CLFLBd@DXLPTL`@?d@CPGLW\\[HS?QGYWMe@EkAE[IS?[NcN`@o[LiKNeFNqCLgAP{A^_Cp@qCh@kBjAaDl@uA|BaExC{ExBaD|DeFrDkE~CcDpDmDpFoErEmD|HeGxHaG`t@uj@pAaAjSoOzEqDrA}@dB_AlB{@lE{ApAYjAQbAK~BGjCLvDb@vALb@HhBFhDPbADFA^Qn@A~@?x@E`N}AnHiAdMcBdFu@fCc@p\\wGvYgGpOiDPCtJgBvYqFbOoChOuCtRmDlJ{AtJuAvFy@dG{@vAS|@GjKqAbFq@nNaBdEc@dCUd@KtBo@hC}@jC_AhFmBbIqCR_@jCs@bBYbAMpBOdCFrAJrACn@IPCNOt@a@VS`AgAdAoBfAcChBuE`@cBVgBR{BBkAAcBGgB[yC}AuNu@iHG}B@uBJcBJmAn@mE~Em\\z@uFh@}DV]H[RkAfAqGJe@l@mBXg@R]v@w@n@]TIj@Ml@In@?`Df@n@Fh@@|H|AzDj@zDl@l@F^KhAZtBh@dB`@nCr@bBh@nBbAfCdB|@z@vCfDhAtARVhArABJJVZj@`AvAZ\\jEjEN^x@f@XHbBdAd@^JTbEdDvCbBd@kBjAgE?[rAuExDwMpAyEjBiG"
+         },
+         "summary" : "I-580 E/I-80 W and I-580 E",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,103 @@
+{
+  "urn": "urn:com:oracle:iot:msce:vending_machine",
+  "name": "Chocolate Vending Machine Sensor",
+  "description": "Chocolate Vending Machine Sensor",
+  "attributes": [
+    {
+      "description": "Inventory Black Chocolate",
+      "name": "inventoryBlack",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Inventory Gold Chocolate",
+      "name": "inventoryGold",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Inventory Silver Chocolate",
+      "name": "inventorySilver",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Inventory Red Chocolate",
+      "name": "inventoryRed",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Temperature",
+      "name": "temperature",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Humidity",
+      "name": "humidity",
+      "type": "NUMBER",
+      "writable": false
+    }
+
+  ],
+  "actions": [
+    {
+      "alias": "",
+      "description": "",
+      "name": "start"
+    },
+    {
+      "alias": "",
+      "description": "",
+      "name": "stop"
+    },
+    {
+      "alias": "",
+      "description": "",
+      "name": "reset"
+    }
+  ],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:iot:msce:vending_machine:alert:out_of_red",
+      "name": "Alert out of red chocolate",
+      "description": "Alert out of red chocolate",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:msce:vending_machine",
+      "value": {
+        "fields": []
+      }
+    },
+    {
+      "urn": "urn:com:oracle:iot:msce:vending_machine:alert:out_of_black",
+      "name": "Alert out of black chocolate",
+      "description": "Alert out of black chocolate",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:msce:vending_machine",
+      "value": {
+        "fields": []
+      }
+    },
+    {
+      "urn": "urn:com:oracle:iot:msce:vending_machine:alert:out_of_silver",
+      "name": "Alert out of silver chocolate",
+      "description": "Alert out of silver chocolate",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:msce:vending_machine",
+      "value": {
+        "fields": []
+      }
+    },
+    {
+      "urn": "urn:com:oracle:iot:msce:vending_machine:alert:out_of_gold",
+      "name": "Alert out of gold chocolate",
+      "description": "Alert out of gold chocolate",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:msce:vending_machine",
+      "value": {
+        "fields": []
+      }
+    }
+  ]
+}

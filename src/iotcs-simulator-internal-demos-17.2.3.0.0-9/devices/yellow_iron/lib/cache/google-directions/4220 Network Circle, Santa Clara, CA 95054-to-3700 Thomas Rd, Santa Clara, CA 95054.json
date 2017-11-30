@@ -1,0 +1,205 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJC_WVCZzJj4ARPVJWwxWO4p8",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJCQ2-OZDJj4AROEwR2dQQFlM",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.3924943,
+               "lng" : -121.952776
+            },
+            "southwest" : {
+               "lat" : 37.3839234,
+               "lng" : -121.9607074
+            }
+         },
+         "copyrights" : "Map data ©2016 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1.3 mi",
+                  "value" : 2148
+               },
+               "duration" : {
+                  "text" : "5 mins",
+                  "value" : 326
+               },
+               "end_address" : "3700 Thomas Rd, Santa Clara, CA 95054, USA",
+               "end_location" : {
+                  "lat" : 37.386179,
+                  "lng" : -121.9607074
+               },
+               "start_address" : "4220 Network Cir, Santa Clara, CA 95054, USA",
+               "start_location" : {
+                  "lat" : 37.3912418,
+                  "lng" : -121.952776
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 413
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 61
+                     },
+                     "end_location" : {
+                        "lat" : 37.3924943,
+                        "lng" : -121.9560099
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eNetwork Cir\u003c/b\u003e toward \u003cb\u003eLeonard Stocking Dr\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "g~ecFz{igV@NNnATjBJx@D^Bh@@^AZAVIf@K\\GNELGNILOTUTc@^UHGBGBI@E?I?GAMCKAIAA?KAU?WBMF"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3912418,
+                        "lng" : -121.952776
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "246 ft",
+                        "value" : 75
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 31
+                     },
+                     "end_location" : {
+                        "lat" : 37.3921748,
+                        "lng" : -121.956754
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePalm Dr\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "affcF`pjgVZbABF^fA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3924943,
+                        "lng" : -121.9560099
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 741
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 90
+                     },
+                     "end_location" : {
+                        "lat" : 37.3863501,
+                        "lng" : -121.9529946
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eLafayette St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "adfcFttjgVHXpBkAnCaBtBoAVOlAs@d@YFEJE?AVOz@g@vAy@PKTOhF{CjDuB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3921748,
+                        "lng" : -121.956754
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 577
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 63
+                     },
+                     "end_location" : {
+                        "lat" : 37.3839234,
+                        "lng" : -121.9587665
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eNorman Ave\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "u_ecFd}igVJXH\\bA~Cn@lBfGhRrArE"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3863501,
+                        "lng" : -121.9529946
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 301
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 45
+                     },
+                     "end_location" : {
+                        "lat" : 37.386341,
+                        "lng" : -121.9602943
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eThomas Rd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "opdcFhakgVWFa@Lo@^}@h@[PQLgE~BeAn@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3839234,
+                        "lng" : -121.9587665
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "135 ft",
+                        "value" : 41
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : {
+                        "lat" : 37.386179,
+                        "lng" : -121.9607074
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "s_ecFxjkgV^rA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.386341,
+                        "lng" : -121.9602943
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "g~ecFz{igVr@dGHhA?z@K~@Sl@M\\Yb@y@t@]LQDO?k@IMAm@BMFZbAb@nAHXpBkAdGqDrCcBb@WzD}BtKqGTv@rBlGfGhRrArEy@TmBhAm@^mGnD^rA"
+         },
+         "summary" : "Lafayette St and Norman Ave",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

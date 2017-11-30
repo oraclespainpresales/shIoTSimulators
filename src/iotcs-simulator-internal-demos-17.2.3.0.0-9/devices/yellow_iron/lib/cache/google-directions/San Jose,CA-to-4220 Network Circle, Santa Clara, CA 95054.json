@@ -1,0 +1,324 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ9T_5iuTKj4ARe3GfygqMnbk",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJC_WVCZzJj4ARPVJWwxWO4p8",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.3915776,
+               "lng" : -121.8863279
+            },
+            "southwest" : {
+               "lat" : 37.3371729,
+               "lng" : -121.9628911
+            }
+         },
+         "copyrights" : "Map data ©2016 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "7.4 mi",
+                  "value" : 11899
+               },
+               "duration" : {
+                  "text" : "13 mins",
+                  "value" : 786
+               },
+               "end_address" : "4220 Network Cir, Santa Clara, CA 95054, USA",
+               "end_location" : {
+                  "lat" : 37.3912418,
+                  "lng" : -121.952776
+               },
+               "start_address" : "San Jose, CA, USA",
+               "start_location" : {
+                  "lat" : 37.3382088,
+                  "lng" : -121.8863279
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 224
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 46
+                     },
+                     "end_location" : {
+                        "lat" : 37.3371729,
+                        "lng" : -121.8885004
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e on \u003cb\u003eE Santa Clara St\u003c/b\u003e toward \u003cb\u003eS 4th St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "yr{bFp||fVXr@BFBHfAtCt@nBn@dB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3382088,
+                        "lng" : -121.8863279
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 565
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 86
+                     },
+                     "end_location" : {
+                        "lat" : 37.3415557,
+                        "lng" : -121.8917403
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 2nd cross street onto \u003cb\u003eN 3rd St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "il{bFbj}fVoAx@c@VuDhCwAbAiEnCqAx@uAz@yB`B"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3371729,
+                        "lng" : -121.8885004
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 704
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 155
+                     },
+                     "end_location" : {
+                        "lat" : 37.3373893,
+                        "lng" : -121.8969399
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 3rd cross street onto \u003cb\u003eE Julian St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "wg|bFj~}fVx@vBFN^dA|@|Bb@hABJBB@FdBvEPd@LZHTBFFNJRJPHJHFJHPJRLLHLFHBF?NBVAP?n@Ah@?`@@J@JBPFJFLHNJFHFFFJFJBHDHHVL`@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3415557,
+                        "lng" : -121.8917403
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.0 mi",
+                        "value" : 4837
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 190
+                     },
+                     "end_location" : {
+                        "lat" : 37.3726318,
+                        "lng" : -121.927272
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e to merge onto \u003cb\u003eCA-87 N\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "um{bFz~~fV[VWRo@f@IFy@v@qAjAa@^EBEDm@h@EFEDSPQLk@b@eAp@CBCBCB?DAJ[P{DfC_An@gAr@{A`AeAj@o@ZWL_@L_@POF_A\\cA^g@PMDy@^a@Re@Xk@\\QJOLa@XYVEDg@d@u@r@[\\MPOPILo@z@S\\KPCBU^EHKRQZMXUf@INYr@Sf@e@nASf@M^Wj@OVMZILk@~@{@pAMNo@v@q@p@]ZSPQNWNKFQLWP[TSNg@Xa@RuElBeDxAoAl@_@Nm@ZiAj@yCdBYRcBfAaHtEwBvAw@d@a@TkAv@eAt@{A`AgAt@uA~@gAt@aAp@_BdAMJe@^QJo@b@aDxBuA~@k@`@WPWPaAr@k@`@aBhAa@Zi@`@e@^[Xe@b@[X[Z_@^STOPOR_@d@m@v@c@l@QXc@p@QZYf@wB`EqAjCmAvB?@GJILA@a@v@_@t@u@vAm@jAS^SVMNSTOPURUTUPYTQLa@VUJa@RWH_@Je@H{HxA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3373893,
+                        "lng" : -121.8969399
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.9 mi",
+                        "value" : 2978
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 106
+                     },
+                     "end_location" : {
+                        "lat" : 37.3806261,
+                        "lng" : -121.9586907
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e9B\u003c/b\u003e on the \u003cb\u003eleft\u003c/b\u003e to merge onto \u003cb\u003eUS-101 N\u003c/b\u003e toward \u003cb\u003eSan Francisco\u003c/b\u003e",
+                     "maneuver" : "ramp-left",
+                     "polyline" : {
+                        "points" : "}ibcFl|dgVsA\\k@Vc@Tc@ZEDC@[ZEFIJA?CDIJ_@j@Uf@Un@Sr@Op@G`@E~@IdAIjAM|AAFMnAMpAQpAId@EZCLETSvA?FKfAOrAAh@WnCuCnVe@hE]bDKx@?FABIv@Gb@}ApMmAnK[`C{@vHKt@?@E^AR_AdIu@lG{@zGy@vFi@nDsChOaAzE"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3726318,
+                        "lng" : -121.927272
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 202
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : {
+                        "lat" : 37.38138790000001,
+                        "lng" : -121.9607524
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eSan Tomas Expwy\u003c/b\u003e/\u003cb\u003eMontague Expwy\u003c/b\u003e exit",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "}{ccFx`kgV]p@aA|De@nBQz@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3806261,
+                        "lng" : -121.9586907
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.9 mi",
+                        "value" : 1433
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 90
+                     },
+                     "end_location" : {
+                        "lat" : 37.3898149,
+                        "lng" : -121.9538128
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e at the fork, follow signs for \u003cb\u003eMontague Expy\u003c/b\u003e/\u003cb\u003eAgnews Developmental Center\u003c/b\u003e and merge onto \u003cb\u003eMontague Expy\u003c/b\u003e",
+                     "maneuver" : "fork-right",
+                     "polyline" : {
+                        "points" : "u`dcFtmkgVA@A@A@?@ABEPSz@U~@Mf@KXGLGJIJIJWPm@XkAj@w@`@c@RQFUD_@@UCMCOEG?K?k@Q}@a@[Mm@Ua@SSK[QsByAeA_Au@cAu@mAOYoDeKcDsIs@iBi@uAq@kBCKACCIIYIU?AAAGSACAEs@yBOe@Og@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.38138790000001,
+                        "lng" : -121.9607524
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 246
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 37.3888002,
+                        "lng" : -121.95408
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eLafayette St\u003c/b\u003e exit",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "iuecFhbjgV@]?GAEEUAGAGAO?M@KDMBIDGDIFEDEHCBADAF?DAH@FBHBFDDBBDBBDJNb@Tr@Pj@Pl@JT"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3898149,
+                        "lng" : -121.9538128
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 367
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 39
+                     },
+                     "end_location" : {
+                        "lat" : 37.3914317,
+                        "lng" : -121.9562506
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLafayette St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "_oecF~cjgVBL?F@F@D?DAF?DADCBADCDA@ABGH_B~@IDMHkCzASNcFvC"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3888002,
+                        "lng" : -121.95408
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "112 ft",
+                        "value" : 34
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 6
+                     },
+                     "end_location" : {
+                        "lat" : 37.3915776,
+                        "lng" : -121.9559083
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLeonard Stocking Dr\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "m_fcFpqjgV]cA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3914317,
+                        "lng" : -121.9562506
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 309
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : {
+                        "lat" : 37.3912418,
+                        "lng" : -121.952776
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street onto \u003cb\u003eNetwork Cir\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "k`fcFlojgVb@_@TUNUHMFODMFOJ]Hg@@W@[A_@Ci@E_@Ky@UkBOoAAO"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3915776,
+                        "lng" : -121.9559083
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "yr{bFp||fVhBzEdBtEsBpAmGlE{GhEuAz@yB`B`AfCdCxG|BhGb@hAVd@RR~@l@VJVBbCCl@B\\JXPVTZh@N`@L`@[VgAz@cA~@_CtBmAhAgCfBGFAP_J|FaDlBgAh@oCdAkBp@gAd@eCvAqAdA}AxAi@n@}AxBe@t@q@rAmArC_BbEsA`CiA`BaBhBq@l@i@^qA|@{@h@wF`CuFfCmAj@cFpC}BzAyKlHyAz@uHdF_IlFuBzA{HlFgFpDmCvB}BxBsA`BqAdBu@jAk@bAiElI_BrCyBfEaAjBa@f@oApAo@f@s@d@w@^w@TaJbBsA\\k@VgAp@IFm@n@MPu@rAi@bBWrAOdCWhDOvA_@bDYdBS~A[zCAh@WnC{Dx\\i@dFqBpPqD~ZgAzJqBhPcBfLuEdV]p@aA|Dw@jDCBIXcA|Dc@p@eAj@cClAu@Zu@F{@MK?k@QyAo@oAi@o@]sByAeA_Au@cAu@mAOYoDeKwE}LaBqEa@qAgAiDOg@@]AMKu@@YHWJQLKZGN?PFTRTn@f@~A\\bABT@ZGTOTwBnA_DjBcFvC]cAx@u@Xc@L]Rm@J_A?{@IiAs@eG"
+         },
+         "summary" : "CA-87 N",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

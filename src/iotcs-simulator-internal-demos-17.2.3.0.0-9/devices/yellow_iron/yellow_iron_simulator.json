@@ -1,0 +1,261 @@
+{
+  "deviceName": "Yellow Iron",
+  "simulatorScript": "lib/iron.simulator",
+  "images": [
+    {
+      "name": "deviceOnImage",
+      "file": "images/loader-on.png",
+      "frameWidth": 750,
+      "frameHeight": 500
+    },
+    {
+      "name": "deviceOffImage",
+      "file": "images/loader-off.png",
+      "frameWidth": 750,
+      "frameHeight": 500
+    },
+    {
+      "name": "deviceWorkingImage",
+      "file": "images/loader-working.mp4",
+      "type": "video/mp4",
+      "frameWidth": 750,
+      "frameHeight": 500
+    },
+    {
+      "name": "deviceAnimImage",
+      "file": "images/loader-anim.mp4",
+      "type": "video/mp4",
+      "frameWidth": 750,
+      "frameHeight": 500
+    },
+    {
+      "name": "collisionImage",
+      "file": "styles/collision.css",
+      "type": "css_animation",
+      "frameWidth": 750,
+      "frameHeight": 500
+    },
+    {
+      "name": "tiltImage",
+      "file": "styles/tilt.css",
+      "type": "css_animation",
+      "frameWidth": 750,
+      "frameHeight": 500
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:oracle:yellow:iron:machine:data",
+      "attributes": [
+        {
+          "name": "fuelLevel",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Fuel Level",
+          "units": "%",
+          "class": "health-bar"
+        },
+        {
+          "name": "engineTemp",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Engine Temperature",
+          "units": "F",
+          "class": "bar error"
+        },
+        {
+          "name": "engineOilPressure",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Engine Oil Pressure",
+          "units": "Pa"
+        },
+        {
+          "name": "hydraulicPressure",
+          "visible": true,
+          "chartable": false,
+          "displayName": "Hydraulic Pressure",
+          "units": "Pa",
+          "class": "bar error"
+        },
+        {
+          "name": "engineVibration",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Engine Vibration",
+          "units": "kHz"
+        },
+        {
+          "name": "ora_latitude",
+          "visible": false,
+          "chartable": false
+        },
+        {
+          "name": "ora_longitude",
+          "visible": false,
+          "chartable": false
+        }
+      ],
+      "actions": [
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:yellow:iron:alert:fuel",
+          "deviceModel": "urn:oracle:yellow:iron:machine:data",
+          "visible": false,
+          "condition": "$sharedFunctions.greaterOrEqual",
+          "conditionArguments": {
+            "leftOperand": "0",
+            "rightOperand": "$fuelLevel"
+          },
+          "value": {
+            "fields": [
+              {
+                "name": "fuel",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "urn": "urn:com:oracle:yellow:iron:alert:electricalFault",
+          "deviceModel": "urn:oracle:yellow:iron:machine:data",
+          "visible": false,
+          "condition": "$sharedFunctions.equal",
+          "conditionArguments": {
+            "leftOperand": false,
+            "rightOperand": "$electricalSystemGood"
+          },
+          "value": {
+            "fields": [
+              {
+                "name": "issue",
+                "value": "Shortage"
+              }
+            ]
+          }
+        },
+        {
+          "urn": "urn:com:oracle:yellow:iron:alert:collision",
+          "deviceModel": "urn:oracle:yellow:iron:machine:data",
+          "visible": true,
+          "displayName": "Send 'Collision Detected' alert",
+          "value": {
+            "fields": [
+              {
+                "name": "collision",
+                "value": true
+              },
+              {
+                "name": "impact",
+                "value": 3
+              }
+            ]
+          },
+          "image": "collisionImage",
+          "imageTime": 1000
+        },
+        {
+          "urn": "urn:com:oracle:yellow:iron:alert:tilt",
+          "deviceModel": "urn:oracle:yellow:iron:machine:data",
+          "visible": true,
+          "displayName": "Send 'Tilt Detected' alert",
+          "value": {
+            "fields": [
+              {
+                "name": "tilt",
+                "value": true
+              },
+              {
+                "name": "degrees",
+                "value": 85
+              }
+            ]
+          },
+          "image": "tiltImage",
+          "imageTime": 1000
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "outOfFuel",
+      "description": "Out of Fuel",
+      "exclusive": true
+    },
+    {
+      "name": "lossOfOilPressure",
+      "description": "Loss of Oil Pressure",
+      "exclusive": true
+    },
+    {
+      "name": "electricalSystemFault",
+      "description": "Electrical System Fault",
+      "exclusive": true
+    }
+  ],
+  "controls": [
+    {
+      "name": "state",
+      "displayName": "STATE",
+      "type": "label"
+    },
+    {
+      "name": "origin",
+      "displayName": "START",
+      "type": "select",
+      "options": "locations"
+    },
+    {
+      "name": "ora_latitude",
+      "displayName": "LATITUDE",
+      "type": "label"
+    },
+    {
+      "name": "ora_longitude",
+      "displayName": "LONGITUDE",
+      "type": "label"
+    },
+    {
+      "name": "destination",
+      "displayName": "DESTINATION",
+      "type": "select",
+      "options": "locations"
+    },
+    {
+      "name": "distanceToDestination",
+      "displayName": "REMAINING DISTANCE",
+      "type": "label",
+      "units": "miles"
+    },
+    {
+      "name": "speed",
+      "displayName": "SPEED",
+      "type": "slider",
+      "floor": 0,
+      "ceil": 70,
+      "units": "MPH"
+    },
+    {
+      "name": "driving",
+      "type": "stateButton",
+      "states": {
+        "false": "DRIVE TO DESTINATION",
+        "true": "RESET TO START"
+      }
+    }
+  ],
+  "monitors": [
+    {
+      "name": "electricalSystemGood",
+      "displayName": "ELECTRICAL SYSTEM STATUS",
+      "type": "BOOLEAN",
+      "class": "health-bar"
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true,
+    "modelAttributeName": "running"
+  }
+}

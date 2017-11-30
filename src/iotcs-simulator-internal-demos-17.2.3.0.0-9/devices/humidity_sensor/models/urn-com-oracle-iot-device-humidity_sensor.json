@@ -1,0 +1,41 @@
+{
+  "urn": "urn:com:oracle:iot:device:humidity_sensor",
+  "name": "Humidity Sensor",
+  "description": "Sample sensor that measures humidity as a percentage (%)",
+  "system": false,
+  "attributes": [
+    {
+      "description": "Measures humidity between 0% and 100%",
+      "name": "humidity",
+      "range": "0,100",
+      "type": "INTEGER",
+      "writable": false
+    },
+    {
+      "description": "Maximum humidity threshold",
+      "name": "maxThreshold",
+      "range": "60,100",
+      "type": "INTEGER",
+      "writable": true
+    }
+  ],
+  "actions": [],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:iot:device:humidity_sensor:too_humid",
+      "name": "tooHumidAlert",
+      "description": "Sample alert when humidity reaches the maximum humidity threshold",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:humidity_sensor",
+      "value": {
+        "fields": [
+          {
+            "name": "humidity",
+            "optional": false,
+            "type": "INTEGER"
+          }
+        ]
+      }
+    }
+  ]
+}

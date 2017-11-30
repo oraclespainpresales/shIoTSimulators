@@ -1,0 +1,85 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJC_WVCZzJj4ARPVJWwxWO4p8",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJC_WVCZzJj4ARPVJWwxWO4p8",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.3912418,
+               "lng" : -121.952776
+            },
+            "southwest" : {
+               "lat" : 37.3912418,
+               "lng" : -121.952776
+            }
+         },
+         "copyrights" : "Map data ©2016 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 ft",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "4220 Network Cir, Santa Clara, CA 95054, USA",
+               "end_location" : {
+                  "lat" : 37.3912418,
+                  "lng" : -121.952776
+               },
+               "start_address" : "4220 Network Cir, Santa Clara, CA 95054, USA",
+               "start_location" : {
+                  "lat" : 37.3912418,
+                  "lng" : -121.952776
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 ft",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 37.3912418,
+                        "lng" : -121.952776
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eNetwork Cir\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "g~ecFz{igV"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3912418,
+                        "lng" : -121.952776
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "g~ecFz{igV"
+         },
+         "summary" : "Network Cir",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

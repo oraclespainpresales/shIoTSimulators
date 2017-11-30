@@ -1,0 +1,84 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJA-2qKIt9hYARZ5N1NdUVtHE",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJA-2qKIt9hYARZ5N1NdUVtHE",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.8043148,
+               "lng" : -122.2711444
+            },
+            "southwest" : {
+               "lat" : 37.8043148,
+               "lng" : -122.2711444
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 ft",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Oakland, CA, USA",
+               "end_location" : {
+                  "lat" : 37.8043148,
+                  "lng" : -122.2711444
+               },
+               "start_address" : "Oakland, CA, USA",
+               "start_location" : {
+                  "lat" : 37.8043148,
+                  "lng" : -122.2711444
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 ft",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 37.8043148,
+                        "lng" : -122.2711444
+                     },
+                     "html_instructions" : "Head on \u003cb\u003e14th St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "}sveFrahiV"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8043148,
+                        "lng" : -122.2711444
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "}sveFrahiV"
+         },
+         "summary" : "14th St",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

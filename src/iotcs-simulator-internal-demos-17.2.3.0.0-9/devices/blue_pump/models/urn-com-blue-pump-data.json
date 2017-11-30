@@ -1,0 +1,91 @@
+{
+  "urn" : "urn:com:blue:pump:data",
+  "name" : "Blue Pump",
+  "description" : "Blue Pump Data",
+  "attributes" : [ {
+    "name" : "Cycle_Maximum_Inlet_Pressure",
+    "description" : "Cycle Maximum Inlet Pressure on single cycle in BAR",
+    "type" : "NUMBER",
+    "range" : "0,1000",
+    "alias" : "",
+    "writable" : false
+  }, {
+    "name" : "Cycle_Return_Pressure_Min",
+    "description" : "Cycle Return Pressure Min on single cycle in BAR",
+    "type" : "NUMBER",
+    "range" : "0,100",
+    "alias" : "",
+    "writable" : false
+  }, {
+    "name" : "Cycle_Return_Pressure_Max",
+    "description" : "Cycle Return Pressure Max on single cycle in BAR",
+    "type" : "NUMBER",
+    "range" : "0,100",
+    "alias" : "",
+    "writable" : false
+  }, {
+    "name" : "Cycle_Cases_Pressure_Min",
+    "description" : "Cycle Case Pressure Min on single cycle in BAR",
+    "type" : "NUMBER",
+    "range" : "0,100",
+    "alias" : "",
+    "writable" : false
+  }, {
+    "name" : "Cycle_Cases_Pressure_Max",
+    "description" : "Cycle Case Pressure Max on single cycle in BAR",
+    "type" : "NUMBER",
+    "range" : "0,100",
+    "alias" : "",
+    "writable" : false
+  }, {
+    "name" : "Cycle_Peak_Operation_Percent_Of_Minute",
+    "description" : "Cycle Peak Operation Percent of Minute",
+    "type" : "NUMBER",
+    "range" : "0.0,100.0",
+    "alias" : "",
+    "writable" : false
+  } ],
+  "actions" : [ {
+    "name" : "power",
+    "alias" : "",
+    "description" : "Turns system ON or OFF",
+    "argType" : "BOOLEAN"
+  }, {
+    "name" : "diagnose",
+    "alias" : "",
+    "description" : "Runs diagnostics, which results in a Diagnostics message being sent"
+  }, {
+    "name" : "resetFilter",
+    "alias" : "",
+    "description" : "Used to notify the pump that the filter has been replaced."
+  } ],
+  "formats" : [ {
+    "urn" : "urn:com:blue:pump:data:filter:clogged",
+    "name" : "filterClogged",
+    "description" : "Filter clogged alert",
+    "type" : "ALERT",
+    "deviceModel" : "urn:com:blue:pump:data",
+    "value" : {
+      "fields" : [ {
+        "name" : "filterClogged",
+        "type" : "BOOLEAN",
+        "optional" : false
+      } ]
+    }
+  }, {
+    "urn" : "urn:com:blue:pump:data:diagnostics:report",
+    "name" : "DiagnosticsReport",
+    "description" : "The report of how the diagnostics run went.",
+    "type" : "ALERT",
+    "deviceModel" : "urn:com:blue:pump:data",
+    "value" : {
+      "fields" : [ {
+        "name" : "passed",
+        "type" : "BOOLEAN",
+        "optional" : false
+      } ]
+    }
+  } ]
+}
+
+

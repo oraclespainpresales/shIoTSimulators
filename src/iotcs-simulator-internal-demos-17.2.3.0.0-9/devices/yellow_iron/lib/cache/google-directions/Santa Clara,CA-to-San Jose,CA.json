@@ -1,0 +1,322 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJk8EIXIG3j4ARwL_Ao3ykdeQ",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ9T_5iuTKj4ARe3GfygqMnbk",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.3558897,
+               "lng" : -121.8863279
+            },
+            "southwest" : {
+               "lat" : 37.3375776,
+               "lng" : -121.9556199
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "5.2 mi",
+                  "value" : 8391
+               },
+               "duration" : {
+                  "text" : "18 mins",
+                  "value" : 1054
+               },
+               "end_address" : "San Jose, CA, USA",
+               "end_location" : {
+                  "lat" : 37.3382088,
+                  "lng" : -121.8863279
+               },
+               "start_address" : "Santa Clara, CA, USA",
+               "start_location" : {
+                  "lat" : 37.3540533,
+                  "lng" : -121.9553899
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 210
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : {
+                        "lat" : 37.355856,
+                        "lng" : -121.9552517
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e on \u003cb\u003eLincoln St\u003c/b\u003e toward \u003cb\u003eWarburton Ave\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "yu~bFdljgVQH[JWFYFYDQ@Y@a@AOA[EUGMESI}@i@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3540533,
+                        "lng" : -121.9553899
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 282
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 42
+                     },
+                     "end_location" : {
+                        "lat" : 37.3558897,
+                        "lng" : -121.9522615
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eWarburton Ave\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ca_cFhkjgVNe@Rk@Ng@DQDSBQDa@?U@W?_@?]AYEYIg@UeAi@sB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.355856,
+                        "lng" : -121.9552517
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 325
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 52
+                     },
+                     "end_location" : {
+                        "lat" : 37.3532204,
+                        "lng" : -121.9507751
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMonroe St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ia_cFrxigVp@[xAs@b@Sl@W~As@`@QbAe@pB_A"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3558897,
+                        "lng" : -121.9522615
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.5 mi",
+                        "value" : 2373
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 247
+                     },
+                     "end_location" : {
+                        "lat" : 37.34527569999999,
+                        "lng" : -121.9336251
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 3rd cross street onto \u003cb\u003eEl Camino Real\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "sp~bFjoigVVOqAmFm@yBg@oBcAeEOi@q@mCa@{AK]Om@EMUi@}@eCWu@ESG[A_@Am@?WDWHi@Pg@HS?AFMXs@Pa@DKtAaD\\w@bAaCpCoGNc@x@oBn@gA|@iARSJI~@{@XYr@u@Xa@V]^o@f@kA`@cAFMPc@Zw@Zu@d@iAr@oBbAaCNWPW\\a@d@_@TONIZKTGXE^Cn@@f@FVFLDr@\\^P`An@tAz@t@d@LH@?PFPFPBN@J@P?V?J?JCTEVM"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3532204,
+                        "lng" : -121.9507751
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.0 mi",
+                        "value" : 1566
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 181
+                     },
+                     "end_location" : {
+                        "lat" : 37.3375776,
+                        "lng" : -121.919383
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eThe Alameda\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "__}bFddfgVXOTST[JOHORe@HSJa@Hc@@A?A?AAICKH]F[FYjBwJ~@qEVwARw@ZsAXoADGBCBEDSVgAd@{BLk@?A@?DUDOBMJg@d@sBFUFMDKFKXe@~@iAxAgBt@aAj@o@n@y@nA{A|@mA`CwCbAmAzBqCvBiC"
+                     },
+                     "start_location" : {
+                        "lat" : 37.34527569999999,
+                        "lng" : -121.9336251
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 mi",
+                        "value" : 915
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 116
+                     },
+                     "end_location" : {
+                        "lat" : 37.3421193,
+                        "lng" : -121.9111818
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eW Taylor St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "{n{bFbkcgVIYIq@EUCY?W?S@Q@Q@MBc@@[?U?OAOAKAIAGCGAECGi@}@kDsFiB{CcAaBiCqDQYY_@?Wq@gAi@{@gAkBUa@o@}@QUKOEI_@o@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3375776,
+                        "lng" : -121.919383
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.0 mi",
+                        "value" : 1562
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 158
+                     },
+                     "end_location" : {
+                        "lat" : 37.339808,
+                        "lng" : -121.8954108
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eColeman Ave\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "gk|bFzwagVAO?K?K?M@KBQNQ`@c@PU`@q@NYL[HWHWBMDKN_AJw@?ANmAZcCFg@BKDg@D[Da@B[Di@BWDmB@q@@w@Au@CwAEu@Co@CYKiAKu@GSCQGYEUI_@GWGYI[CMI[Mi@I]?A?CKa@WsAI_@[kA?AOe@ACAEWaAIYEQCKCMCWAKAKAY?S?O@M@M?MBQBU@KBOBODSBMDON_@Re@JUNYXk@^s@xAqCTa@Ze@f@o@`@c@b@a@v@y@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3421193,
+                        "lng" : -121.9111818
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 188
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : {
+                        "lat" : 37.3384161,
+                        "lng" : -121.8942555
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eN Market St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "y|{bFhu~fVH[d@[v@i@b@[j@a@VQdAs@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.339808,
+                        "lng" : -121.8954108
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 478
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 107
+                     },
+                     "end_location" : {
+                        "lat" : 37.3406159,
+                        "lng" : -121.889605
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eW St James St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ct{bFbn~fVs@qB]}@s@sBISyAwDGS_BkEcAmCa@eA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3384161,
+                        "lng" : -121.8942555
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 379
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 60
+                     },
+                     "end_location" : {
+                        "lat" : 37.3376819,
+                        "lng" : -121.8874261
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eN 4th St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "{a|bF~p}fVvDkCh@]`Am@PMx@k@\\Up@c@RMj@a@RMv@g@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3406159,
+                        "lng" : -121.889605
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "371 ft",
+                        "value" : 113
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 37.3382088,
+                        "lng" : -121.8863279
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eE Santa Clara St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "oo{bFlc}fVgAuCCICGYs@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3376819,
+                        "lng" : -121.8874261
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "yu~bFdljgVm@Tq@Nk@F{@?k@Gc@MqAs@b@qATy@He@Dw@@w@Aw@OaA_AyDjCoArEqBtDeBVOqAmFuAiFsAoFoBuHqBsFMo@CmADo@ZqAPc@jKqVx@oBn@gApA}AxCuCp@_AfA{BvAmD`A_CvBqF`@o@\\a@d@_@d@Yp@Sx@In@@f@Fd@LrAn@zEzCv@RdABVCl@SXOTS`@k@\\u@Tu@Jg@AKCKH]Nu@jDiQj@oCt@cDHKHYjAqFLe@|@_ELY`@q@zFcH~BuC~DeF~D_FvBiCIYOgACq@DeADeBGm@EMm@eAuGoKcAaBiCqDk@y@?Wq@gAqBgDeA_BcA_BAu@D]p@u@r@gA\\u@\\iAj@gEl@_FTcCHeCBiBEmCIeBOcBSiA[aB]{Am@kCa@sB[kASq@k@yBK}@?kAHcAN_AH]b@eAtAoCnBsDbAuAdAeAv@y@H[|AeAnA}@|AeAqAoD_DsIcDyIa@eAvDkCjBkAjAy@nCiBjAu@kA_D]{@"
+         },
+         "summary" : "El Camino Real",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

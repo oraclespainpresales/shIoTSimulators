@@ -1,0 +1,45 @@
+{
+  "urn": "urn:oracle:choc:factory:machine:data",
+  "name": "Chocolate Factory Machine Sensor",
+  "description": "Chocolate Factory Machine Sensor",
+  "attributes": [
+    {
+      "description": "timeStamp",
+      "name": "timeStamp",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Current state",
+      "name": "state",
+      "type": "STRING",
+      "writable": false
+    },
+    {
+      "description": "angle",
+      "name": "angle",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "position",
+      "name": "position",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "histogram",
+      "name": "histogram",
+      "type": "STRING",
+      "writable": false
+    },
+    {
+      "name": "wearLevel",
+      "description": "Filament wear level",
+      "type": "NUMBER",
+      "writable": false
+    }
+  ],
+  "actions": [],
+  "formats": []
+}

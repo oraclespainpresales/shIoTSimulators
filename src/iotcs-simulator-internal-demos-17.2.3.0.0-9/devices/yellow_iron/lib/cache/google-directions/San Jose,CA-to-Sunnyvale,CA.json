@@ -1,0 +1,273 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ9T_5iuTKj4ARe3GfygqMnbk",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJO13QqUW2j4ARosN83Sb7jXY",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.3690038,
+               "lng" : -121.8803504
+            },
+            "southwest" : {
+               "lat" : 37.3148165,
+               "lng" : -122.0369529
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "12.3 mi",
+                  "value" : 19860
+               },
+               "duration" : {
+                  "text" : "19 mins",
+                  "value" : 1132
+               },
+               "end_address" : "Sunnyvale, CA, USA",
+               "end_location" : {
+                  "lat" : 37.3688977,
+                  "lng" : -122.0363306
+               },
+               "start_address" : "San Jose, CA, USA",
+               "start_location" : {
+                  "lat" : 37.3382088,
+                  "lng" : -121.8863279
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "371 ft",
+                        "value" : 113
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 18
+                     },
+                     "end_location" : {
+                        "lat" : 37.3376819,
+                        "lng" : -121.8874261
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e on \u003cb\u003eE Santa Clara St\u003c/b\u003e toward \u003cb\u003eS 4th St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "yr{bFp||fVXr@BFBHfAtC"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3382088,
+                        "lng" : -121.8863279
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 mi",
+                        "value" : 1176
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 156
+                     },
+                     "end_location" : {
+                        "lat" : 37.3285906,
+                        "lng" : -121.8806331
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 1st cross street onto \u003cb\u003eS 4th St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "oo{bFlc}fVlDaC|@k@dCeBrKmHrCoBRMLItA}@n@e@\\Ul@_@JGr@g@vB}AdD}BjBmAbAs@|B}A"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3376819,
+                        "lng" : -121.8874261
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 244
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 37.3270078,
+                        "lng" : -121.8817428
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eInterstate 280 N\u003c/b\u003e ramp",
+                     "polyline" : {
+                        "points" : "uvybF|x{fVPQDEFETMHEFAJCF?H?J?HBH@DBD@FBBBFDDDBDDHDDDHDNPh@BBTl@@DN`@N`@BHDFFDRF"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3285906,
+                        "lng" : -121.8806331
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "8.7 mi",
+                        "value" : 13967
+                     },
+                     "duration" : {
+                        "text" : "9 mins",
+                        "value" : 524
+                     },
+                     "end_location" : {
+                        "lat" : 37.3345072,
+                        "lng" : -122.0283331
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eI-280 N\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "ylybFz_|fVLZJZJ\\BFbBfE?@Tl@FNf@vA\\bATz@VdAPp@FXTlATlALv@PnAn@nF?Bb@rD`@lDPzABVJ~@VnB?BFb@NlA@N@B?DDX@H@D?@?B@HDR@L@J`@dDD`@ZlCNxANtA\\dDd@bCFZFZH^J\\Nh@HTLd@Pf@Nb@Nd@BHP`@@BP`@\\p@Rj@`@t@`CnDnApApD`DlBbBjBfBp@t@`@f@f@p@h@v@Zn@v@zAlAtCv@nBh@xA~@bC\\bABD`@jAXp@Vp@Rf@Xv@\\fAT|@Pp@Hb@Nt@J`AHn@Dp@Db@@P@VDbB?T?tA?f@Cn@Cj@Eb@?@?B?@CNQdBM`AIb@Q~@YlAOb@EPIXIV[dAm@nBe@|Ak@rBc@nBOt@YjBQtACLCRMfCCt@C|A?pB?jB@bE@jC?|@?H?t@BnM?~A?p@BtH?`@?h@EhCKnCYnFCd@AFC\\C`@QrBQjDEx@C~@CbAA`@Cr@?tAAxA?R?jJ?pDDvCBhABb@?B@f@?BBb@?P@`@Bf@Bt@BtAJlDNtE`@lMJrDJbG@tJ?f@?d@?|@?~D?fBD|CJrD\\dKJdDDdEBxEClL?BC|GCfI?B?R?j@@T@~CRzPF~D?xABhC?f@Ap@CxAEdACx@Gz@Gn@El@Ir@MdAObAQdAYpAo@vCKd@WjAs@`DOv@Kd@E\\Kl@Gb@Gh@Ef@Cf@Et@KlAEzACzAA`ACrA?jB@|F@|N?|O?|AGxCOvBUvBM|@QfAa@zBOp@Qr@YfA]bAUn@M\\e@jAm@xAsElKKVA@ABQb@ADA@IRuInSQb@CHEFABO`@CFABIP{@vBmEhKe@dAoAxCCHmBhEkDnIGNkCfGkEhK_DtHoHrQ[l@IR[p@qGjOyChHiBpFe@hB_@~AMr@SdAQhAK~@OnAIx@IhAGdAGjACrBCp@?z@?hA?`B@|G@lD"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3270078,
+                        "lng" : -121.8817428
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 349
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 35
+                     },
+                     "end_location" : {
+                        "lat" : 37.3350715,
+                        "lng" : -122.0321998
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eDe Anza Boulevard\u003c/b\u003e exit",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "u{zbF`txgVOv@A@?TEtAC~@C~@Cl@Cf@Eb@C^IbACXi@|DAD?@A@?D?BAD?D?H"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3345072,
+                        "lng" : -122.0283331
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 271
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 40
+                     },
+                     "end_location" : {
+                        "lat" : 37.3375124,
+                        "lng" : -122.0322066
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eN De Anza Blvd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "e_{bFflygVa@?qC@k@?aA?]AeC?a@@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3350715,
+                        "lng" : -122.0321998
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.8 mi",
+                        "value" : 2923
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 245
+                     },
+                     "end_location" : {
+                        "lat" : 37.3637772,
+                        "lng" : -122.0323433
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eSunnyvale Saratoga Rd\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "mn{bFhlygV[?]?wA@kD?}PBqE@g@?eG@eA?qE?qCAsA@kF@gI?iD@s@?YA}@?c@AuA?]?wBEcAAsAA{@As@?EAE?M?u@BgA@iABcFFgDEcFE{BGqF?kH?kG@_ADG@QBYF]H"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3375124,
+                        "lng" : -122.0322066
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 765
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 79
+                     },
+                     "end_location" : {
+                        "lat" : 37.3690038,
+                        "lng" : -122.036908
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eS Mathilda Ave\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "sr`cFbmygVw@\\MFo@`@]^SXi@v@c@~@[r@CDKVmAvCABkAjCEJc@bAUf@QZSXSRYRKHQL_@RUHYHWDQBO@S@U?{ABy@?SASAWAYC"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3637772,
+                        "lng" : -122.0323433
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "171 ft",
+                        "value" : 52
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 13
+                     },
+                     "end_location" : {
+                        "lat" : 37.3688977,
+                        "lng" : -122.0363306
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eEl Camino Real\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "gsacFtizgVFo@JcA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3690038,
+                        "lng" : -122.036908
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "yr{bFp||fVhBzEdWaQrKiHjDeCpGkE`EqCVW\\SPGRCT?^JXRT^p@jBd@rALLRFLZVx@fBnEdAvCr@~Bh@vB\\fBb@dCdBvNv@`H~@xHPrAj@`FxAbN~@zEr@bCp@pBh@pAp@|A`@t@`CnDnApApD`DxEjErA|ApAhBrAjCdCdGjCfHfBvEv@~Bf@nBXxATpBN~BDbB?jBCvAInACV_@fD[bBi@pBYbA{CfKs@dDk@`ECLQzCGrC?|EBvKBvSBvIErDe@~JEl@G~@c@~GO~EEvF?|OH`FDrA\\xLp@bTVvL@`O?fHPpIh@jPH~KKv_@@xA\\t^BpDEjCI~BOjBO`B]hCk@vC{@|DgBjIa@xC[rEOlIBdk@GvFOvBUvB_@dCq@lDk@zBs@rBs@hBaGfNO\\Uj@qKfWuGvOgFrLsD~IwIpSoMh[e@`AgMfZiBpFe@hBm@rCe@nC[nCSbCOpCGdD?dC@~J@lDOv@AVItCGlBIjAMbBm@vECNAXaH@aF?uB@iVBeQBcT@_Q?uEAyKMkLPkKK{BGqF?wP@gAFk@JuAf@}@h@q@x@i@v@c@~@_@x@gD~Hi@nAg@bAg@l@e@\\q@`@o@Ri@Hc@B_E@k@CYCFo@JcA"
+         },
+         "summary" : "I-280 N",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

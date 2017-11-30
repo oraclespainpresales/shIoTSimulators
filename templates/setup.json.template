@@ -1,0 +1,30 @@
+{
+    "simulator": {
+      "iotappname": "sh_IoTSimForHotel_",
+      "logo": "assets/images/logo.png",
+      "title": "IoT Device Simulator - ##APP_USER##"
+    },
+    "server": {
+        "host": "##IOT_SERVER##",
+        "port": ##IOT_PORT##,
+        "test": true,
+        "caCert": "./server/config/iotca.pem",
+        "user": {
+            "name": "##IOT_USER##",
+            "pwd": "##IOT_PASS##"
+        }
+    },
+    "tas": {
+        "stores": {
+            "dir": "./device-data/",
+            "pwd": "changeit"
+        },
+        "auto": {
+            "sharedSecret": "JS-HVAC-SIMULATOR-SHARED-SECRET"
+        }
+    },
+    "clientlibrary": {
+        "dir": "./iotcs-cl/latest"
+    },
+    "messagingInterval": 1000
+}

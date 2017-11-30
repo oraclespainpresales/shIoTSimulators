@@ -1,0 +1,84 @@
+{
+  "deviceName": "Humidity Sensor",
+  "messagingInterval": 2000,
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/humidity-sensor-normal.gif",
+      "frameWidth": 595,
+      "frameHeight": 470
+    },
+    {
+      "name": "isOffImage",
+      "file": "images/humidity-sensor-off.png",
+      "frameWidth": 595,
+      "frameHeight": 470
+    },
+    {
+      "name": "humidityHighImage",
+      "file": "images/humidity-sensor-high.mp4",
+      "type": "video/mp4",
+      "frameWidth": 595,
+      "frameHeight": 470
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:oracle:iot:device:humidity_sensor",
+      "attributes": [
+        {
+          "name": "humidity",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Humidity",
+          "units": "%",
+          "format": "##",
+          "initialValue": 50,
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 40,
+            "upperValue": 59
+          }
+        },
+        {
+          "name": "maxThreshold",
+          "visible": false,
+          "chartable": true,
+          "units": "%",
+          "initialValue": 60
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:iot:device:humidity_sensor:too_humid",
+          "visible": false,
+          "condition": "$sharedFunctions.greaterOrEqual",
+          "conditionArguments": {
+            "leftOperand": "$humidity",
+            "rightOperand": "$maxThreshold"
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "eventMaxThreshold",
+      "description": "Humidity is in Max Range",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:humidity_sensor.humidity": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 55,
+            "upperValue": 70
+          }
+        }
+      },
+      "image": "humidityHighImage"
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

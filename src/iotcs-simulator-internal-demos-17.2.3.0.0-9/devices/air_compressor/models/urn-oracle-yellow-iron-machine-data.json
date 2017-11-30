@@ -1,0 +1,141 @@
+{
+  "urn": "urn:oracle:yellow:iron:machine:data",
+  "name": "Yellow Iron",
+  "description": "Yellow Iron device model",
+  "system": false,
+  "attributes": [
+    {
+      "name": "fuelLevel",
+      "description": "Fuel level of the vehicle (%)",
+      "type": "NUMBER",
+      "range": "0,100"
+    },
+    {
+      "name": "engineTemp",
+      "description": "Current engine temperature (F)",
+      "type": "NUMBER",
+      "range": "0,650"
+    },
+    {
+      "name": "engineOilPressure",
+      "description": "Engine oil pressure (Pa)",
+      "type": "NUMBER",
+      "range": "0,6500"
+    },
+    {
+      "name": "hydraulicPressure",
+      "description": "Hydraulic pressure (Pa)",
+      "type": "NUMBER",
+      "range": "0,200"
+    },
+    {
+      "name": "engineVibration",
+      "description": "Engine Vibration [kHZ]",
+      "type": "NUMBER",
+      "range": "0,6"
+    },
+    {
+      "name": "ora_latitude",
+      "alias": "latitude",
+      "description": "Location in latitude of the machine",
+      "type": "NUMBER",
+      "range": "-90,90"
+    },
+    {
+      "name": "ora_longitude",
+      "alias": "longitude",
+      "description": "Location in longitude of the machine",
+      "type": "NUMBER",
+      "range": "-180,180"
+    },
+    {
+      "name": "fuelConsumptionIncrement",
+      "description": "Fuel consumption increment",
+      "type": "NUMBER"
+    },
+    {
+      "name": "workingHoursIncrement",
+      "description": "Working hours increment",
+      "type": "NUMBER"
+    },
+    {
+      "name": "idleHoursIncrement",
+      "description": "Idle hours increment",
+      "type": "NUMBER"
+    }
+  ],
+  "actions": [
+  ],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:yellow:iron:alert:fuel",
+      "name": "fuel",
+      "description": "Unexpected precipitous fuel loss",
+      "type": "ALERT",
+      "value": {
+        "fields": [
+          {
+            "name": "fuel",
+            "type": "BOOLEAN",
+            "optional": true
+          }
+        ]
+      }
+    },
+    {
+      "urn": "urn:com:oracle:yellow:iron:alert:electricalFault",
+      "name": "electricalFault",
+      "description": "Electrical System Fault",
+      "type": "ALERT",
+      "value": {
+        "fields": [
+          {
+            "name": "issue",
+            "type": "STRING",
+            "optional": false
+          }
+        ]
+      }
+    },
+    {
+      "urn": "urn:com:oracle:yellow:iron:alert:collision",
+      "name": "collision",
+      "description": "Collision Detected",
+      "type": "ALERT",
+      "value": {
+        "fields": [
+          {
+            "name": "collision",
+            "type": "BOOLEAN",
+            "optional": false
+          },
+          {
+            "name": "impact",
+            "type": "NUMBER",
+            "optional": false
+          }
+        ]
+      }
+    },
+    {
+      "urn": "urn:com:oracle:yellow:iron:alert:tilt",
+      "name": "tilt",
+      "description": "Vehicle on severe tilt",
+      "type": "ALERT",
+      "value": {
+        "fields": [
+          {
+            "name": "tilt",
+            "type": "BOOLEAN",
+            "optional": false
+          },
+          {
+            "name": "degrees",
+            "type": "NUMBER",
+            "optional": false
+          }
+        ]
+      }
+    }
+  ]
+}

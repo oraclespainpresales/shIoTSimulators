@@ -1,0 +1,299 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJIQBpAG2ahYAR_6128GcTUEo",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ10fmNsk7hIARSUhPxWtlzVw",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 38.4404156,
+               "lng" : -122.4194926
+            },
+            "southwest" : {
+               "lat" : 37.7741122,
+               "lng" : -122.7177395
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "54.6 mi",
+                  "value" : 87926
+               },
+               "duration" : {
+                  "text" : "1 hour 8 mins",
+                  "value" : 4082
+               },
+               "end_address" : "Santa Rosa, CA, USA",
+               "end_location" : {
+                  "lat" : 38.4404156,
+                  "lng" : -122.7140638
+               },
+               "start_address" : "San Francisco, CA, USA",
+               "start_location" : {
+                  "lat" : 37.7749901,
+                  "lng" : -122.4194926
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "479 ft",
+                        "value" : 146
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : {
+                        "lat" : 37.7741122,
+                        "lng" : -122.4207228
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e on \u003cb\u003eMarket St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "u|peFx`ejVt@bAv@fAFPHTd@r@HL"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7749901,
+                        "lng" : -122.4194926
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.9 mi",
+                        "value" : 3034
+                     },
+                     "duration" : {
+                        "text" : "8 mins",
+                        "value" : 486
+                     },
+                     "end_location" : {
+                        "lat" : 37.8010492,
+                        "lng" : -122.4262114
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eFranklin St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ewpeFnhejVg@H}APyAV}AP{AR_BPyAP_BPM@mANuC\\g@Hc@Du@J{AR_BP}AR}APwAPaBRyAPaBR{AN}ARyAN_BRyARoBTkAN_BR{APuARu@Jk@FyAP}ARaEd@eBPoANoDd@oDb@oDd@oD\\yDh@{Db@yDd@yD`@_BT{ATyDd@gBT_AJ"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7741122,
+                        "lng" : -122.4207228
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.0 mi",
+                        "value" : 1669
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 248
+                     },
+                     "end_location" : {
+                        "lat" : 37.7989269,
+                        "lng" : -122.4448272
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eLombard St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "q_veFxjfjVS@f@fIh@|H`@vGDp@h@rIj@hIVhDR~Cf@hIh@bIh@`Ij@jId@vH?H?F?D@Z?HAJAFAHI`@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8010492,
+                        "lng" : -122.4262114
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.4 mi",
+                        "value" : 2314
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 191
+                     },
+                     "end_location" : {
+                        "lat" : 37.8029517,
+                        "lng" : -122.4684794
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eUS-101 N/Richardson Ave\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow US-101 N\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "irueFd_jjVGVITINiBtCi@z@c@r@uA|BoAvBa@n@ILmArB]l@e@t@Y`@QVg@l@]^kAfA]^IJIJGLIPIRENGPGNENGTETGVCRAJCTCPANALALAN?LARAR?VAT?V@V@V@`@Bh@Dh@Br@Dn@Dp@VhDXpDFt@Fp@Hj@Hr@Fb@Hb@F^P`AXrARbAPz@Px@R|@Nr@Lj@Ll@Hd@D^Fb@Dd@Df@B`@B`@@^?R?R@P?P?TAZ?\\A^AZC`@CZC^E^Ir@WpBSfBi@|DYzBWpBM`AM|@QrAOdAM|@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7989269,
+                        "lng" : -122.4448272
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "23.2 mi",
+                        "value" : 37347
+                     },
+                     "duration" : {
+                        "text" : "24 mins",
+                        "value" : 1440
+                     },
+                     "end_location" : {
+                        "lat" : 38.1021906,
+                        "lng" : -122.5614787
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to continue on \u003cb\u003eUS-101\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : {
+                        "points" : "mkveF~rnjVWzAYxAKh@I^iA|DSf@O`@_@z@]v@Uh@Yj@[l@U`@Wd@KPQXSZ_@`@UXi@l@cAfAaAdA_@^_@\\uAvAgAjAy@`AQVOV]d@WXONIJSPSPSP]TSLWLYLSHWDWFWFYFYD[D[B_E^uyAnIm_@lBiAP_@HYJYL[N_@Ve@^c@^c@b@q@t@k@|@Ub@[r@c@`Aa@`A[t@_@v@]h@Y`@UXo@t@g@`@[V_Ah@k@Zq@ZSJYNKFa@RcAj@oBbAw@^{AbAw@f@uAt@uAv@s@Vc@HK@I@QBi@Aa@A[AUEYEYGo@Sm@Wm@a@}AcA]Sw@_@WIm@O_@G_@E[?UAYBi@Dc@JaHhAaHfAu@XQFUJ]Tm@f@]\\c@j@e@r@a@r@a@l@_@n@k@~@g@r@[Za@^c@XWLWJGDWHUFKBODyBZ_@H]He@Ng@Ra@Tg@\\YROJq@x@cAfBOXq@jAa@n@a@h@k@l@?@GDIHURSPOJ[PWJ}Al@]JqAf@kA`@mAh@q@`@o@l@i@p@[h@OXSb@Ur@Qj@Oj@Mp@WpBGl@Il@QzAQ~@Qp@K`@Up@Uh@GLWd@_@h@GH]b@YXKLWVi@d@i@d@g@b@[Vc@b@c@`@e@h@UXSTSZ[f@Wb@QXUd@INWn@_@~@m@bBy@`C[t@]x@MXQ\\_@p@sAlB}@`Aq@j@_Ar@aAl@}@d@}@Z}@Xw@Pm@Jy@J_@Bi@By@@oBBgB@eTBmC@iAFC@_@BA?A?I?WBY@gCh@mA`@UJu@\\MFeAn@iAz@m@j@i@n@QPeDnEkAbBqDlFm@x@_@r@a@t@s@rASb@_@t@wBdFy@nAk@z@m@p@{@x@QLq@d@_Af@KFk@Rc@NSFWFSDy@LK@wAFi@@q@@wE@aE@_I@mAEoAEE?E?qHByDAA?C?A?u@?oBGY?e@Ck@CaBEy@CgAEsCKmAE_`@qAsCKeFOgDKeEO_CIk@CC?I?C?}@EaFQy@Es@EYEQCaC]{@Se@MkA]kAa@oBo@kBm@q@WkBm@sAe@aBi@{Ag@uAc@_Be@}Ac@_@KiEeAgDw@mCi@c@K}@Q}@UaAWsA[c@Kk@Kq@I_@Gs@Gq@G[Ao@C[AY?e@?i@@m@@oAH[B]Bk@HUD[DWD_@H[Hi@L[Hi@PgA^aA`@{NxG{BdAwD~A}An@{Af@_Bd@_Cn@u@No@L_AL}@Lq@HyAP{ANqIz@_Fh@qEh@sDb@gBT{@Ls@Hs@FcAD}@@iAC{@CeAG]Em@Gu@MSCqE{@sAU}@MkASwAUqB]eAQwDo@_E_A}AW_Eo@k@Oi@Qi@Sk@UyMcHsC{AaB{@[Sc@Wk@c@i@a@[[g@e@WYY]Y_@e@i@a@g@g@o@m@u@_@c@g@o@[][W[W]U[Qk@W[M_@KUE]IYE[CUCk@A[?[?WB]BqD\\qALi@HmDb@e@He@FWBM@C@C?A?A@I@I?yAPw@Hu@HUByFj@cCVs@Hq@H]FUFODSFMDm@XA@m@^WPURUTQPe@l@a@n@aAfB[p@u@~AeDjHoAnC_ApBqAjCiA~B}@dBmGvMo@lAYh@Wb@_@n@S\\[d@ORQTUTWTWP]Va@T[LYJc@Nk@J_@Fg@Ba@@]@U?YAWCUEkAUcCa@yCi@aDk@_BYkAOcC]eBMaBKcAAE?m@AkA@u@BiAFw@HkANeBZcB`@eBf@iAb@{B|@gAd@eAd@eAf@mAh@_Bt@eAb@gAd@WLWNWNo@^m@\\g@^YTaAv@qAnAeF|EgBbBiBfB}@x@{@z@}B|BcA`AmBjBoBlB_DvCq@l@uAfAcAt@wGdE_An@aAn@iFnDkBnAkAv@iEtCk@^eDrBEDuEtC_An@aEnCi@\\aAf@iMnI}BzAuBvAs@d@y@j@u@d@]RWNc@Vi@Ti@Tu@Xe@Lc@La@Hi@Li@Jy@Ji@Fs@Fk@Dc@BS?M@c@?o@?u@?cD?kH@cB?e@A[AUAe@CUA]EYEUCSEc@I_@I_@Io@S{GqBmEqAgK{CuGkB[Ki@OQCQEAAeASQEoAS{B[cBSyAUkDc@cKoAqBSmCUeDS}Hc@wBCiCOeFYwCOaBMgAOiDi@qF{@kAKc@CgBBy@Bw@HcANcC`@{@Nw@Js@Dk@@c@?{@Eu@Io@K[GaA[mAg@_@U]SkDuBkDwBmKsGsAy@iB_AyCyA_Bs@GCYKqAe@iDgA_Ck@kAUiB]{BYuBSiBMsEYgAGiAKwAGmAC_AAg@@cABaAFq@D{ARUBaAPwA\\}@T{@XgA`@w@^_Ad@c@Tg@XmAx@_Ar@yBhBqD`D{LjKiHhGaAv@q@b@eAh@y@\\_@Na@JWFa@JiAVeARsBf@}@PaBd@cBl@kBx@{GtCgKtEeAd@_CdAyBdAeAx@u@h@}@t@yAxAqCxCyA|A{@x@kBjBeCjCa@b@wFfGw@x@{AdBwGnH_KzKuArAsC|C{DfEcGpG{A`B}@bAqCxC}A`BgAlAcAfAwA|As@t@[XURy@r@}@r@s@f@u@d@cAj@a@RYNc@Po@Xk@R_AZaAVs@NcAT_@Fq@Jk@Hs@F_AFy@Dq@@{@?m@?iACmAGgHYkDIm@A}@A"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8029517,
+                        "lng" : -122.4684794
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "26.3 mi",
+                        "value" : 42294
+                     },
+                     "duration" : {
+                        "text" : "25 mins",
+                        "value" : 1512
+                     },
+                     "end_location" : {
+                        "lat" : 38.4326348,
+                        "lng" : -122.7158857
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to continue on \u003cb\u003eUS-101 N\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : {
+                        "points" : "uypgFfx`kV}CNm@DoANg@H{@Nu@Nw@P_ATkA\\qCx@mEfA_Cl@yARkFfAYDmAPy@Lq@H]D[BeAHs@F{OrAmQzAoE`@wK~@}ANm@FgD\\qBPqBRcAHuAFaABy@@u@?y@Ao@Ey@Gs@Gw@McAQq@Qs@Qg@O_A]{@[}FwBwAe@mA]kAYq@Oi@Ia@E_@Gq@IaAKoAG_CGcCAuAD{LZ_GPsENqNb@iL^yCLcBDoAHu@H_ALw@Lo@La]hIw_@dJaE`AiAZo@Rm@To@Vo@Xw@`@u@b@s@b@}@n@m@d@i@d@WVc@`@e@f@i@l@e@j@u@bAaAxAwD|FoAlBiAfBmBvCk@z@qAlBwBrC}CzDy@bAkA~Ai@p@MN[b@UZu@nA{@|A_BxCmBnDqA~BcAjB}E~I_AdBaAdBo@dAs@fAeA|AyAvBcBfC{FpImC~DyBdDwB`DgCvDk@z@_B~B{BfDYb@}AzBs@dAq@bA}@rAqAlBe@p@m@t@UXc@d@e@f@]\\[XYTQNSN_@Xi@^i@\\e@VQJ]Pc@R_@Ns@Xq@Vc@L_@Je@Lm@L}@Nu@Jm@Fo@FmAFmBDuAFyADyBF_BDeBFy@Bs@BS@m@Bw@Bi@@M@g@?e@Ao@Ag@CWCK?e@Em@Ia@Eg@Iq@OeAS_AQs@Om@K{A[qAW}Be@}A[cB[wAYmCi@gAUw@OgASs@MmASu@MqAQcAMs@IaBQy@Gu@Gk@E_@CcBIoAGqAEcAEoBIuAGcCI{AEm@?W@]@[DO@eANoGxBiPzF}FpBiC~@kC~@oA`@eXjJuAh@_Br@cAj@eAp@aAr@{@p@eA`A{@~@w@`Ae@p@k@x@i@~@cAdBgCfEsBhDaA`BcDjFwA`Ck@~@m@~@e@r@e@l@a@f@u@z@]Zc@d@a@\\c@\\g@`@m@`@w@f@i@Zk@Xm@X]No@V{An@aAd@e@R]NgAd@}@^oAf@{An@mCfAiBv@yAj@o@Vc@Rg@Ro@VaA`@y@\\s@X}@\\q@X_@NmFxBeBr@eAd@aA^}@^kAd@gBt@cBp@wGnCmDxAcNzFi@VOHULYNUL_@Va@VWRg@^e@`@s@n@{@|@o@r@o@v@s@dAe@v@g@x@Q\\S`@Q^k@nA{@rBo@|AO\\]x@s@dBo@|Ae@dAcCzFeAhCmAvCaAbCo@zAa@`AaAzBQb@Q`@m@vAyBhFWl@q@`BmAvCuAdD{BnF{@pBkBpEsA~CwAdDy@jBw@hBsAtC{@jBiAbC{@jB}@jBk@nAm@nA[n@O^{@fByBvEcCjFkEjJ_ApB}@jBkCzF{AbDs@zAiBxDuBpEi@hAc@~@a@|@k@lA_@v@Wj@{@jBm@nA_@r@c@x@k@`Ae@t@c@n@m@x@[`@YZg@j@eBvB}@fAaAhA{AdBeAnAgAlAo@v@c@f@_@d@W\\gAtAqAfBg@r@_B|BoEhGk@x@qDfF[b@CD[d@eAvAeCnDyCfEmCzDmCvDiH`KeEbGkEfG{ChEqC|D{FfIcBbCw@dAmAdBaAvAyArBsBrCgA|AqAjBu@dAiA~Au@dA}@nAs@bAw@jA}@tAa@p@a@n@q@bA_@p@mB`DeAfBqAzBgAjBy@tAcAfB}@xAqBlDk@~@sBnDc@r@_BnCc@r@u@dAa@l@y@bA{@dA{@z@k@j@k@f@k@f@_At@aE`Dm@d@yC`C{AjAoBxA_MrJgKdIe@^g@`@a_@|YaAv@wAdAa@Vk@^c@VuBfA_@Pg@Re@Pc@LiAZu@Rs@LeAPo@Hc@Dq@Fu@Dy@B{A@u@C{@CmAIkAMu@KeBY_C]gAQy@O_BWcNwBy@MA?o@MaGaAkAOYEgBSs@GkBMcBIYA[A_ACcCGw@AqAA_L@uHByA?yA@oSHsA@mIBwF@_DBsD@eC@}B?qB?eGB_GBgFDqDBgCFkIFuB@kHDgBD{FA}NEaK?oFD{DAw@@iCCS?iDQ{@I{AQwAKmBQM@K@aE]aE]OAOAeAIi@Ek@GkBKcC?cBHcBN_BT}@Ri@Nc@Hy@ZiA`@eAf@oAr@_Al@cAn@g@ZwBvAk@^a@Ve@ZgAn@eAf@kAd@WJ{Ad@q@PuB^wALgBLsa@EeJA_I?sCAw@?}B?wHAiCAwI?mUCyGAsD?}@?iBA{GAcQCa`@ImJ?yKAeIAoD?mDA_@?oE?{C?kBAq@A[?kA?w@AaAE}@Es@Gq@IQAgCW_CWiBSeBQgAK}C]wBU{AIiACoAAaBBiB?sDB}A@yA?wDDoE@]@[?]@q@Fo@Fs@JkB^cBb@cBf@cBf@"
+                     },
+                     "start_location" : {
+                        "lat" : 38.1021906,
+                        "lng" : -122.5614787
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 585
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 39
+                     },
+                     "end_location" : {
+                        "lat" : 38.4376477,
+                        "lng" : -122.7177395
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e489\u003c/b\u003e toward \u003cb\u003eDowntown Santa Rosa\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "}jqiFh}~kVIEGAIAG?aARmAPSB}EvAQDo@TUBA?eAZq@PWFm@N}Bf@C@WJQFYNIDQL[RE@i@Z"
+                     },
+                     "start_location" : {
+                        "lat" : 38.4326348,
+                        "lng" : -122.7158857
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 272
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : {
+                        "lat" : 38.4388805,
+                        "lng" : -122.7150402
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e3rd St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ijriFzh_lVa@kA}C{Iu@sB"
+                     },
+                     "start_location" : {
+                        "lat" : 38.4376477,
+                        "lng" : -122.7177395
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "341 ft",
+                        "value" : 104
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 35
+                     },
+                     "end_location" : {
+                        "lat" : 38.4396818,
+                        "lng" : -122.7156524
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eB St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "_rriF~w~kVOJ}@n@IFUNq@d@"
+                     },
+                     "start_location" : {
+                        "lat" : 38.4388805,
+                        "lng" : -122.7150402
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 161
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 58
+                     },
+                     "end_location" : {
+                        "lat" : 38.4404156,
+                        "lng" : -122.7140638
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e4th St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "_wriFx{~kVgB_Fk@}A"
+                     },
+                     "start_location" : {
+                        "lat" : 38.4396818,
+                        "lng" : -122.7156524
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "u|peFx`ejV~BrDn@`AeCZsJnAuGt@oSdCiVrCiu@dJog@dGgD`@S@f@fIjAtQn@dK~B|]dDhg@CzAe@~AmGbKyHfMuElF{@xCWnHlAfRnApJpCxMl@zGAzDiAfLgDbWgA~FmCbIuDnHyHpI_IdJiD`CgEv@mbCnNoBr@mCzBoCjEaCpF}BzC{G~DmQ|JmBd@yBAyBg@wEqC}CaAkBCqSbD{BbAuCdDoCpEiChCoAh@wHdBsBrAwDfGkD~DkLvEaBnAeAzAkA|C}BxN_AjC}A|ByFjFmE|FyFzNsCvEqFnEqFlBqD^sd@Ze@BeGxAsEpCoG|HkI~LiCbFqDtHyAlB_EtCaFpAkKL_TGuP@uqAiEyLi@uFcAsJ}CcUkHaW_GuE}@aDYoIJyF`AoE|Am[nNqJlC_Fr@qg@xFiFXiFU_ScDc\\iGcUiLmEkCaGmG}CyDqBcBcCcAiBYyBEyHr@mIfAmD^cRtB}DtBoBdCyHdPaUbe@wDlFsBlAiCn@}BFsCa@_PqCwKgAcEAcGd@yJhCoIpDsLvFqDjCiOxNkVtUu]zUez@zi@qHrCoI~@qV@oE_@{g@}NsGuAeNiBiXmCeXqAkNwA}HgAkC?yH~@sEb@eE[kEaBcWuOwLgG}G}BqLyB{NcAoHY_FRkGfAyFpByEnCgXjUkJ`IwBlAsC`AeH~AoJ~CiZvM_E~BsB~AaKjKkObPum@vp@aTjUiDtCoElCyCnAyFxAqDd@gFNmNe@yEK{ELaFn@yFtAyPbEmKlB_p@vFia@lDkFBuEc@qEeAqMwEuFqAuDc@iLKak@`BwV|@}Er@efAlW}DzA_FxCsCdCkDdEsKlPcJtMmIpKqMfUcLvScGbJs^ti@oOdUsFzFaGpD{IfCaFb@wKZwM`@}FOqKkB{WkFaO}BcPcAmKa@_EAk@FuIhC}`@lNk`@jNgGbEyDbE_EpGyTt^{ClDqCbC{D~BwEpBeQnHkNzFi}@`_@wExCeEbEqDnF}FxMsOf_@g`@x~@uc@l`AkRna@}H|OyJhMwLpNwt@pdAew@`hA}JlO{Rv\\cHrLuDjFoEtE{IdH}fA`{@gFtDaFdCiEnAmEn@}FRkG_@{_@cG_K_BaHo@yEQmTIs|@Zim@TuZVcf@AmR@uIm@cSyAgGc@gFHcEd@eEhA_HjDeNnIqFhBmEl@{d@FqZCw[CeeBWwx@EqNYaWkCmJe@}MH_OH{CPgJvB_C\\kDh@uHvByIzBgAj@a@Ti@Za@kAsEoMmAz@_@Vq@d@gB_Fk@}A"
+         },
+         "summary" : "US-101 N",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

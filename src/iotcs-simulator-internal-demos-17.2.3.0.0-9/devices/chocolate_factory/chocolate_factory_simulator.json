@@ -1,0 +1,133 @@
+{
+  "deviceName": "Chocolate Factory",
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/chocolate_factory.jpg",
+      "frameWidth": "480",
+      "frameHeight": "560",
+      "type": "image"
+    },
+    {
+      "name": "isOffImage",
+      "file": "$shared/assets/images/sensorOff.png",
+      "frameWidth": 700,
+      "frameHeight": 500
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:oracle:choc:factory:machine:data",
+      "attributes": [
+        {
+          "name": "timeStamp",
+          "displayName": "Sample Time Stamp",
+          "visible": false,
+          "chartable": false,
+          "format": "###.#",
+          "initialValue": 0,
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/chocolate_factory/lib/data-light.csv",
+            "column": 0
+          }
+        },
+        {
+          "name": "state",
+          "displayName": "State",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/chocolate_factory/lib/data-light.csv",
+            "column": 1
+          }
+        },
+        {
+          "name": "angle",
+          "displayName": "Current Arm Angle",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 0,
+          "range": "-90,90",
+          "units": "deg",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/chocolate_factory/lib/data-light.csv",
+            "column": 2
+          }
+        },
+        {
+          "name": "position",
+          "displayName": "Normalized Carriage Position",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 0,
+          "range": "-100,100",
+          "units": "mm",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/chocolate_factory/lib/data-light.csv",
+            "column": 3
+          }
+        },
+        {
+          "name": "histogram",
+          "displayName": "Histogram",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "",
+          "onFunction": "chocolateFactoryFunctions.histogramValue",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/chocolate_factory/lib/data-light.csv"
+          }
+        },
+        {
+          "name": "wearLevel",
+          "displayName": "Filament Wear Level",
+          "visible": true,
+          "chartable": true,
+          "range": "0,100",
+          "units": "%",
+          "format": "###.#",
+          "initialValue": 0,
+          "onFunction": "chocolateFactoryFunctions.wearLevel",
+          "onArguments": {
+            "state": "$state",
+            "currentValue": "$wearLevel"
+          }
+        }
+      ],
+      "formats": [],
+      "actions": []
+    }
+  ],
+  "events": [
+    {
+      "name": "wornFilament",
+      "description": "Worn Filament",
+      "exclusive": true,
+      "attributes": {
+        "urn:oracle:choc:factory:machine:data.wearLevel": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 100
+          }
+        }
+      }
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

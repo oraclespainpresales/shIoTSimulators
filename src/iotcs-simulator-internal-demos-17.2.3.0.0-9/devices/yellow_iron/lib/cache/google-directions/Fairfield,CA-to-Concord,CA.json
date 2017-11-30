@@ -1,0 +1,393 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ28gj8dAUhYARaPOb0hZWM1w",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJhczEaaxghYAR7_8flgRgQQ4",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 38.2492329,
+               "lng" : -122.0307217
+            },
+            "southwest" : {
+               "lat" : 37.9780082,
+               "lng" : -122.1381492
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "28.1 mi",
+                  "value" : 45168
+               },
+               "duration" : {
+                  "text" : "32 mins",
+                  "value" : 1891
+               },
+               "end_address" : "Concord, CA, USA",
+               "end_location" : {
+                  "lat" : 37.9780082,
+                  "lng" : -122.0311001
+               },
+               "start_address" : "Fairfield, CA, USA",
+               "start_location" : {
+                  "lat" : 38.2492135,
+                  "lng" : -122.0399672
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 401
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 53
+                     },
+                     "end_location" : {
+                        "lat" : 38.2492329,
+                        "lng" : -122.044564
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eTexas St\u003c/b\u003e toward \u003cb\u003eUnion Ave\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "qpmhFx|zgVArA?V?rB?x@?fB?hC?xBAbC?jC"
+                     },
+                     "start_location" : {
+                        "lat" : 38.2492135,
+                        "lng" : -122.0399672
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 838
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 96
+                     },
+                     "end_location" : {
+                        "lat" : 38.2423182,
+                        "lng" : -122.0461901
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eJackson St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "upmhFny{gVjB@nB?lB?pB?hB@tB?pB@lB?nB@fB?f@D^FPFLFNHFDDBJHFFJNFHFJHNHNJ\\H\\Jd@H\\BF@FBFBDLT"
+                     },
+                     "start_location" : {
+                        "lat" : 38.2492329,
+                        "lng" : -122.044564
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.0 mi",
+                        "value" : 4828
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 233
+                     },
+                     "end_location" : {
+                        "lat" : 38.2367659,
+                        "lng" : -122.0998953
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eCA-12 W\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "oelhFtc|gV`@pBBJZ`Br@vDX|AF`@D^F`@HbABZ@XDr@F`A@VZrFl@pKJbBHdBH`CBbADfBBbBd@xb@NlOBdCB|A@\\@dBHxGNfPt@dq@PdO@bABbCBtBBbB@tA@xALhK@vA@r@?pAAhAC`BAr@EjAEp@Er@E|@KjBGfAEnAA`AAvA@p@Bv@DdAFv@@JBb@J|@NbAXrALl@XbATp@d@jAPb@@?b@|@hCtEDFf@`Aj@nAj@nAXr@Rh@t@xBJVBFBHBB@@B@D?H@"
+                     },
+                     "start_location" : {
+                        "lat" : 38.2423182,
+                        "lng" : -122.0461901
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.1 mi",
+                        "value" : 3381
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 114
+                     },
+                     "end_location" : {
+                        "lat" : 38.2205213,
+                        "lng" : -122.1324647
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eCA-12 W/I-80 W\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "ybkhFjsfhVxAfEBH|AxEvDbL~CjJx@dC|FdQbFlONb@`AvCzBdHdA`D~@rC~@tCdA|Cr@xBv@zBtBzF`@dAr@hBrAfDDHd@hA\\z@j@pAf@hA^z@^x@`@|@tAzClAdCdBjDzAtCz@|AvB`E`A`Bz@vAfA`BdAdBrBdD`CvD"
+                     },
+                     "start_location" : {
+                        "lat" : 38.2367659,
+                        "lng" : -122.0998953
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 mi",
+                        "value" : 891
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 35
+                     },
+                     "end_location" : {
+                        "lat" : 38.2147278,
+                        "lng" : -122.1379288
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e40\u003c/b\u003e for \u003cb\u003eI-680\u003c/b\u003e toward \u003cb\u003eBenicia/San Jose\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "g}ghFz~lhV@b@BNFN\\l@`@v@n@jAVh@j@lAN\\JZL`@^xAb@|AT|@Tt@L\\N`@NZJRT^PTPPVVTPRNVNZPZLVHXHVFZDf@DV@X?^?jA@f@?r@@|@?|A?"
+                     },
+                     "start_location" : {
+                        "lat" : 38.2205213,
+                        "lng" : -122.1324647
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "17.0 mi",
+                        "value" : 27393
+                     },
+                     "duration" : {
+                        "text" : "15 mins",
+                        "value" : 912
+                     },
+                     "end_location" : {
+                        "lat" : 37.999339,
+                        "lng" : -122.0759075
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eI-680 S\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ayfhF`anhVt@?b@?vA@rB@R@pA@v@?t@?dCAbDAdB?T?VA\\?^?Z?rCBdC?tAB`BDhAD`BDpADpABdABx@@dF?v@A`LEhCAn@?pGC|AA~CAnGC~\\OL?lDCj@Ct@C`CWv@Kr@MvBg@z@U\\Md@Op@YbBu@|EyB^Q~E}BrYwMrBaAvMcGhB{@fIuDzAs@d@UpAq@dAm@v@g@fCsBtBcBhB{ArNkLlB_BfH_GXUbAy@~@u@tAkApDuCrAiA~BoBnB_BhGcFlCyBzCgCh@c@lAaAzAoAfDoCdBwAd@_@`Au@XUp@e@ZUZQpAu@VOd@SnAg@r@W~CcAp@StDkAZKz@Wz@YlFaBlAa@l@Q^Mx@Wx@WjBk@tBq@jBk@jA_@~Bu@dEqAj@QdBk@fA]p@QVIDAj@OXGh@KXG`@GZEl@Gt@Il@C^C^Aj@AXAb@?b@?f@@h@@n@D^BlBRhANbJtAh@HbBTb@Db@D\\BzAFnA?bAAd@Cj@E\\CVCj@Gb@Gp@Kx@Q\\Il@Qt@Up@W^Ox@_@~@c@`CiAvBcAf@Wp@[jAg@fA_@pBk@n@Ol@Mr@M`@G~@Kn@Gr@G|BOlCSfE[xF_@NAtCUtBOfBMnBOrBOxAK|DY`BMl@En@CVAV?v@Cz@?`DF`CBvCDbDF|EHvB@`@ATAl@C\\CrAMB?dAQb@Gp@On@Qb@MfA]XKPIXMVKJGf@W`B}@tAu@dBaAtAs@v@_@t@Yn@Sp@S`@Kt@Ox@Ot@K~@Kz@Gt@C`@Ab@AjA@~@D`@BdAH`@F`ALt@Nv@PfAV`B`@jB`@jAXl@LfAVf@JpBd@vA\\`B^hAVtInBvAZ\\HdB`@`B^~Bh@rDz@rCn@dB`@tA^f@Nt@VdA`@n@XTJ^RxAx@h@ZTPn@f@l@d@fBtAzAjA|@r@h@f@VPl@b@f@`@|@p@jCrB`CjBfCpB~@r@`BzAl@j@l@j@tAvAr@x@d@f@h@n@pAtAzChDf@j@h@h@PTx@|@TTb@d@j@n@b@f@VVNRh@h@TVPRBBRTf@f@RPTTJHJHrO`MrAdA~BjBTP`Ar@zCbCj@d@VPtC|BbClB`At@`Av@xAjAv@l@z@p@bNhK\\VZVpBzAbDdCPN@@RNtErDh@^p@`@ZP`@R^Nf@Rr@T`@NXFTDXDXDl@D`@Dr@B^?T?X?ZAXAPAXCTCVC^GVEZIREb@Kh@O~BcAxAo@rAe@j@Qn@QxCs@jAWr@KVAn@C^Az@@n@BjAJ^DjAR|Cl@tCj@t@N\\FXDVDVDZBr@D\\@d@@b@?\\Ad@C|CWf@IXGl@Qj@Q`@O^Ov@[d@UZQTSTORQVSj@a@j@a@f@_@VO\\KTGRG|@m@z@k@j@_@jQyM~RiOjWkSbAw@dAy@x@o@~@s@x@q@z@q@l@g@z@i@`@Sf@UpAs@`@Gt@Ir@Gr@If@Ct@Cx@@x@@jA@z@?r@?r@Ap@Cn@Gp@Mv@Ot@UhAc@n@[f@[ZSRObAy@f@g@`@e@n@}@j@_ATe@bA_CN_@xCwJVaAt@aCZiAhAwDfAmD`@oAl@iBrCoIJ[p@qBhAqDl@oB`AeDb@yAh@mBfBaG^uAf@gBl@oBXaAX{@^sAX}@Ty@N_@Xy@Xs@P_@^s@\\m@T]NUb@k@d@m@j@m@z@w@j@k@dBcBpAoArAqA~B}BhBeBzB{BfDeD|B}Bb@_@pAqAbAaAdDaD\\[@A`@a@pAoArAuAbBkBx@aAhCuCpAwAx@_AjD{Db@i@~AgBzDmEvPqRrEiFtEgFrEkF"
+                     },
+                     "start_location" : {
+                        "lat" : 38.2147278,
+                        "lng" : -122.1379288
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 794
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : {
+                        "lat" : 37.994113,
+                        "lng" : -122.0697728
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e53\u003c/b\u003e for \u003cb\u003eCA-4 E\u003c/b\u003e toward \u003cb\u003eE Pittsburg/E Antioch\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "{v|fFl}ahV\\OLE`@e@~@iAf@k@z@eAnBmCvAiBr@aAFOV]n@y@`ByBzCcEX_@jByB\\a@NQd@e@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.999339,
+                        "lng" : -122.0759075
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.9 mi",
+                        "value" : 3007
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 129
+                     },
+                     "end_location" : {
+                        "lat" : 38.0036572,
+                        "lng" : -122.0417548
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e at the fork, follow signs for \u003cb\u003eAntioch Pittsburg/CA-4\u003c/b\u003e and merge onto \u003cb\u003eCA-4 E\u003c/b\u003e",
+                     "maneuver" : "fork-right",
+                     "polyline" : {
+                        "points" : "ev{fF`w`hVJCLEPGJCJAH@J@FBJDHFFFFHJPDNBX@P?RCRGVGLKLKHKFMDKBI?G?GAEAICIEECGGIKIMEMEKCCCCECk@aCi@aCsCcL}@{DQu@c@gBAIk@cCk@_Cc@{AOc@K]M]KY[y@_AuB_AqB_AoBa@_Ao@uAk@oAa@_Ai@yA]cAWu@IY]eAUw@[kAOk@Kc@e@cCUeAOeAO}@W_B[sBKk@_@cCCQ?Cc@kCg@}CSoAa@oCq@kEi@cDo@yDIq@O_A{@cGw@iFwAeJ{@wE"
+                     },
+                     "start_location" : {
+                        "lat" : 37.994113,
+                        "lng" : -122.0697728
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 551
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 25
+                     },
+                     "end_location" : {
+                        "lat" : 38.0020397,
+                        "lng" : -122.0376201
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e15A\u003c/b\u003e for \u003cb\u003eState Route 242\u003c/b\u003e toward \u003cb\u003eOakland/Concord\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "{q}fF|g{gV?Y@IEa@[yCQsB[qCCSAK?GAK?KAM@K?I@M?IBM@I@KBKBKBMDMBKDKFMFKHKFILMLKHGJGHELEJELCJCH@JAP?d@Bt@Fb@DH?J?LATC"
+                     },
+                     "start_location" : {
+                        "lat" : 38.0036572,
+                        "lng" : -122.0417548
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 mi",
+                        "value" : 1126
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : {
+                        "lat" : 37.9920614,
+                        "lng" : -122.0397893
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eCA-242 S\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "wg}fFbnzgVbNfBtAT`CZzGz@bGv@tCb@xBVtFr@vAR|APr@L"
+                     },
+                     "start_location" : {
+                        "lat" : 38.0020397,
+                        "lng" : -122.0376201
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 338
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 37.9891691,
+                        "lng" : -122.040824
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e2\u003c/b\u003e for \u003cb\u003eSolano Way/Grant St\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "ki{fFt{zgVJR@@@@vAZz@Rf@JxAVlAPd@Hf@DHBHBD@FBD@JDjAh@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9920614,
+                        "lng" : -122.0397893
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 786
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 79
+                     },
+                     "end_location" : {
+                        "lat" : 37.9840877,
+                        "lng" : -122.0356327
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eGrant St/Solano Way\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Grant St\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "iwzfFbb{gVD@F@F?F?DGFGLMPMNMXSd@Y`@Uh@YhAo@~@c@X[l@Y|BmAtAu@b@YbAi@t@c@t@c@PIVQJKHIJSJSLYFODMHa@BK@K@MBS@W?W?Q?sA?K@Q?QFk@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9891691,
+                        "lng" : -122.040824
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 795
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 106
+                     },
+                     "end_location" : {
+                        "lat" : 37.9781856,
+                        "lng" : -122.0307217
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eEast St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "qwyfFtazgVDUDQDOFQFQDMPYFKJMJKJKXUdEuClAy@lA}@dAo@|AgA~AgAv@i@\\Ip@e@|@m@XUb@[`BgAnAy@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9840877,
+                        "lng" : -122.0356327
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "128 ft",
+                        "value" : 39
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 9
+                     },
+                     "end_location" : {
+                        "lat" : 37.9780082,
+                        "lng" : -122.0311001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eWillow Pass Rd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "urxfF~bygVb@jA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9781856,
+                        "lng" : -122.0307217
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "qpmhFx|zgVChW?jCjB@|E?bMB|E@nCDp@N\\P`@Zd@t@j@pBRt@PZd@|BpBxKZ`DPfD~AnYVpKzApxAxA|sAPfRMjH]nGMvCCxCRfF`@pDf@`Cn@tB|AlDnC|ErApCdAbChAbDVl@TDn`@tkAlOde@lDvJtAnD|CvHrCpGjHjOpIvO|HdM`CvD@b@J^fCzEz@jBX|@nBjHx@nBf@t@h@h@|AbAr@Vp@PbAJp@@fEBtF?pHFhQEtIBbJTbHNhYIj}@_@`BGxDc@jDu@xAc@vAi@`IoDfe@iTd^iPvBgA|BuAzY_VrNoLb`@o[dV{RbCcBhBeAtB{@zL{D`K_D|Q{F|LyDvFeBtBe@dC]bDSlCC`DLvDb@lK~AfCZ`AHjDFhBElCUlDo@bBg@pAg@rJqExAs@rCgA`D{@`B[dEc@lU_B~Z{BvEYnAC|EFzSZxC?bAEpBQhAQtAWrA_@lCaAlDiBzDwBlCsAdBm@rA_@nB_@tBWpBKdACjCFfBLbBTlB`@`JtBnGvAv[lHlPvD|Bn@zBx@~DrB|CzBbE`DfBzAjDhCtMdKnCfCbCbCtEfF~FtGtGfH|C~Cr_@lZbSvOzY|T~FrElAr@`Ab@zAh@z@Vn@JfAJtAHjBAzAKjB[v@QhDsAlDuAzAc@dFkAjAMnAEjBDjBPhF`AbGhA~BTdC@bE[`AQzCcA|Aq@p@e@lBwArAaAt@[h@OxByAvRyN~RiOjWkShCqBxBcBtBcBhBqAhAi@pAs@`@GhBQzAMnBAdCBnB?dBE`BUlBe@xB_AbAo@vAiAhAmAzA}BxAeDhDwKlAcEnE_O~FgQ|EaPxEmP`CaIxAqEj@sA|@aBnBmCxFuFtYeYxIqIhEiEbViX|c@qg@rEkF\\OLE`@e@fBuBjDsEjCkD^m@fIwK~DsEv@UT?RDTLNPP`@Dj@Cf@Od@WVYLe@@_@Oa@o@IOIGgHcZcBkHoA{E[aAYw@{AoDqEwJmAoCgA}CuAmEk@wBq@gDmAiHkAuHmGw`@mC_RsC}P@c@oAaMGs@?o@Fo@Lq@Vs@f@o@l@a@r@SlABnBLb@ExP|BvXrDdPpBr@LJRBBrCn@`Cb@dDd@\\JvAn@LBN?LOhA}@zDyB~@c@X[jDgBrF}CjBkAT]Xm@ZkAHeA?iC@c@LaAZeAj@aAVW~EkD~HoFvCqB\\Ip@e@vAcAdCcBnAy@b@jA"
+         },
+         "summary" : "I-680 S",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

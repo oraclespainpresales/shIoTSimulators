@@ -1,0 +1,205 @@
+{
+  "deviceName": "Blue Pump",
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/impeller-pump.gif",
+      "frameWidth": 640,
+      "frameHeight": 480
+    },
+    {
+      "name": "isOffImage",
+      "file": "images/impeller-pump2.jpg",
+      "frameWidth": 640,
+      "frameHeight": 480
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:blue:pump:data",
+      "attributes": [
+        {
+          "name": "Cycle_Maximum_Inlet_Pressure",
+          "displayName": "Max Inlet Pressure",
+          "visible": true,
+          "chartable": true,
+          "format": "####.",
+          "initialValue": 300,
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 200,
+            "upperValue": 450
+          },
+          "units": "Bar"
+        },
+        {
+          "name": "Cycle_Return_Pressure_Min",
+          "displayName": "Min Return Pressure",
+          "visible": true,
+          "chartable": true,
+          "format": "####.",
+          "initialValue": 3,
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 0,
+            "upperValue": 5
+          },
+          "units": "Bar"
+        },
+        {
+          "name": "Cycle_Return_Pressure_Max",
+          "displayName": "Max Return Pressure",
+          "visible": true,
+          "chartable": true,
+          "format": "####.",
+          "initialValue": 20,
+          "units": "Bar",
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 15,
+            "upperValue": 30
+          }
+        },
+        {
+          "name": "Cycle_Cases_Pressure_Min",
+          "displayName": "Min Cases Pressure",
+          "visible": true,
+          "chartable": true,
+          "format": "####.",
+          "initialValue": 0,
+          "units": "Bar",
+          "onFunction": "$sharedFunctions.setTo",
+          "onArguments": {
+            "value": 0
+          }
+        },
+        {
+          "name": "Cycle_Cases_Pressure_Max",
+          "displayName": "Max Cases Pressure",
+          "visible": true,
+          "chartable": true,
+          "format": "####.",
+          "initialValue": 3,
+          "units": "Bar",
+          "onFunction": "$sharedFunctions.setTo",
+          "onArguments": {
+            "value": 3
+          }
+        },
+        {
+          "name": "Cycle_Peak_Operation_Percent_Of_Minute",
+          "displayName": "Peak Operation",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 1,
+          "units": "%",
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 0,
+            "upperValue": 2
+          }
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:blue:pump:data:filter:clogged",
+          "visible": false,
+          "displayName": "Filter Clogged",
+          "value": {
+            "fields": [
+              {
+                "name": "filterClogged",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "urn": "urn:com:blue:pump:data:diagnostics:report",
+          "visible": false,
+          "displayName": "Diagnostics Report",
+          "value": {
+            "fields": [
+              {
+                "name": "passed",
+                "value": true
+              }
+            ]
+          },
+          "condition": "$sharedFunctions.equal",
+          "conditionArguments": {
+            "leftOperand": true,
+            "rightOperand": "$isOn"
+          }
+        }
+
+      ],
+      "actions": [
+        {
+          "name": "power",
+          "value": true,
+          "actionHandler": "$sharedFunctions.setAttributeValues",
+          "actionArguments": {
+            "object": "$this",
+            "isOn": "$value"
+          },
+          "image": "isOffImage"
+        },
+        {
+          "name": "diagnose",
+          "value": true,
+          "actionHandler": "bluePumpFunctions.diagnostics",
+          "actionArguments": {
+            "object": "$this"
+          },
+          "image": "isOffImage"
+        },
+        {
+          "name": "resetFilter",
+          "actionHandler": "$sharedFunctions.setAttributeAndEventValues",
+          "actionArguments": {
+            "object": "$this",
+            "events": {
+              "filterClogged": false
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "filterClogged",
+      "description": "Filter Clogged",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:blue:pump:data.Cycle_Maximum_Inlet_Pressure": {
+          "onEventFunction": "$sharedFunctions.logToTarget",
+          "onEventArguments": {
+            "currentValue": "$urn:com:blue:pump:data.Cycle_Maximum_Inlet_Pressure",
+            "targetValue": 600
+          }
+        },
+        "urn:com:blue:pump:data.Cycle_Return_Pressure_Max": {
+          "onEventFunction": "$sharedFunctions.logToTarget",
+          "onEventArguments": {
+            "currentValue": "$urn:com:blue:pump:data.Cycle_Return_Pressure_Max",
+            "targetValue": 60
+          }
+        },
+        "urn:com:blue:pump:data.Cycle_Peak_Operation_Percent_Of_Minute": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 40,
+            "upperValue": 50
+          }
+        }
+      },
+      "image": "isOnImage"
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

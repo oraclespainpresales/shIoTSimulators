@@ -1,0 +1,81 @@
+{
+  "deviceName": "Blood Infusion Pump",
+  "asset": true,
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/bip.png",
+      "frameWidth": "510",
+      "frameHeight": "510"
+    },
+    {
+      "name": "isOffImage",
+      "file": "$shared/assets/images/sensorOff.png",
+      "frameWidth": 700,
+      "frameHeight": 500
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:oracle:iot:device:bip",
+      "attributes": [
+        {
+          "name": "ora_latitude",
+          "displayName": "Latitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.######",
+          "initialValue": 37.391838,
+          "units": "DEG"
+        },
+        {
+          "name": "ora_longitude",
+          "displayName": "Longitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.######",
+          "initialValue": -121.953298,
+          "units": "DEG"
+        },
+        {
+          "name": "ora_altitude",
+          "displayName": "Altitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 100,
+          "units": "M"
+        },
+        {
+          "name": "health_status",
+          "displayName": "Health Status",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "Normal",
+          "units": ""
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:iot:device:bip:cleaning_required",
+          "visible": true,
+          "displayName": "Cleaning Required",
+          "value": {
+            "fields": [
+              {
+                "name": "message",
+                "value": "cleaning required"
+              }
+            ]
+          }
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "events": [],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

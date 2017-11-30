@@ -1,0 +1,124 @@
+{
+  "urn": "urn:com:oracle:iot:device:temperature_sensor",
+  "name": "Temperature Sensor",
+  "description": "Sensor that measures temperature in Celsius degrees",
+  "system": false,
+  "attributes": [
+    {
+      "alias": "maximumTemperature",
+      "description": "The maximum value measured by the sensor since power ON or reset",
+      "name": "maxTemp",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "maximumThreshold",
+      "description": "The maximum temperature threshold",
+      "name": "maxThreshold",
+      "range": "65,80",
+      "type": "INTEGER",
+      "writable": true
+    },
+    {
+      "alias": "minimumTemperature",
+      "description": "The minimum value measured by the sensor since power ON or reset",
+      "name": "minTemp",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "minimumThreshold",
+      "description": "The minimum temperature threshold",
+      "name": "minThreshold",
+      "range": "-20,0",
+      "type": "INTEGER",
+      "writable": true
+    },
+    {
+      "description": "The time (measured in EPOCH) at which the system was powered ON or reset",
+      "name": "startTime",
+      "type": "DATETIME",
+      "writable": false
+    },
+    {
+      "alias": "temperature",
+      "description": "Measures temperature value between -20 and +80 Cel",
+      "name": "temp",
+      "range": "-20,80",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Measurement unit, such as Cel for Celsius.",
+      "name": "unit",
+      "type": "STRING",
+      "writable": false
+    }
+  ],
+  "actions": [
+    {
+      "alias": "systemPower",
+      "argType": "BOOLEAN",
+      "description": "Turns system ON or OFF",
+      "name": "power"
+    },
+    {
+      "description": "Reset the minimum and maximum measured values to current value",
+      "name": "reset"
+    }
+  ],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:iot:device:temperature_sensor:too_hot",
+      "name": "tooHotAlert",
+      "description": "Temperature has reached the maximum temperature threshold",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:temperature_sensor",
+      "value": {
+        "fields": [
+          {
+            "name": "temp",
+            "optional": false,
+            "type": "NUMBER"
+          },
+          {
+            "name": "unit",
+            "optional": false,
+            "type": "STRING"
+          },
+          {
+            "name": "maxThreshold",
+            "optional": true,
+            "type": "NUMBER"
+          }
+        ]
+      }
+    },
+    {
+      "urn": "urn:com:oracle:iot:device:temperature_sensor:too_cold",
+      "name": "tooColdAlert",
+      "description": "Temperature has reached the minimum temperature threshold",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:temperature_sensor",
+      "value": {
+        "fields": [
+          {
+            "name": "temp",
+            "optional": false,
+            "type": "NUMBER"
+          },
+          {
+            "name": "unit",
+            "optional": false,
+            "type": "STRING"
+          },
+          {
+            "name": "minThreshold",
+            "optional": true,
+            "type": "NUMBER"
+          }
+        ]
+      }
+    }
+  ]
+}

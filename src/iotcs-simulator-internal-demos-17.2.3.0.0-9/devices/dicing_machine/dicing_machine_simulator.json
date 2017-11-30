@@ -1,0 +1,313 @@
+{
+  "deviceName": "Dicing Machine",
+  "messagingInterval": "350",
+  "messagesLimit": "100",
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/dicing_machine.png",
+      "frameWidth": "600",
+      "frameHeight": "600"
+    },
+    {
+      "name": "isOffImage",
+      "file": "$shared/assets/images/sensorOff.png",
+      "frameWidth": 700,
+      "frameHeight": 500
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:dicing:machine",
+      "attributes": [
+        {
+          "name": "Counter",
+          "displayName": "Counter",
+          "visible": true,
+          "chartable": true,
+          "format": "####",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 0
+          }
+        },
+        {
+          "name": "BladeRPM",
+          "displayName": "BladeRPM",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 1
+          },
+          "units": "RPM"
+        },
+        {
+          "name": "CutDepth",
+          "displayName": "CutDepth",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 2
+          },
+          "units": "mm"
+        },
+        {
+          "name": "WearRank",
+          "displayName": "WearRank",
+          "visible": true,
+          "chartable": true,
+          "format": "####",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 3
+          },
+          "units": "[0-5]"
+        },
+        {
+          "name": "FlowRate",
+          "displayName": "FlowRate",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 4
+          },
+          "units": ""
+        },
+        {
+          "name": "CoolTemp",
+          "displayName": "CoolTemp",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 5
+          },
+          "units": "C"
+        },
+        {
+          "name": "NozzSize",
+          "displayName": "NozzSize",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 6
+          },
+          "units": "mm"
+        },
+        {
+          "name": "MachineState",
+          "displayName": "MachineState",
+          "visible": true,
+          "chartable": true,
+          "format": "####",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 7
+          },
+          "units": "[0-5]"
+        },
+        {
+          "name": "FeedRate",
+          "displayName": "FeedRate",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 8
+          },
+          "units": "UPM"
+        },
+        {
+          "name": "MatlThk",
+          "displayName": "MatlThk",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 9
+          },
+          "units": "mm"
+        },
+        {
+          "name": "MatlTemp",
+          "displayName": "MatlTemp",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 10
+          },
+          "units": "C"
+        },
+        {
+          "name": "SurfaceCond",
+          "displayName": "SurfaceCond",
+          "visible": true,
+          "chartable": true,
+          "format": "####",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 11
+          },
+          "units": "[0-5]"
+        },
+        {
+          "name": "PassPercent",
+          "displayName": "PassPercent",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "onFunction": "$sharedFunctions.csv",
+          "onArguments": {
+            "object": "$this",
+            "fileName": "devices/dicing_machine/lib/DicingData_10K.csv",
+            "column": 12
+          },
+          "units": "%"
+        }
+      ],
+      "formats": [],
+      "actions": []
+    }
+  ],
+  "events": [
+    {
+      "name": "randomData",
+      "description": "Generate Random Data",
+      "exclusive": true,
+      "attributes": {
+        "urn:dicing:machine.Counter": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 0,
+            "lowerValue": 0,
+            "upperValue": 10000
+          }
+        },
+        "urn:dicing:machine.BladeRPM": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0,
+            "upperValue": 30000
+          }
+        },
+        "urn:dicing:machine.CutDepth": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0,
+            "upperValue": 50
+          }
+        },
+        "urn:dicing:machine.WearRank": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0,
+            "upperValue": 5
+          }
+        },
+        "urn:dicing:machine.FlowRate": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": -50,
+            "upperValue": 50
+          }
+        },
+        "urn:dicing:machine.CoolTemp": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": -50,
+            "upperValue": 500
+          }
+        },
+        "urn:dicing:machine.NozzSize": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0,
+            "upperValue": 2
+          }
+        },
+        "urn:dicing:machine.MachineState": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0,
+            "upperValue": 5
+          }
+        },
+        "urn:dicing:machine.FeedRate": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0,
+            "upperValue": 1000
+          }
+        },
+        "urn:dicing:machine.MatlThk": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0,
+            "upperValue": 1000
+          }
+        },
+        "urn:dicing:machine.MatlTemp": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": -50,
+            "upperValue": 500
+          }
+        },
+        "urn:dicing:machine.SurfaceCond": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0,
+            "upperValue": 5
+          }
+        },
+        "urn:dicing:machine.PassPercent": {
+          "onEventFunction": "$sharedFunctions.randomInRange",
+          "onEventArguments": {
+            "lowerValue": 0,
+            "upperValue": 100
+          }
+        }
+      }
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

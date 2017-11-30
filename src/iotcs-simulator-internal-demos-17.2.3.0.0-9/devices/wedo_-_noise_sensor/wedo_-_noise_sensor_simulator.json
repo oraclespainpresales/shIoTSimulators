@@ -1,0 +1,235 @@
+{
+  "deviceName": "WEDO - Noise Sensor",
+  "messagingInterval": 5000,
+  "messagesLimit": "3600",
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/noiseOn.gif",
+      "frameWidth": "500",
+      "frameHeight": "304",
+      "type": "image"
+    },
+    {
+      "name": "isOffImage",
+      "file": "images/noiseOff.png",
+      "frameWidth": "500",
+      "frameHeight": "304",
+      "type": "image"
+    },
+    {
+      "name": "dawn",
+      "file": "images/Daytime_Background_1024x800.png",
+      "frameWidth": "1024",
+      "frameHeight": "800",
+      "type": "image"
+    },
+    {
+      "name": "dusk",
+      "file": "images/night.gif",
+      "frameWidth": "500",
+      "frameHeight": "500",
+      "type": "image"
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:oracle:iot:device:noise_sensor",
+      "attributes": [
+        {
+          "name": "demo_zone",
+          "displayName": "demo_zone",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "###DEMO_ZONE###"
+        },
+        {
+          "name": "hotel_name",
+          "displayName": "hotel_name",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "###HOTEL_NAME###"
+        },
+        {
+          "name": "hotel_room",
+          "displayName": "hotel_room",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "###ROOM_NUMBER###"
+        },
+        {
+          "name": "noise_sensor_number",
+          "displayName": "noise_sensor_number",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "###NOISE_SENSOR_NUMBER###",
+          "onFunction": "noiseids_helper.getAssignedId",
+          "onArguments": {
+                "object": "$this"
+          }
+        },
+        {
+          "name": "max_noise",
+          "displayName": "max_noise",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 0,
+          "units": "dB",
+          "onFunction": "$sharedFunctions.max",
+          "onArguments": {
+            "arg1": "$max_noise",
+            "arg2": "$noise"
+          }
+        },
+        {
+          "name": "max_threshold",
+          "displayName": "max_threshold",
+          "visible": true,
+          "chartable": true,
+          "format": "####",
+          "initialValue": 55,
+          "units": "dB"
+        },
+        {
+          "name": "start_time",
+          "displayName": "start_time",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "2017-08-01T15:52:50.263Z"
+        },
+        {
+          "name": "noise",
+          "displayName": "noise",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 34,
+          "units": "dB",
+          "onFunction": "$sharedFunctions.logToTarget",
+          "onArguments": {
+            "currentValue": "$noise",
+            "targetValue": 35"
+          },
+          "offFunction": "$sharedFunctions.linearToTarget",
+          "offArguments": {
+            "currentValue": "$noise",
+            "targetValue": 30
+          }
+        },
+        {
+          "name": "unit",
+          "displayName": "unit",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "dB",
+          "onFunction": "",
+          "onArguments": {
+            "value": "dB"
+          }
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:iot:device:noise_sensor:too_noisy",
+          "visible": false,
+          "displayName": "SEND: Too Noisy",
+          "value": {
+            "fields": [
+              {
+                "name": "noise",
+                "value": "$noise"
+              },
+              {
+                "name": "unit",
+                "value": "$unit"
+              },
+              {
+                "name": "max_threshold",
+                "value": "$max_threshold"
+              }
+            ]
+          },
+          "image": "isOnImage",
+          "imageTime": 2000,
+          "condition": "$sharedFunctions.greaterOrEqual",
+          "conditionArguments": {
+            "leftOperand": "$noise",
+            "rightOperand": "$max_threshold"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "power",
+          "value": false,
+          "actionHandler": "",
+          "actionArguments": {
+            "object": "$this",
+            "property": "$unit"
+          }
+        },
+        {
+          "name": "reset",
+          "actionHandler": "",
+          "actionArguments": {
+            "object": "$this"
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "tooNoisyNeighbor",
+      "description": "Arrival of too noisy neighbor",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:noise_sensor.noise": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 50
+          }
+        }
+      },
+      "image": "isOnImage"
+    },
+    {
+      "name": "NightNoiseLevel",
+      "description": "Threshold: allowed dBs at night",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:noise_sensor.max_threshold": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 45
+          }
+        }
+      },
+      "image": "dusk"
+    },
+    {
+      "name": "DaytimeNoiseLevel",
+      "description": "Threshold: allowed dBs at daytime",
+      "exclusive": true,
+      "attributes": {
+        "urn:com:oracle:iot:device:noise_sensor.max_threshold": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 55
+          }
+        }
+      },
+      "image": "dawn"
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

@@ -1,0 +1,275 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJk8EIXIG3j4ARwL_Ao3ykdeQ",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJO13QqUW2j4ARosN83Sb7jXY",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.3865142,
+               "lng" : -121.9522615
+            },
+            "southwest" : {
+               "lat" : 37.3540533,
+               "lng" : -122.0371004
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "7.6 mi",
+                  "value" : 12194
+               },
+               "duration" : {
+                  "text" : "16 mins",
+                  "value" : 951
+               },
+               "end_address" : "Sunnyvale, CA, USA",
+               "end_location" : {
+                  "lat" : 37.3688977,
+                  "lng" : -122.0363306
+               },
+               "start_address" : "Santa Clara, CA, USA",
+               "start_location" : {
+                  "lat" : 37.3540533,
+                  "lng" : -121.9553899
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 210
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : {
+                        "lat" : 37.355856,
+                        "lng" : -121.9552517
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e on \u003cb\u003eLincoln St\u003c/b\u003e toward \u003cb\u003eWarburton Ave\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "yu~bFdljgVQH[JWFYFYDQ@Y@a@AOA[EUGMESI}@i@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3540533,
+                        "lng" : -121.9553899
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 282
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 42
+                     },
+                     "end_location" : {
+                        "lat" : 37.3558897,
+                        "lng" : -121.9522615
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eWarburton Ave\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ca_cFhkjgVNe@Rk@Ng@DQDSBQDa@?U@W?_@?]AYEYIg@UeAi@sB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.355856,
+                        "lng" : -121.9552517
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 mi",
+                        "value" : 917
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 79
+                     },
+                     "end_location" : {
+                        "lat" : 37.3609965,
+                        "lng" : -121.959111
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMonroe St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ia_cFrxigV_@PoB|@o@Zc@TIBOFGBKDI@ODYBOBQDIBIBKFIDQJMH?@OJIFy@n@e@Zk@`@c@\\e@\\QJMJEBOLULu@h@W^EDEHGNQf@_@jAu@|Bi@zAIXGZCVCZARAj@?bA?fA@xA@TAh@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3558897,
+                        "lng" : -121.9522615
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.9 mi",
+                        "value" : 1492
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 142
+                     },
+                     "end_location" : {
+                        "lat" : 37.3742263,
+                        "lng" : -121.9594629
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eScott Blvd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ga`cFlckgVKZEFEJCDGDE@KBKHg@?gB?iC@y@?eA?Y?]?qB?mFEeD?U?C?C@A@MHg@?o@?_@?k@@kA?{F?wB?g@AkA?o@?mE?g@?sE?]?Q?EMQ@aAAO?Q?cA?kAA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3609965,
+                        "lng" : -121.959111
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.3 mi",
+                        "value" : 6888
+                     },
+                     "duration" : {
+                        "text" : "7 mins",
+                        "value" : 390
+                     },
+                     "end_location" : {
+                        "lat" : 37.3847485,
+                        "lng" : -122.0335181
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCentral Expy\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}sbcFrekgV_@ABZ@fB@n@?zAFlH?dAAf@?zAC~@C~ACx@AxAGjAGzAI|AGjB?NCx@Av@Ad@?f@CzB?l@?R?F?N@nB?z@?V?V@tBA`@@l@?nB@t@?jB?vB@~A@nB?Z@Z?fA@XAXA\\ALALGb@Gf@EXK\\K`@GPMXKVYf@q@hAcBvC[f@eAfBe@t@W^cCjEYl@Qb@Mf@I^GVETE^E^C`@AV?d@?nB@~R@hD?hD?dA@L?fA?X?N@|A@jM?z@?z@@dCB|DB|B@lC?~@?`@?b@?x@@j@?T?b@?b@?B?t@?nA?nA@lAAnA?pB?pC?`F@~B@p@Bf@Bb@Bh@BRFr@Hf@Fb@RbAvAjHNz@Hj@Hp@NdB@d@@b@@x@?bAC`AC`@Eh@C^CR?@AHOfAAHG^k@nC]zAId@q@rCuC|MCHKb@WjASdAg@rBo@rCMf@Or@UfAe@tBK`@GVIZKb@GVGNITM\\O`@GLQ^OZ]p@g@v@s@lA_@n@OVQXQXCDKPEHINGJOVIRSd@GPGNSh@I\\K\\EREPGXG\\E\\G\\G\\Eb@c@lDe@rDo@~EYxBa@dDi@`E{@zGUnB_@nCGb@]~BU~AE^UxAO`Aa@bCYdB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3742263,
+                        "lng" : -121.9594629
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 247
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 37.3865121,
+                        "lng" : -122.0329344
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eSoquel Way\u003c/b\u003e (signs for \u003cb\u003eMathilda Avenue S\u003c/b\u003e)",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "uudcFntygVKNGJEHEFEBEBEBIBE@E@M@Y@oD{@EACCCAECAAAACCCCCCACCCACAECCAEACAEAEAGAIAE?I?I?K"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3847485,
+                        "lng" : -122.0335181
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "358 ft",
+                        "value" : 109
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 12
+                     },
+                     "end_location" : {
+                        "lat" : 37.3862649,
+                        "lng" : -122.0317377
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eIndio Way\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "u`ecFxpygV?I@In@yE"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3865121,
+                        "lng" : -122.0329344
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.2 mi",
+                        "value" : 1963
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 206
+                     },
+                     "end_location" : {
+                        "lat" : 37.36918319999999,
+                        "lng" : -122.0370478
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eN Mathilda Ave\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "c_ecFjiygVNIFCDAJAHAVChAT`@JbCl@h@Jl@Ll@Lt@P@?b@JdATn@N^Hp@PhAVr@Pb@JTHn@P|Bl@jB^lBXz@Jx@Lh@Ft@HD@TDXFd@HnBl@XH^JtAb@hBd@fBb@|@RjAZ~Bj@tBd@|@TRDvCl@~@R~@PTFx@NdFnA`ATxBf@pAZ"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3862649,
+                        "lng" : -122.0317377
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "282 ft",
+                        "value" : 86
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : {
+                        "lat" : 37.3688977,
+                        "lng" : -122.0363306
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eEl Camino Real\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ktacFpjzgVZHFe@Fo@JcA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.36918319999999,
+                        "lng" : -122.0370478
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "yu~bFdljgVm@Tq@Nk@F{@?k@Gc@MqAs@b@qATy@He@Dw@@w@Aw@OaA_AyDoCnAmB|@m@PeAPq@\\wEjDkAx@e@Zu@h@W^KNYv@iC~HKr@En@?pG?~@Qb@IPMFWLoC?cH@cPE_@BMHg@?oA?kN@qJAkH?EMQ@qAAuA?kBCDbC@jCFrJAbCMrHa@pJGfDCdF@jKFbT@vCM|AM`AW~@Uj@e@~@uC`FaBnC}@tAcCjEYl@_@jAQv@Kt@I`AA|@@nVBfLDx[HhO@jD?fF?~I?rJBpDNhCPzAZfBfBfJR|APjCB|ACdCIjAI~@QpAs@nDoFrVaDnNwArGe@nBo@dBgAzB_ExGg@|@m@zAo@xB[fBkE`]{C|UaAbHaBdK_@l@[Ns@F}DcAMKWc@GWCc@?Up@cFVMPC`@EjB`@lDx@zAZ`Dr@jEbA|Cx@|Bl@jB^hDd@~C`@n@Ld@HnBl@x@T~DhApJ~B~InBnE|@rNhDZHFe@RsB"
+         },
+         "summary" : "Central Expy",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,113 @@
+{
+  "urn": "urn:dicing:machine",
+  "name": "Dicing Machine",
+  "description": "Dicing Machine",
+  "attributes": [
+    {
+      "alias": "",
+      "description": "Counter",
+      "name": "Counter",
+      "range": "0,10000",
+      "type": "INTEGER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Blade RPM",
+      "name": "BladeRPM",
+      "range": "-100000.0,100000.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Cut Depth",
+      "name": "CutDepth",
+      "range": "-20.0,50.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Wear Rank",
+      "name": "WearRank",
+      "range": "0,5",
+      "type": "INTEGER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Flow Rate",
+      "name": "FlowRate",
+      "range": "-50.0,50.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Cool Temp",
+      "name": "CoolTemp",
+      "range": "-100.0,500.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Nozz Size",
+      "name": "NozzSize",
+      "range": "0.0,2.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Machine State",
+      "name": "MachineState",
+      "range": "0,5",
+      "type": "INTEGER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Feed Rate",
+      "name": "FeedRate",
+      "range": "-200.0,500.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Matl Thk",
+      "name": "MatlThk",
+      "range": "0.0,1000.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Matl Temp",
+      "name": "MatlTemp",
+      "range": "-100.0,500.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Surface Cond",
+      "name": "SurfaceCond",
+      "range": "0,5",
+      "type": "INTEGER",
+      "writable": false
+    },
+    {
+      "alias": "",
+      "description": "Pass Percent",
+      "name": "PassPercent",
+      "range": "0.0,100.0",
+      "type": "NUMBER",
+      "writable": false
+    }
+  ],
+  "actions": [],
+  "formats": []
+}

@@ -1,0 +1,51 @@
+{
+  "urn": "urn:com:oracle:iot:device:cart",
+  "name": "Sterile Instrument Cart Device Model",
+  "description": "Device Model for sterile surgical instrument transportation cart",
+  "attributes": [
+    {
+      "name": "health_status",
+      "type": "STRING",
+      "writable": false
+    },
+    {
+      "alias": "ora_lat",
+      "name": "ora_latitude",
+      "range": "-90.0,90.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "ora_lon",
+      "name": "ora_longitude",
+      "range": "-180.0,180.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "ora_alt",
+      "name": "ora_altitude",
+      "type": "NUMBER",
+      "writable": false
+    }
+  ],
+  "actions": [],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:iot:device:cart:maintenance_required",
+      "name": "Cart_Maintenance_Required_Alert",
+      "description": "Alert indicating need for maintenance prior to next use - use 'available' or 'maintenance_required'",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:cart",
+      "value": {
+        "fields": [
+          {
+            "name": "message",
+            "optional": true,
+            "type": "STRING"
+          }
+        ]
+      }
+    }
+  ]
+}

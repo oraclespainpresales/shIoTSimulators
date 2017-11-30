@@ -1,0 +1,108 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJO13QqUW2j4ARosN83Sb7jXY",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJk8EIXIG3j4ARwL_Ao3ykdeQ",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.3688977,
+               "lng" : -121.9543945
+            },
+            "southwest" : {
+               "lat" : 37.3521212,
+               "lng" : -122.0363306
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "5.1 mi",
+                  "value" : 8186
+               },
+               "duration" : {
+                  "text" : "17 mins",
+                  "value" : 1018
+               },
+               "end_address" : "Santa Clara, CA, USA",
+               "end_location" : {
+                  "lat" : 37.3540533,
+                  "lng" : -121.9553899
+               },
+               "start_address" : "Sunnyvale, CA, USA",
+               "start_location" : {
+                  "lat" : 37.3688977,
+                  "lng" : -122.0363306
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "4.9 mi",
+                        "value" : 7957
+                     },
+                     "duration" : {
+                        "text" : "16 mins",
+                        "value" : 970
+                     },
+                     "end_location" : {
+                        "lat" : 37.3523175,
+                        "lng" : -121.9545863
+                     },
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003eEl Camino Real\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "sracF`fzgV`@aELcAHm@Hk@D[RcAH]b@gBPi@Pe@t@oB^w@LUz@eAxAqBpAeBjAwAnA}Av@aAzAoBxAoBzAsBDE`BqB\\c@vAiB`BwBzBuCjAyAnIqKx@iA\\e@zAoBpBgClBeCb@k@Za@l@w@DGfB}B^g@nBgCtBiCn@{@HI^g@h@s@rCwDhBaDv@gBNa@Ne@L_@Rs@T}@RaAF_@DSFo@RqB?G?CJkA?AHsABiB?s@@iEAgE@cI?gC?c@?cBAaDEkH?UAoD?{CAuA?S?q@AcAAuA?]?sBCuCAiB?u@Aw@?s@?A?A?_@?CAeBCqDAuBAyB@qD?eB?wC?kD?k@?iA?mD?sCAgE@kB?i@CyF?y@@mC?uA?Y?c@?oAAeC@uC?aA?}A?uB?uJ?{C?u@A_AAiC?mC?uF@_@@m@?aA?iA@oG?}A?kD?{@CoBAk@?q@?}A@k@?M?]?m@?sAA_B@uEAo@?cD@aB?wIAoC@{B?qE?U?}@?a@?yC@iHAaD?qGCqF"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3688977,
+                        "lng" : -122.0363306
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 229
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 48
+                     },
+                     "end_location" : {
+                        "lat" : 37.3540533,
+                        "lng" : -121.9553899
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eLincoln St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "_k~bFdgjgV?g@YNeClA{@b@m@Z[Ja@RQH"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3523175,
+                        "lng" : -121.9545863
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "sracF`fzgVn@eGRyAX_Bl@eCb@oAtAgDtFsHnHgJtDcFfBwBrI{KzKkNvAoB~IiLvD_FtHuJfF}GhBaDv@gB^gA`@sAh@_CLs@ZaDJyAHsABiB@}F?wTGgQCuLCiFEiLAsCIgO@{Q?wLCwQ@gU?kS?qECiEBqM@yN?gFE{C@iE?kWAgN@mI?oG?kMCcO?g@YNaEpB}BdA"
+         },
+         "summary" : "El Camino Real",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

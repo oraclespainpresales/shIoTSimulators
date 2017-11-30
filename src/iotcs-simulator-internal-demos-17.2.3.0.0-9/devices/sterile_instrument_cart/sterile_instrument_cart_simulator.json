@@ -1,0 +1,77 @@
+{
+  "deviceName": "Sterile Instrument Cart",
+  "asset": true,
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/Cart.png",
+      "frameWidth": "371",
+      "frameHeight": "551"
+    },
+    {
+      "name": "isOffImage",
+      "file": "$shared/assets/images/sensorOff.png",
+      "frameWidth": 700,
+      "frameHeight": 500
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:oracle:iot:device:cart",
+      "attributes": [
+        {
+          "name": "health_status",
+          "displayName": "Health Status",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "Normal"
+        },
+        {
+          "name": "ora_latitude",
+          "displayName": "Latitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.######",
+          "initialValue": 37.391838
+        },
+        {
+          "name": "ora_longitude",
+          "displayName": "Longitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.######",
+          "initialValue": -121.953298
+        },
+        {
+          "name": "ora_altitude",
+          "displayName": "Altitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.######",
+          "initialValue": 9
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:iot:device:cart:maintenance_required",
+          "visible": true,
+          "displayName": "Maintenance Required",
+          "value": {
+            "fields": [
+              {
+                "name": "message",
+                "value": "maintenance required"
+              }
+            ]
+          }
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "events": [],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

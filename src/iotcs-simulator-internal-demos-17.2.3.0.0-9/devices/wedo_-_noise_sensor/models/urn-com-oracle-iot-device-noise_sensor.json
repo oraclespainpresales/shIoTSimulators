@@ -1,0 +1,121 @@
+{
+  "urn": "urn:com:oracle:iot:device:noise_sensor",
+  "name": "WEDO-Noise Sensor",
+  "description": "Sensor that measures the noise level in decibels",
+  "system": false,
+  "draft": false,
+  "created": 1501602396912,
+  "createdAsString": "2017-08-01T15:46:36.912Z",
+  "lastModified": 1501602396912,
+  "lastModifiedAsString": "2017-08-01T15:46:36.912Z",
+  "userLastModified": "adminuser",
+  "attributes": [
+    {
+      "description": "Demo Zone",
+      "name": "demo_zone",
+      "type": "STRING",
+      "writable": true
+    },
+    {
+      "description": "Hotel Name",
+      "name": "hotel_name",
+      "type": "STRING",
+      "writable": true
+    },
+    {
+      "description": "Room Number",
+      "name": "hotel_room",
+      "type": "STRING",
+      "writable": true
+    },
+    {
+      "description": "Noise Sensor number",
+      "name": "noise_sensor_number",
+      "type": "STRING",
+      "writable": true
+    },
+    {
+      "alias": "maximum_noise",
+      "description": "The maximum value measured by the sensor since power ON or reset",
+      "name": "max_noise",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "maximum_threshold",
+      "description": "The maximum noise threshold (55dB max allowed at daytime; 45dB max allowed at night; +70dB become harmful).",
+      "name": "max_threshold",
+      "range": "45,70",
+      "type": "INTEGER",
+      "writable": true
+    },
+    {
+      "description": "The time (measured in EPOCH) at which the system was powered ON or reset",
+      "name": "start_time",
+      "type": "DATETIME",
+      "writable": false
+    },
+    {
+      "alias": "noise",
+      "description": "Measures noise level value between 40 and 110 dB",
+      "name": "noise",
+      "range": "1,110",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "description": "Measurement unit, such as dB for decibels.",
+      "name": "unit",
+      "type": "STRING",
+      "writable": false
+    }
+  ],
+  "actions": [
+    {
+      "alias": "systemPower",
+      "argType": "BOOLEAN",
+      "description": "Turns system ON or OFF",
+      "name": "power"
+    },
+    {
+      "description": "Reset the maximum measured value to current value",
+      "name": "reset"
+    }
+  ],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:iot:device:noise_sensor:too_noisy",
+      "name": "tooNoisyAlert",
+      "description": "Noise has reached the maximum noise threshold",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:noise_sensor",
+      "value": {
+        "fields": [
+          {
+            "name": "noise",
+            "optional": false,
+            "type": "NUMBER"
+          },
+          {
+            "name": "unit",
+            "optional": false,
+            "type": "STRING"
+          },
+          {
+            "name": "max_threshold",
+            "optional": true,
+            "type": "NUMBER"
+          }
+        ]
+      },
+      "sourceId": "urn:com:oracle:iot:device:noise_sensor",
+      "sourceType": "DEVICE_MODEL"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://129.150.71.46:443/iot/api/v2/deviceModels/urn%3Acom%3Aoracle%3Aiot%3Adevice%3Anoise_sensor",
+      "rel": "self"
+    }
+  ]
+}

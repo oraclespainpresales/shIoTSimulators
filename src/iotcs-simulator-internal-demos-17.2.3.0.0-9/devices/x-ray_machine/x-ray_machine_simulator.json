@@ -1,0 +1,80 @@
+{
+  "deviceName": "X-Ray Machine",
+  "asset": true,
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "images/xrm.png",
+      "frameWidth": "600",
+      "frameHeight": "600"
+    },
+    {
+      "name": "isOffImage",
+      "file": "$shared/assets/images/sensorOff.png",
+      "frameWidth": 700,
+      "frameHeight": 500
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:oracle:iot:device:xrm",
+      "attributes": [
+        {
+          "name": "ora_latitude",
+          "displayName": "Latitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.######",
+          "initialValue": 37.391838,
+          "units": "DEG"
+        },
+        {
+          "name": "ora_longitude",
+          "displayName": "Longitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.######",
+          "initialValue": -121.953298,
+          "units": "DEG"
+        },
+        {
+          "name": "ora_altitude",
+          "displayName": "Altitude",
+          "visible": true,
+          "chartable": true,
+          "format": "###.#",
+          "initialValue": 100,
+          "units": "M"
+        },
+        {
+          "name": "health_status",
+          "displayName": "Health Status",
+          "visible": true,
+          "chartable": false,
+          "format": "####",
+          "initialValue": "Normal"
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:iot:device:xrm:maintenance_required",
+          "visible": true,
+          "displayName": "Maintenance Required",
+          "value": {
+            "fields": [
+              {
+                "name": "message",
+                "value": "maintenance required"
+              }
+            ]
+          }
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "events": [],
+  "isOnAttribute": {
+    "initialValue": true
+  }
+}

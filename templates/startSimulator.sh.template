@@ -1,0 +1,14 @@
+#export PATH=/installed/nodejs/bin/:${PATH}
+#export PATH=/home/oracle/aaa/IoTSimulators/nodejs/bin:${PATH}
+#export http_proxy=http://www-proxy.us.oracle.com:80
+#export https_proxy=http://www-proxy.us.oracle.com:80
+#export no_proxy=iotserver
+#export npm_config_strict_ssl=false
+#npm set strict-ssl false
+#npm install npm -g --ca="/data/projects/IoT/simulator/16.4.3.0.0-5/iotcs/simulator/server/config/iotca.pem"
+#npm set ca "/data/projects/IoT/simulator/16.4.3.0.0-5/iotcs/simulator/server/config/iotca.pem"
+
+export IoTSimPort=##SIM_PORT##
+
+node server/server.js IoTSimPort=$IoTSimPort
+

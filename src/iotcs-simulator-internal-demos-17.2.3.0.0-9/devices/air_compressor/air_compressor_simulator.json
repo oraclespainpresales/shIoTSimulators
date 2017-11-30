@@ -1,0 +1,177 @@
+{
+  "deviceName": "Air Compressor",
+  "simulatorScript": "../yellow_iron/lib/iron.simulator",
+  "images": [
+    {
+      "name": "deviceOnImage",
+      "file": "images/compressor.png",
+      "frameWidth": 600,
+      "frameHeight": 400
+    },
+    {
+      "name": "deviceOffImage",
+      "file": "images/compressor.png",
+      "frameWidth": 600,
+      "frameHeight": 400
+    },
+    {
+      "name": "deviceWorkingImage",
+      "file": "images/compressor.png",
+      "frameWidth": 600,
+      "frameHeight": 400
+    },
+    {
+      "name": "deviceAnimImage",
+      "file": "images/compressor.png",
+      "frameWidth": 600,
+      "frameHeight": 400
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:oracle:yellow:iron:machine:data",
+      "attributes": [
+        {
+          "name": "fuelLevel",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Fuel Level",
+          "units": "%",
+          "class": "health-bar"
+        },
+        {
+          "name": "engineTemp",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Engine Temperature",
+          "units": "F",
+          "class": "bar error"
+        },
+        {
+          "name": "engineOilPressure",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Engine Oil Pressure",
+          "units": "Pa"
+        },
+        {
+          "name": "hydraulicPressure",
+          "visible": true,
+          "chartable": false,
+          "displayName": "OUTLET PRESSURE",
+          "units": "PSIG",
+          "class": "bar error"
+        },
+        {
+          "name": "engineVibration",
+          "visible": true,
+          "chartable": true,
+          "displayName": "Engine Vibration",
+          "units": "kHz"
+        },
+        {
+          "name": "ora_latitude",
+          "visible": false,
+          "chartable": false
+        },
+        {
+          "name": "ora_longitude",
+          "visible": false,
+          "chartable": false
+        }
+      ],
+      "actions": [
+      ],
+      "formats": [
+         {
+          "urn": "urn:com:oracle:yellow:iron:alert:fuel",
+          "visible": false
+        },
+        {
+          "urn": "urn:com:oracle:yellow:iron:alert:electricalFault",
+          "visible": false
+        },
+        {
+          "urn": "urn:com:oracle:yellow:iron:alert:collision",
+          "visible": false,
+          "displayName": "Send 'Collision Detected' alert"
+        },
+        {
+          "urn": "urn:com:oracle:yellow:iron:alert:tilt",
+          "visible": false,
+          "displayName": "Send 'Tilt Detected' alert"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "lossOfOilPressure",
+      "description": "Loss of Oil Pressure",
+      "exclusive": true
+    }
+  ],
+  "controls": [
+    {
+      "name": "state",
+      "displayName": "STATE",
+      "type": "label"
+    },
+    {
+      "name": "origin",
+      "displayName": "START",
+      "type": "select",
+      "options": "locations"
+    },
+    {
+      "name": "ora_latitude",
+      "displayName": "LATITUDE",
+      "type": "label"
+    },
+    {
+      "name": "ora_longitude",
+      "displayName": "LONGITUDE",
+      "type": "label"
+    },
+    {
+      "name": "destination",
+      "displayName": "DESTINATION",
+      "type": "select",
+      "options": "locations"
+    },
+    {
+      "name": "distanceToDestination",
+      "displayName": "REMAINING DISTANCE",
+      "type": "label",
+      "units": "miles"
+    },
+    {
+      "name": "speed",
+      "displayName": "SPEED",
+      "type": "slider",
+      "floor": 0,
+      "ceil": 40,
+      "units": "MPH"
+    },
+    {
+      "name": "driving",
+      "type": "stateButton",
+      "states": {
+        "false": "TOW TO DESTINATION",
+        "true": "RESET TO START"
+      }
+    }
+  ],
+  "monitors": [
+    {
+      "name": "electricalSystemGood",
+      "displayName": "ELECTRICAL SYSTEM STATUS",
+      "type": "BOOLEAN",
+      "class": "health-bar"
+    }
+  ],
+  "isOnAttribute": {
+    "initialValue": true,
+    "modelAttributeName": "running"
+  }
+}

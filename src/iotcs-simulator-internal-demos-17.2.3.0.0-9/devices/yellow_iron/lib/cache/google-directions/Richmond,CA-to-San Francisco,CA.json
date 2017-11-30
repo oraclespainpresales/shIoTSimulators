@@ -1,0 +1,297 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJKYxc8eBlhYAR9L8V2jMWELM",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJIQBpAG2ahYAR_6128GcTUEo",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.9357244,
+               "lng" : -122.2940186
+            },
+            "southwest" : {
+               "lat" : 37.7689881,
+               "lng" : -122.423344
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "18.1 mi",
+                  "value" : 29106
+               },
+               "duration" : {
+                  "text" : "29 mins",
+                  "value" : 1765
+               },
+               "end_address" : "San Francisco, CA, USA",
+               "end_location" : {
+                  "lat" : 37.7749901,
+                  "lng" : -122.4194926
+               },
+               "start_address" : "Richmond, CA, USA",
+               "start_location" : {
+                  "lat" : 37.9357244,
+                  "lng" : -122.3477485
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "240 ft",
+                        "value" : 73
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 14
+                     },
+                     "end_location" : {
+                        "lat" : 37.9357234,
+                        "lng" : -122.3485821
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eMacdonald Ave\u003c/b\u003e toward \u003cb\u003e22nd St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "gipfFl`wiV?dD"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9357244,
+                        "lng" : -122.3477485
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 205
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : {
+                        "lat" : 37.9338831,
+                        "lng" : -122.3485765
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 1st cross street onto \u003cb\u003e22nd St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "gipfFrewiVpAAvE@R?p@?"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9357234,
+                        "lng" : -122.3485821
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 357
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 46
+                     },
+                     "end_location" : {
+                        "lat" : 37.9307767,
+                        "lng" : -122.3476986
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003e22nd St\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "w}ofFrewiVPKJCRGb@OXM\\O^MVGXEZEZ?XAx@?V?L?LANCNE`@M|@YRGLCJCJAP?"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9338831,
+                        "lng" : -122.3485765
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 mi",
+                        "value" : 1029
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 113
+                     },
+                     "end_location" : {
+                        "lat" : 37.9215418,
+                        "lng" : -122.3475508
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eS 23rd St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "kjofFb`wiVNADA@?@ADCZAhD?f@?dB?z@?xB@vG?tC@PFB@F?j@@n@@R?jB?fB@\\?|AG|AEJAL?`CIh@C@?L?HAXA@?f@C"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9307767,
+                        "lng" : -122.3476986
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.4 mi",
+                        "value" : 5455
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 213
+                     },
+                     "end_location" : {
+                        "lat" : 37.8913517,
+                        "lng" : -122.3088234
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eI-580 E\u003c/b\u003e via the ramp to \u003cb\u003eOakland\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "spmfFd_wiVLFF@D@D@J?J@F@F@DBD@DDDBDF@BBDBFBFBH@F?F?H?H?HAHAFCFCDCHCDGFGDEBIBE@E?K?G?EAKEECECGIEECICGCGAKAIAOA_@?QAK?EAEACCIEIAA@Y@cA@qBBgCFeDFuGHsFFyDFkEDcEFeEDgCH}AJkBBe@D]Fi@Fg@Hs@N}@NaAViAXgALg@ZcA\\cATo@FON]Vm@Tg@t@wAfAiBzAcC|@wAp@aAfA_Bz@iAf@o@`AoAV[RUZa@bAkA~@gA\\_@^_@f@g@x@{@z@y@n@o@XYj@i@p@k@f@a@t@q@`BoAlA_Ar@i@|@q@RQTOhA{@zCcC`Au@|D}CzBcBtn@kf@jDiCz@o@TQxDwCpJkHTQhAy@rAgAfCiBd@]l@_@`@UbAi@p@]z@]v@[pAa@n@WREp@O^ITEt@Kh@GXClAEp@A"
+                     },
+                     "start_location" : {
+                        "lat" : 37.9215418,
+                        "lng" : -122.3475508
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.1 mi",
+                        "value" : 6657
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 343
+                     },
+                     "end_location" : {
+                        "lat" : 37.8328488,
+                        "lng" : -122.2944862
+                     },
+                     "html_instructions" : "Take the exit onto \u003cb\u003eI-580 E/I-80 W\u003c/b\u003e toward \u003cb\u003eOakland/San Francisco\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "}sgfFbmoiVhAD`AFtAP`BPVB~@HF@ZF^@J@n@BL?@@rAFR@B?@?R@d@B\\@d@BB?BA^Qn@A~@?x@E`N}AnHiApC_@rHcAxCa@jASjAQz@Q^I@?nDq@~U{EnAWhU}Eh@KREvMyC^GHABA@?@AFADAHA@?|GkAvA[r@ObXaF`HoA`F_A`AQfMcCxMeCzCg@jDk@`Eo@rFw@@?~B]tFy@@?dBY|@K`AO^Ej@Ij@I|@GjKqAxCa@hAOrFq@zFo@v@Kn@El@Gn@IVC\\C^Cn@IBA`@It@U~@Yn@Uj@S^MLE\\M^O^Ml@Sp@Wv@W`A_@|@]dBm@|EcB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8913517,
+                        "lng" : -122.3088234
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "8.1 mi",
+                        "value" : 13073
+                     },
+                     "duration" : {
+                        "text" : "12 mins",
+                        "value" : 726
+                     },
+                     "end_location" : {
+                        "lat" : 37.7705732,
+                        "lng" : -122.4059525
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e to continue on \u003cb\u003eI-80 W\u003c/b\u003e, follow signs for \u003cb\u003eSan Francisco\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePartial toll road\u003c/div\u003e",
+                     "maneuver" : "keep-right",
+                     "polyline" : {
+                        "points" : "if|eFpsliVh@Ob@IpAWtAM`BOz@Et@Ct@CH?@?\\?B@h@?NB\\Db@Fl@Tj@RRLRJZVNJPPLJVVVXj@~@Vh@Tl@Tr@\\xADTRfAPhALl@ZbBVbBZ|BVfBh@vDVjA`A|GrAjKJ~@\\hEB\\@L@N@@FfATlEZ~H@bA?D?T?@BnD?tE?t@DvABpBBv@HdARhBJ|@Db@Ff@@LFr@TjBd@zEv@hG^fBLl@n@tCd@xALd@XbAR|@PfAVdBRzANzALzANhCJ~BFjBL`EFpBLjDJvCJtCJjCHdBHfBNfCLvBLjBLpBV`D~@tLzBnY`BxStArQ~@|Lh@tGTxBJ`ALfANz@PdALn@Px@R|@Pp@Tz@\\dAZbAd@nAh@rAhGrM|F~Ln@vAp@pAJRHTZl@l@dA|@vAb@n@f@r@b@h@b@f@j@f@lEjDnAjAxAvAb@d@^\\\\VRThFhHtCbChAf@`@RVLHFHHj@p@`BhBlH~H`DhDxEbF`CvC^^^`@bDlDzCfDrDbEhBjBfGxGd@h@r@x@~AdBbAhAd@f@rAzAhD`EPP\\`@ZZv@z@~BjCdCnC`AfAdAjAt@x@r@v@d@h@d@h@dFdGTVfCpChApAfApAdAhAFF@@j@n@BBJJdAnA@?X\\`AlAn@t@FH~BhCHH@@f@f@r@t@PRHNXd@T`@n@xAJRHTNVLXr@fBVh@Tf@Rb@Xf@v@pAb@l@^h@TXDDJL?@@@@@xBzCRXvBxC^h@\\f@NTDD?@X`@j@|@|BfD`CfDzJnNJNh@t@h@t@f@v@f@x@d@v@f@z@b@z@`@|@BDt@xABF@@`@t@h@fAr@rANT\\d@Zb@`@b@HHHDBBFDXP`@Tj@Vn@Vl@Pl@Lp@H`@@p@@n@Ar@Ef@EDAj@EHA@?NCTGJCLC\\I`@KnAi@b@Un@UNGNG`@M"
+                     },
+                     "start_location" : {
+                        "lat" : 37.8328488,
+                        "lng" : -122.2944862
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 mi",
+                        "value" : 1061
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 55
+                     },
+                     "end_location" : {
+                        "lat" : 37.7696837,
+                        "lng" : -122.4163126
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e1B\u003c/b\u003e to merge onto \u003cb\u003eUS-101 N\u003c/b\u003e toward \u003cb\u003eGolden Gate Bridge\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "aapeFdlbjV`@?t@KXCX?V@F@J@JDNFJFPJFFBBFFLPFLHTDNBLDVB\\?@@d@?\\AzAAT?DA\\?JCVCt@OnB?F]|DGl@E`@ATABCBABA@EDOvD?FATExAAhAClCA`@AlGAp@?p@A`A?D?@?@?JGfC"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7705732,
+                        "lng" : -122.4059525
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 708
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 85
+                     },
+                     "end_location" : {
+                        "lat" : 37.7718745,
+                        "lng" : -122.423344
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eCentral Fwy\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "o{oeF|ldjVCp@QzCGt@ANCVUzCCVEh@El@CVAd@C~@?N?L?@Ad@?LAjAAP?PC^EXCVETCLG`@GR?@A@EPSj@Uh@GJS\\ORABGHUV_@ZSNED{BtA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7696837,
+                        "lng" : -122.4163126
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 488
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 133
+                     },
+                     "end_location" : {
+                        "lat" : 37.7749901,
+                        "lng" : -122.4194926
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMarket St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "eipeFzxejVc@i@OUY]e@o@Y_@CCe@o@i@s@KMMQEGQQACg@cAe@o@SW[e@W]AAIMs@aAK?I?w@gAu@cA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7718745,
+                        "lng" : -122.423344
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "gipfFl`wiV?dDpAAjF@p@?PK^KzB{@p@Mv@ExBA\\Ep@SpAa@XGr@EBA`@ErJ?pK@tC@PFJ@zABdG@tEO`FQf@CLFLBd@DXLPTL`@?d@CPGLW\\[HS?QGYWMe@EkAE[IS?[NcN`@o[LiKNeFNqCLgAP{A^_Cp@qCh@kBjAaDl@uA|BaExC{ExBaD|DeFrDkE~CcDpDmDpFoErEmD|HeGxHaG`t@uj@pAaAjSoOzEqDrA}@dB_AlB{@lE{ApAYjAQbAK~BGjCLvDb@vALb@HhBFhDPbADFA^Qn@A~@?x@E`N}AnHiAdMcBdFu@fCc@p\\wGvYgGpOiDPCtJgBvYqFbOoChOuCtRmDlJ{AtJuAvFy@dG{@vAS|@GjKqAbFq@nNaBdEc@dCUd@KtBo@hC}@jC_AhFmBbIqClAYpAWtAM|CUtBGb@@x@B`ALxAh@f@XjA`An@p@bAhBj@`Bb@nBnAbHtB`OVjA`A|G~AjMb@tFJxAp@lO@hAB|KLvHn@pGf@tEd@zEv@hGl@tCn@tCd@xAf@hBd@dCj@`E\\vDZhGj@jQl@~Ot@rM`Fxo@vDlf@hBrU`@zD\\bC^tBd@vBf@lBx@hCnAbDfOr[`BhDTh@hArB`BfCjA|AnAnAlEjDnAjA|B|B|@t@|F~HtCbChAf@x@`@`DlDnMhNxEbF`CvC~@`A~HtIjQrR|FpG|F|Gn@r@xIrJpFdGfIpJ~I~Jt@x@bF`GrC~ClBpBb@t@dAzBr@zAjApCh@jApAxBbAvAf@n@@@zI~LdA`BfSnYrAjBnApBlArBdAxB~@hBjA|BbAhBx@hAj@l@n@`@lAl@|Ah@~AVrABbBGf@E|@I~@S~@UrB_AnAe@`@M`@?nAOp@@RBf@T\\VTXPb@H\\Ht@@dAEtCWhEk@tGCXEFGFO~DMfIG~MKdE_@xF_@|EIdAEdBAdACjBMbBYxA[`A]t@c@p@ILu@r@YT{BtAc@i@i@s@_AoA_BuBg@o@g@cAe@o@o@}@wAoBU?mBkC"
+         },
+         "summary" : "I-80 W",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

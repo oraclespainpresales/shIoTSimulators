@@ -1,0 +1,33 @@
+@keyframes loader-collision {
+  0% {
+    transform: translate(0px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
+
+  25% {
+    transform: translate(30px);
+  }
+
+  75% {
+    transform: translate(-30px);
+  }
+}
+
+.device-area {
+  animation-duration: 200ms;
+  animation-name: loader-collision;
+  animation-iteration-count: 5;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: none;
+}
+
+.animated-image {
+  background: url('/forklift/images/forklift.png');
+  background-repeat: no-repeat;
+  display: block;
+  width: 750px;
+  height: 500px;
+}

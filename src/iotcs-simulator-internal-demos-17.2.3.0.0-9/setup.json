@@ -1,0 +1,30 @@
+{
+    "simulator": {
+      "iotappname": "Simulator",
+      "logo": "assets/images/logo.png",
+      "title": "IoT Device Simulator"
+    },
+    "server": {
+        "host": "iotserver",
+        "port": 7002,
+        "test": true,
+        "caCert": "./server/config/iotca.pem",
+        "user": {
+            "name": "iot",
+            "pwd": "welcome1"
+        }
+    },
+    "tas": {
+        "stores": {
+            "dir": "./device-data/",
+            "pwd": "changeit"
+        },
+        "auto": {
+            "sharedSecret": "JS-HVAC-SIMULATOR-SHARED-SECRET"
+        }
+    },
+    "clientlibrary": {
+        "dir": "./iotcs-cl/latest"
+    },
+    "messagingInterval": 1000
+}

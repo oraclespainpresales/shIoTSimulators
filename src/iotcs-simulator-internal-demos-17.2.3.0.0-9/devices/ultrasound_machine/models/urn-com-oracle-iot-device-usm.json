@@ -1,0 +1,50 @@
+{
+  "urn": "urn:com:oracle:iot:device:usm",
+  "name": "Ultrasound Machine (USM) Device Model",
+  "attributes": [
+    {
+      "alias": "ora_lat",
+      "name": "ora_latitude",
+      "range": "-90.0,90.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "ora_lon",
+      "name": "ora_longitude",
+      "range": "-180.0,180.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "ora_alt",
+      "name": "ora_altitude",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "name": "health_status",
+      "type": "STRING",
+      "writable": false
+    }
+  ],
+  "actions": [],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:iot:device:usm:maintenance_required",
+      "name": "USM_Maintenance_Required_Alert",
+      "description": "Alert indicating need for maintenance prior to next use - use 'available' or 'maintenance_required'",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:usm",
+      "value": {
+        "fields": [
+          {
+            "name": "message",
+            "optional": true,
+            "type": "STRING"
+          }
+        ]
+      }
+    }
+  ]
+}

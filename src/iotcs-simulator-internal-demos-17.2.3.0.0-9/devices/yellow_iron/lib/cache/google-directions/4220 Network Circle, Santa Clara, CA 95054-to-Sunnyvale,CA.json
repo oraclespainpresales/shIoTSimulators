@@ -1,0 +1,275 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJC_WVCZzJj4ARPVJWwxWO4p8",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJO13QqUW2j4ARosN83Sb7jXY",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.4000574,
+               "lng" : -121.952776
+            },
+            "southwest" : {
+               "lat" : 37.3688977,
+               "lng" : -122.0371004
+            }
+         },
+         "copyrights" : "Map data ©2016 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "7.4 mi",
+                  "value" : 11985
+               },
+               "duration" : {
+                  "text" : "15 mins",
+                  "value" : 880
+               },
+               "end_address" : "Sunnyvale, CA, USA",
+               "end_location" : {
+                  "lat" : 37.3688977,
+                  "lng" : -122.0363306
+               },
+               "start_address" : "4220 Network Cir, Santa Clara, CA 95054, USA",
+               "start_location" : {
+                  "lat" : 37.3912418,
+                  "lng" : -121.952776
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 413
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 61
+                     },
+                     "end_location" : {
+                        "lat" : 37.3924943,
+                        "lng" : -121.9560099
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eNetwork Cir\u003c/b\u003e toward \u003cb\u003eLeonard Stocking Dr\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "g~ecFz{igV@NNnATjBJx@D^Bh@@^AZAVIf@K\\GNELGNILOTUTc@^UHGBGBI@E?I?GAMCKAIAA?KAU?WBMF"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3912418,
+                        "lng" : -121.952776
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "246 ft",
+                        "value" : 75
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 31
+                     },
+                     "end_location" : {
+                        "lat" : 37.3921748,
+                        "lng" : -121.956754
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePalm Dr\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "affcF`pjgVZbABF^fA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3924943,
+                        "lng" : -121.9560099
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 250
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 41
+                     },
+                     "end_location" : {
+                        "lat" : 37.3902399,
+                        "lng" : -121.955613
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eLafayette St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "adfcFttjgVHXpBkAnCaBtBoA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3921748,
+                        "lng" : -121.956754
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 305
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 41
+                     },
+                     "end_location" : {
+                        "lat" : 37.3898473,
+                        "lng" : -121.9541004
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto the \u003cb\u003eMontague Expressway W\u003c/b\u003e ramp",
+                     "polyline" : {
+                        "points" : "_xecFpmjgVVOMWYy@]eAY}@Ma@EICOAIAM?Q@KBKBG@GFGBEDCDCDCDABADAF?D?F@FBJFHFLPXl@BB?@@@TF"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3902399,
+                        "lng" : -121.955613
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 mi",
+                        "value" : 1027
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 71
+                     },
+                     "end_location" : {
+                        "lat" : 37.38423239999999,
+                        "lng" : -121.9628715
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eMontague Expy\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "quecFbdjgVz@jCDLBH@BFR@B@FBHPd@?@BJL\\BFFTd@pAxAvD`AfC\\~@r@hBzAxEFNl@bB`@hADLDHZl@h@x@|@hAXZ^ZhAz@d@Vf@V|@`@lA`@d@P"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3898473,
+                        "lng" : -121.9541004
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.8 mi",
+                        "value" : 6118
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 222
+                     },
+                     "end_location" : {
+                        "lat" : 37.3991232,
+                        "lng" : -122.0281421
+                     },
+                     "html_instructions" : "Take the ramp onto \u003cb\u003eUS-101 N\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "mrdcF|zkgVLXD@D@FDLFPHVPJJLRHPJTDLTv@h@nBh@nBJZBJ@F?F@D@L?F?NAN?JAFAJCNKl@Ij@Ox@O~@Gd@GX?@?@@DKl@O`AMbACLCPIl@AHA@?B?B?B?B?D?B@BBJYxAo@lD}AhIi@zCmBbKwAbHe@xBAFADI^Mr@UjAiF|XeCrMe@pCoA`HaAlFwEtV_A~EKl@}A`IkBtICHOj@CJYxAuCvN{AfIk@rCg@fCa@xBa@zB_AfFkFf\\G\\YnBaB`MQvACLCN?@?@U`Bw@~FMt@[dCwAzKiCtRoAjJoAlJiBhN_@dCEb@ETMbA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.38423239999999,
+                        "lng" : -121.9628715
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 268
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : {
+                        "lat" : 37.3992235,
+                        "lng" : -122.0277492
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eMathilda Avenue S\u003c/b\u003e exit toward \u003cb\u003eSunnyvale\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "oogcFzrxgVOLO^GJKTEDGFGFGDGBG@I@IAI?ICIEKIGIEKEICIAIAK?G?G@I?G@EBKBG@EBGDGFGDCFCFCFAJAJAh@?f@?"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3991232,
+                        "lng" : -122.0281421
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.1 mi",
+                        "value" : 3443
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 350
+                     },
+                     "end_location" : {
+                        "lat" : 37.36918319999999,
+                        "lng" : -122.0370478
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eN Mathilda Ave\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "cpgcFlpxgV`@Hb@HB@@?LBn@Lf@JlHtAbB\\fBb@z@P\\H~@P^HhARD@zBd@hAXlD|@`ARTDf@LtD|@NBl@Lb@HJBJ@RBp@JlAHdAF`@Dd@BF@l@DTBTB\\FRDrAXjB`@z@PxAZp@PPD`AXhAT`@JbCl@h@Jl@Ll@Lt@P@?b@JdATn@N^Hp@PhAVr@Pb@JTHn@P|Bl@jB^lBXz@Jx@Lh@Ft@HD@TDXFd@HnBl@XH^JtAb@hAZ^HfBb@|@RjAZ~Bj@tBd@|@TRDvCl@~@R~@PTFx@NdFnA`ATxBf@pAZ"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3992235,
+                        "lng" : -122.0277492
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "282 ft",
+                        "value" : 86
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 39
+                     },
+                     "end_location" : {
+                        "lat" : 37.3688977,
+                        "lng" : -122.0363306
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eEl Camino Real\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ktacFpjzgVZHFe@Fo@JcA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.36918319999999,
+                        "lng" : -122.0370478
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "g~ecFz{igVr@dGHhA?z@K~@Sl@M\\Yb@y@t@]LQDO?k@IMAm@BMFZbAb@nAHXpBkAdGqDVOMWw@_Cq@yBCW@]FSHOTQVEL@RJVX\\p@@BTFz@jCHVHVXz@Tr@hEfLpAhDbBhFzAdEdAfBvAdBhBvAlAn@|@`@lA`@d@PLXD@LF^Pb@\\Vd@Pb@tBrHF`@?t@Gn@u@rEO`A@F[nB_@pCCR?PDNiAfGgCdNmBbKwAbHg@`CKd@mG|\\kDdRqCnOaKdi@cCvKoDpQgCzMkDdRsFd]{BpPYvB{AxKmIbo@_F`_@SxAOLO^S`@MLOLODS?SCUOMUMi@@a@J_@HOLKNGRCt@Af@?`@Hf@J@?dB\\pKrBbDt@fEx@`Cf@vFvAtHdBlB^^D~BTtCRvBTnGrAjCl@rA^jB`@lDx@rCl@lKbCdAZ|Bl@jB^hDd@bBTjBXd@HnBl@x@T~C~@fCl@~J`ChH|AtAX~G~AhHbBZyC"
+         },
+         "summary" : "US-101 N and N Mathilda Ave",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

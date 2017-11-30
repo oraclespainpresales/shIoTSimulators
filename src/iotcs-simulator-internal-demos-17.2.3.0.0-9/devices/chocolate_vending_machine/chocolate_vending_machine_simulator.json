@@ -1,0 +1,248 @@
+{
+  "deviceName": "Chocolate Vending Machine",
+  "asset": true,
+  "images": [
+    {
+      "name": "isOnImage",
+      "file": "views/vending_machine.html",
+      "frameWidth": "1200",
+      "frameHeight": "800",
+      "type": "html"
+    },
+    {
+      "name": "isOffImage",
+      "file": "$shared/assets/images/sensorOff.png",
+      "frameWidth": 700,
+      "frameHeight": 500
+    }
+  ],
+  "deviceModelsExtensions": [
+    {
+      "urn": "urn:com:oracle:iot:msce:vending_machine",
+      "attributes": [
+        {
+          "name": "inventoryRed",
+          "displayName": "Inventory Red",
+          "visible": true,
+          "chartable": true,
+          "format": "###.",
+          "initialValue": 100,
+          "range" : "0,100",
+          "units": "items"
+        },
+        {
+          "name": "inventoryBlack",
+          "displayName": "Inventory Black",
+          "visible": true,
+          "chartable": true,
+          "format": "###.",
+          "initialValue": 100,
+          "range" : "0,100",
+          "units": "items"
+        },
+        {
+          "name": "inventorySilver",
+          "displayName": "Inventory Silver",
+          "visible": true,
+          "chartable": true,
+          "format": "###.",
+          "initialValue": 100,
+          "range" : "0,100",
+          "units": "items"
+        },
+        {
+          "name": "inventoryGold",
+          "displayName": "Inventory Gold",
+          "visible": true,
+          "chartable": true,
+          "format": "###.",
+          "initialValue": 100,
+          "range" : "0,100",
+          "units": "items"
+        },
+        {
+          "name": "temperature",
+          "displayName": "Temperature",
+          "visible": true,
+          "chartable": true,
+          "format": "###.",
+          "initialValue": 70,
+          "range" : "0,100",
+          "units": "F",
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 65,
+            "upperValue": 75
+          }
+        },
+        {
+          "name": "humidity",
+          "displayName": "Humidity",
+          "visible": true,
+          "chartable": true,
+          "format": "###.",
+          "initialValue": 50,
+          "range" : "0,100",
+          "units": "%",
+          "onFunction": "$sharedFunctions.randomInRange",
+          "onArguments": {
+            "lowerValue": 40,
+            "upperValue": 60
+          }
+        }
+      ],
+      "formats": [
+        {
+          "urn": "urn:com:oracle:iot:msce:vending_machine:alert:out_of_red",
+          "visible": false,
+          "displayName": "Out Of Red Chocolate",
+          "value": {
+            "fields": [
+              {}
+            ]
+          },
+          "condition": "$sharedFunctions.equal",
+          "conditionArguments": {
+            "leftOperand": "$inventoryRed",
+            "rightOperand": 0
+          }
+        },
+        {
+          "urn": "urn:com:oracle:iot:msce:vending_machine:alert:out_of_black",
+          "visible": false,
+          "displayName": "Out Of Black Chocolate",
+          "value": {
+            "fields": [
+              {}
+            ]
+          },
+          "condition": "$sharedFunctions.equal",
+          "conditionArguments": {
+            "leftOperand": "$inventoryBlack",
+            "rightOperand": 0
+          }
+        },
+        {
+          "urn": "urn:com:oracle:iot:msce:vending_machine:alert:out_of_silver",
+          "visible": false,
+          "displayName": "Out Of Silver Chocolate",
+          "value": {
+            "fields": [
+              {}
+            ]
+          },
+          "condition": "$sharedFunctions.equal",
+          "conditionArguments": {
+            "leftOperand": "$inventorySilver",
+            "rightOperand": 0
+          }
+        },
+        {
+          "urn": "urn:com:oracle:iot:msce:vending_machine:alert:out_of_gold",
+          "visible": false,
+          "displayName": "Out Of Gold Chocolate",
+          "value": {
+            "fields": [
+              {}
+            ]
+          },
+          "condition": "$sharedFunctions.equal",
+          "conditionArguments": {
+            "leftOperand": "$inventoryGold",
+            "rightOperand": 0
+          }
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "events": [
+    {
+      "name": "outOfBlack",
+      "description": "Out Of Black Chocolate",
+      "exclusive": false,
+      "attributes": {
+        "urn:com:oracle:iot:msce:vending_machine.inventoryBlack": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "outOfGold",
+      "description": "Out Of Gold Chocolate",
+      "exclusive": false,
+      "attributes": {
+        "urn:com:oracle:iot:msce:vending_machine.inventoryGold": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "outOfSilver",
+      "description": "Out Of Silver Chocolate",
+      "exclusive": false,
+      "attributes": {
+        "urn:com:oracle:iot:msce:vending_machine.inventorySilver": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "outOfRed",
+      "description": "Out Of Red Chocolate",
+      "exclusive": false,
+      "attributes": {
+        "urn:com:oracle:iot:msce:vending_machine.inventoryRed": {
+          "onEventFunction": "$sharedFunctions.setTo",
+          "onEventArguments": {
+            "value": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "auto",
+      "description": "Automatic Mode",
+      "exclusive": false,
+      "attributes": {
+        "urn:com:oracle:iot:msce:vending_machine.inventoryBlack": {
+          "onEventFunction": "vendingMachineFunctions.chocolateInventory",
+          "onEventArguments": {
+            "currentValue": "$urn:com:oracle:iot:msce:vending_machine.inventoryBlack"
+          }
+        },
+        "urn:com:oracle:iot:msce:vending_machine.inventoryGold": {
+          "onEventFunction": "vendingMachineFunctions.chocolateInventory",
+          "onEventArguments": {
+            "currentValue": "$urn:com:oracle:iot:msce:vending_machine.inventoryGold"
+          }
+        },
+        "urn:com:oracle:iot:msce:vending_machine.inventorySilver": {
+          "onEventFunction": "vendingMachineFunctions.chocolateInventory",
+          "onEventArguments": {
+            "currentValue": "$urn:com:oracle:iot:msce:vending_machine.inventorySilver"
+          }
+        },
+        "urn:com:oracle:iot:msce:vending_machine.inventoryRed": {
+          "onEventFunction": "vendingMachineFunctions.chocolateInventory",
+          "onEventArguments": {
+            "currentValue": "$urn:com:oracle:iot:msce:vending_machine.inventoryRed"
+          }
+        }
+      }
+    }
+ ],
+  "isOnAttribute": {
+    "initialValue": true
+  },
+  "messagingInterval": "5000"
+}

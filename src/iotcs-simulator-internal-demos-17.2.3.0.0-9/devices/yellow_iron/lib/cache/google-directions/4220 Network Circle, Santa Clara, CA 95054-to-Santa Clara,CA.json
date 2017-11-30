@@ -1,0 +1,181 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJC_WVCZzJj4ARPVJWwxWO4p8",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJk8EIXIG3j4ARwL_Ao3ykdeQ",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.3924943,
+               "lng" : -121.9461813
+            },
+            "southwest" : {
+               "lat" : 37.3524496,
+               "lng" : -121.956882
+            }
+         },
+         "copyrights" : "Map data ©2016 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "3.7 mi",
+                  "value" : 5925
+               },
+               "duration" : {
+                  "text" : "11 mins",
+                  "value" : 664
+               },
+               "end_address" : "Santa Clara, CA, USA",
+               "end_location" : {
+                  "lat" : 37.3540533,
+                  "lng" : -121.9553899
+               },
+               "start_address" : "4220 Network Cir, Santa Clara, CA 95054, USA",
+               "start_location" : {
+                  "lat" : 37.3912418,
+                  "lng" : -121.952776
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 413
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 61
+                     },
+                     "end_location" : {
+                        "lat" : 37.3924943,
+                        "lng" : -121.9560099
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eNetwork Cir\u003c/b\u003e toward \u003cb\u003eLeonard Stocking Dr\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "g~ecFz{igV@NNnATjBJx@D^Bh@@^AZAVIf@K\\GNELGNILOTUTc@^UHGBGBI@E?I?GAMCKAIAA?KAU?WBMF"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3912418,
+                        "lng" : -121.952776
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "246 ft",
+                        "value" : 75
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 31
+                     },
+                     "end_location" : {
+                        "lat" : 37.3921748,
+                        "lng" : -121.956754
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePalm Dr\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "affcF`pjgVZbABF^fA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3924943,
+                        "lng" : -121.9560099
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.8 mi",
+                        "value" : 4428
+                     },
+                     "duration" : {
+                        "text" : "7 mins",
+                        "value" : 446
+                     },
+                     "end_location" : {
+                        "lat" : 37.3551692,
+                        "lng" : -121.9461813
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eLafayette St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "adfcFttjgVHXpBkAnCaBtBoAVOlAs@d@YFEJE?AVOz@g@vAy@PKTOhF{CjDuBhBgAlAs@`DmBlAs@~@i@|A_Ab@YXQ\\Wp@q@h@i@NMNMROLIPKRIRIVGZGRC\\CxDKXCREREZITKXMVQd@_@|@y@ZUHGHGJGLIVKJCJCHCLCTARAP?T?XBd@JFBLDTJ\\RLHNNNNx@nAXj@P\\T\\FHJJHJJHHFLHPHRHFBJBJ@d@DN@P?t@@p@?`@?fA@^?H?J@d@?h@?b@A|@AzBBf@?L?NMN?V?vA?`@?lB@jB?dB?l@@xA?tD@bF@jA?R?XAp@Ep@EHAXGn@OBAlAW`@KfA[|@UdD}@h@Qr@Sp@QTIXGfCs@|@Wt@SbBe@|@WdAYhAYn@Qb@K\\IvBm@vAc@VGZIjBi@lBi@xDeAfBi@\\M"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3921748,
+                        "lng" : -121.956754
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 813
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 96
+                     },
+                     "end_location" : {
+                        "lat" : 37.3524531,
+                        "lng" : -121.9544701
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eEl Camino Real\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "y|~bFrrhgVXHHBFBFDDDFHNRt@tCt@zC\\pA`@~Al@jC`@vAv@rCrAjFTbAJn@Jr@HbAJpA@rA?bB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3551692,
+                        "lng" : -121.9461813
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 196
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 30
+                     },
+                     "end_location" : {
+                        "lat" : 37.3540533,
+                        "lng" : -121.9553899
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLincoln St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "yk~bFlfjgVeClA{@b@m@Z[Ja@RQH"
+                     },
+                     "start_location" : {
+                        "lat" : 37.3524531,
+                        "lng" : -121.9544701
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "g~ecFz{igVr@dGHhA?z@K~@Sl@M\\Yb@y@t@]LQDO?k@IMAm@BMFZbAb@nAHXpBkAdGqDrCcBb@WhWkOlKkG|@k@nAiAx@w@b@]^Uf@Sr@Op@GxDKXCf@Kp@Up@_@hCwBz@e@n@Oh@Cf@?~@NTHr@^\\XhA~Aj@hAr@~@t@d@r@Rt@FfA@zD@dB@`BCbDBL?NMf@?rI@bLB|I?bBKb@IbDu@tIaCtN}D|F}ApGgBlGeB`HoB\\MXHPFLJV\\jBpHnCtKjC~J`@rBTvBJpA@rA?bBeClAiB~@oAh@"
+         },
+         "summary" : "Lafayette St",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

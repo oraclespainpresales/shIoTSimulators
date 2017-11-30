@@ -1,0 +1,33 @@
+@keyframes loader-tilt {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(0deg);
+  }
+
+  25% {
+    transform: rotateZ(10deg);
+  }
+
+  75% {
+    transform: rotateZ(-10deg);
+  }
+}
+
+.device-area {
+  animation-duration: 200ms;
+  animation-name: loader-tilt;
+  animation-iteration-count: 5;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: none;
+}
+
+.animated-image {
+  background: url('/forklift/images/forklift.png');
+  background-repeat: no-repeat;
+  display: block;
+  width: 750px;
+  height: 500px;
+}

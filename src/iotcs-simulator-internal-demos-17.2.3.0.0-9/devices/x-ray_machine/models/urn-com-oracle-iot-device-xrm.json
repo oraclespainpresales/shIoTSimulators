@@ -1,0 +1,50 @@
+{
+  "urn": "urn:com:oracle:iot:device:xrm",
+  "name": "X-Ray Machine (XRM) Device Model",
+  "attributes": [
+    {
+      "alias": "ora_lat",
+      "name": "ora_latitude",
+      "range": "-90.0,90.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "ora_lon",
+      "name": "ora_longitude",
+      "range": "-180.0,180.0",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "alias": "ora_alt",
+      "name": "ora_altitude",
+      "type": "NUMBER",
+      "writable": false
+    },
+    {
+      "name": "health_status",
+      "type": "STRING",
+      "writable": false
+    }
+  ],
+  "actions": [],
+  "formats": [
+    {
+      "urn": "urn:com:oracle:iot:device:xrm:maintenance_required",
+      "name": "XRM_Maintenance_Required_Alert",
+      "description": "Alert indicating need for maintenance prior to next use - use 'available' or 'maintenance_required'",
+      "type": "ALERT",
+      "deviceModel": "urn:com:oracle:iot:device:xrm",
+      "value": {
+        "fields": [
+          {
+            "name": "message",
+            "optional": true,
+            "type": "STRING"
+          }
+        ]
+      }
+    }
+  ]
+}
