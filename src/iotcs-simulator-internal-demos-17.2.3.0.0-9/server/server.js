@@ -14,7 +14,7 @@ var chalk = require('chalk');
 var path = require('path');
 var config = require('./config/environment');
 var services = require('./services');
-
+//mecagoonn
 var app = express();
 services.register('app', app);
 var server = require('http').createServer(app);
